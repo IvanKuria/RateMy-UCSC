@@ -6,7 +6,7 @@ Thanks for your interest in improving Rate My Slugs. This guide covers everythin
 
 ### Requirements
 
-- [Node.js](https://nodejs.org/) 18 or newer
+- [Node.js](https://nodejs.org/) 20 or newer (CI runs on Node 20)
 - Google Chrome (or any Chromium browser)
 - A UCSC MyUCSC account, for testing against real enrollment pages
 
@@ -58,7 +58,8 @@ npm run format      # Prettier over the tree
 src/
 ├── entrypoints/
 │   ├── background.ts          # Service worker: API routing and caching
-│   ├── content.ts             # Content script: page detection and rendering
+│   ├── content.ts             # Content script: MyUCSC (PeopleSoft)
+│   ├── scheduler.content.ts   # Content script: Schedule Planner (React SPA)
 │   ├── sidepanel/             # Side panel UI (React, main.tsx)
 │   └── options/               # Settings page (React, main.tsx)
 ├── components/
@@ -70,7 +71,8 @@ src/
 │   └── ui/                    # Shared UI primitives (shadcn/ui)
 ├── lib/
 │   ├── background/            # Background modules (rmpCache, campusDirectoryCache, cacheConfig)
-│   ├── content/               # Content script logic (pages, shared helpers)
+│   ├── content/               # MyUCSC content logic (pages, shared helpers)
+│   ├── scheduler/             # Schedule Planner logic (api, pages, shared helpers)
 │   ├── hooks/                 # React hooks (settings, theme)
 │   ├── storage/               # Chrome storage wrappers
 │   └── *.ts                   # Shared helpers (colors, format, constants, logger, nameParsing, ...)
@@ -84,14 +86,20 @@ src/
 |------|----------------|
 | `src/types/` | Shared types for every cross-boundary shape (RMP, campus, grades, settings, the message protocol, page contracts). |
 | `src/entrypoints/background.ts` | Service worker entry. Routes messages and orchestrates API calls. |
-| `src/entrypoints/content.ts` | Content script entry. Loads the right page module and mounts the UI. |
+| `src/entrypoints/content.ts` | MyUCSC content script entry. Loads the right page module and mounts the UI. |
+| `src/entrypoints/scheduler.content.ts` | Schedule Planner content script entry. Handles SPA routing and React re-renders. |
 | `src/lib/background/rmpCache.ts` | Rate My Professors GraphQL search, name matching, and caching. |
 | `src/lib/background/campusDirectoryCache.ts` | UCSC Campus Directory API and caching. |
+| `src/lib/background/uidSearchCache.ts` | Campus-directory name search, the last-resort CruzID lookup. |
 | `src/lib/content/shared/pageDetector.ts` | Detects which MyUCSC page the user is on. |
 | `src/lib/content/shared/professorResolver.ts` | Resolves scraped names to professor data. |
 | `src/lib/content/shared/renderPipeline.ts` | Shared two-phase render flow used by every page module. |
 | `src/lib/content/shared/mountHelper.tsx` | Mounts React UI into host pages. |
 | `src/lib/content/pages/` | Per-page config + extraction, one thin module per page type. |
+| `src/lib/scheduler/api.ts` | Reads Schedule Planner's JSON API for exact instructor CruzIDs. |
+| `src/lib/scheduler/shared/dom.ts` | Selector policy for the SPA: aria anchors only, never Emotion classes. |
+| `scripts/harvest-instructors.js` | Per-term instructor harvester (run in the browser console). |
+| `scripts/merge-instructors.mjs` | Merges a harvest into `public/data/` additively. |
 | `wxt.config.ts` | Extension manifest, permissions, and build configuration. |
 
 ## Architecture
@@ -115,7 +123,7 @@ Render rating bar   -->  Cache in storage       -->  Reviews carousel
    - Rate My Professors GraphQL API (ratings and reviews)
    - UCSC Campus Directory API (contact info and department)
    - The grade distribution server (historical grade data)
-4. Results are cached in `chrome.storage.local` for one week.
+4. Results are cached in `chrome.storage.local`, one week by default. The window is user-configurable via the `cacheDurationDays` setting (see `src/lib/background/cacheConfig.ts`).
 5. The inline **rating bar** updates with the resolved professor rating.
 6. Clicking "Details" opens the **side panel** with the full professor profile.
 
