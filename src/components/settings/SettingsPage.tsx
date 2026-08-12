@@ -96,7 +96,12 @@ export default function SettingsPage() {
 
       {/* Footer */}
       <div className="mt-8 text-center text-xs text-muted-foreground">
-        <p>Rate My Slugs v2.0 — Made with care at UC Santa Cruz</p>
+        {/* Read from the manifest rather than hardcoded — this said v2.0 for
+            two releases after it stopped being true. */}
+        <p>
+          Rate My Slugs v{chrome.runtime.getManifest().version} — Made with care
+          at UC Santa Cruz
+        </p>
         <p className="mt-1">
           Made by{' '}
           <a
@@ -108,12 +113,28 @@ export default function SettingsPage() {
             Ivan Kuria
           </a>
         </p>
-        <a
-          href="mailto:ikuria@ucsc.edu?subject=Rate My Slugs Feedback"
-          className="text-ucsc-blue hover:underline mt-1 inline-block"
-        >
-          Send feedback
-        </a>
+        <div className="mt-2 flex items-center justify-center gap-3">
+          {/* A permanent way back to the release notes. They open once after an
+              update and are easy to miss, yet they hold the only control for
+              turning Schedule Planner on. */}
+          <a
+            href={chrome.runtime.getURL(
+              `whats-new.html?to=${chrome.runtime.getManifest().version}`
+            )}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-ucsc-blue hover:underline"
+          >
+            What's new
+          </a>
+          <span aria-hidden="true">·</span>
+          <a
+            href="mailto:ikuria@ucsc.edu?subject=Rate My Slugs Feedback"
+            className="text-ucsc-blue hover:underline"
+          >
+            Send feedback
+          </a>
+        </div>
       </div>
     </div>
   );
