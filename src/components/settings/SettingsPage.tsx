@@ -116,7 +116,7 @@ export default function SettingsPage() {
         <div className="mt-2 flex items-center justify-center gap-3">
           {/* A permanent way back to the release notes. They open once after an
               update and are easy to miss, yet they hold the only control for
-              turning Schedule Planner on. */}
+              turning MyScheduler on. */}
           <a
             href={chrome.runtime.getURL(
               `whats-new.html?to=${chrome.runtime.getManifest().version}`

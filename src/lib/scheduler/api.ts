@@ -73,12 +73,12 @@ const loadedCourses = new Set<string>();
  * sessionStorage cache.
  *
  * The in-memory memo above only survives while the page lives. That covers SPA
- * navigation, but every full reload — and every fresh Schedule Planner tab
+ * navigation, but every full reload — and every fresh MyScheduler tab
  * opened from MyUCSC — starts cold and refetches term-data, plus one regblocks
  * request per desired course on the schedule views.
  *
  * sessionStorage is the right scope for this: it is per-tab and cleared when
- * the tab closes, which matches the lifetime of a Schedule Planner session, and
+ * the tab closes, which matches the lifetime of a MyScheduler session, and
  * it never leaks one student's data into another profile. Only instructor
  * identity is cached — names and CruzIDs, which do not change mid-session.
  * Volatile values like seat counts are read from the live DOM, never from here.

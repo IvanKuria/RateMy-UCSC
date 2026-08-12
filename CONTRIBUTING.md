@@ -59,7 +59,7 @@ src/
 ├── entrypoints/
 │   ├── background.ts          # Service worker: API routing and caching
 │   ├── content.ts             # Content script: MyUCSC (PeopleSoft)
-│   ├── scheduler.content.ts   # Content script: Schedule Planner (React SPA)
+│   ├── scheduler.content.ts   # Content script: MyScheduler (React SPA)
 │   ├── sidepanel/             # Side panel UI (React, main.tsx)
 │   └── options/               # Settings page (React, main.tsx)
 ├── components/
@@ -72,7 +72,7 @@ src/
 ├── lib/
 │   ├── background/            # Background modules (rmpCache, campusDirectoryCache, cacheConfig)
 │   ├── content/               # MyUCSC content logic (pages, shared helpers)
-│   ├── scheduler/             # Schedule Planner logic (api, pages, shared helpers)
+│   ├── scheduler/             # MyScheduler logic (api, pages, shared helpers)
 │   ├── hooks/                 # React hooks (settings, theme)
 │   ├── storage/               # Chrome storage wrappers
 │   └── *.ts                   # Shared helpers (colors, format, constants, logger, nameParsing, ...)
@@ -87,7 +87,7 @@ src/
 | `src/types/` | Shared types for every cross-boundary shape (RMP, campus, grades, settings, the message protocol, page contracts). |
 | `src/entrypoints/background.ts` | Service worker entry. Routes messages and orchestrates API calls. |
 | `src/entrypoints/content.ts` | MyUCSC content script entry. Loads the right page module and mounts the UI. |
-| `src/entrypoints/scheduler.content.ts` | Schedule Planner content script entry. Handles SPA routing and React re-renders. |
+| `src/entrypoints/scheduler.content.ts` | MyScheduler content script entry. Handles SPA routing and React re-renders. |
 | `src/lib/background/rmpCache.ts` | Rate My Professors GraphQL search, name matching, and caching. |
 | `src/lib/background/campusDirectoryCache.ts` | UCSC Campus Directory API and caching. |
 | `src/lib/background/uidSearchCache.ts` | Campus-directory name search, the last-resort CruzID lookup. |
@@ -96,7 +96,7 @@ src/
 | `src/lib/content/shared/renderPipeline.ts` | Shared two-phase render flow used by every page module. |
 | `src/lib/content/shared/mountHelper.tsx` | Mounts React UI into host pages. |
 | `src/lib/content/pages/` | Per-page config + extraction, one thin module per page type. |
-| `src/lib/scheduler/api.ts` | Reads Schedule Planner's JSON API for exact instructor CruzIDs. |
+| `src/lib/scheduler/api.ts` | Reads MyScheduler's JSON API for exact instructor CruzIDs. |
 | `src/lib/scheduler/shared/dom.ts` | Selector policy for the SPA: aria anchors only, never Emotion classes. |
 | `scripts/harvest-instructors.js` | Per-term instructor harvester (run in the browser console). |
 | `scripts/merge-instructors.mjs` | Merges a harvest into `public/data/` additively. |

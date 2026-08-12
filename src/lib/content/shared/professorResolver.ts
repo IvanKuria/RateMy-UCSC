@@ -101,7 +101,7 @@ export interface UidLookupContext {
  *
  *   1. class number within its term — an exact registrar key, so no name
  *      matching happens at all. This is how MyUCSC gets the same accuracy the
- *      Schedule Planner pages get from their API.
+ *      MyScheduler pages get from their API.
  *   2. subject-qualified index — "AM|lee,d" vs "CMPM|lee,d". Tells two
  *      professors apart when they share a last name and first initial, which is
  *      why it outranks an exact key match: for "Lee,D." on an AM course the

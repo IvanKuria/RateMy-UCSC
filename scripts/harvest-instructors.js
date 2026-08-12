@@ -24,7 +24,7 @@
  * short-lived cookie out of devtools, which is both fiddlier and worse for
  * credential hygiene).
  *
- *   1. Sign in to MyUCSC and open Schedule Planner (Enrollment -> Add Classes).
+ *   1. Sign in to MyUCSC and open MyScheduler (Enrollment -> Add Classes).
  *   2. Open devtools on the ucsc.collegescheduler.com tab.
  *   3. Paste this entire file into the console and press Enter.
  *   4. It downloads `harvest-<term>.json` when finished (~90s for a full term).

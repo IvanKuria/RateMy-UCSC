@@ -1,6 +1,6 @@
 /**
  * @file schedulerScript.ts
- * Registers and unregisters the Schedule Planner content script at runtime.
+ * Registers and unregisters the MyScheduler content script at runtime.
  *
  * The script cannot live in the manifest. A static `content_scripts` entry for
  * a new origin is a privilege increase, and Chrome answers a privilege increase
@@ -16,7 +16,7 @@
 
 import { logger } from '@/lib/logger';
 
-/** Match pattern for the optional Schedule Planner origin. */
+/** Match pattern for the optional MyScheduler origin. */
 export const SCHEDULER_ORIGIN = 'https://ucsc.collegescheduler.com/*';
 
 /** Stable id so repeated syncs update one registration rather than stacking. */
@@ -26,7 +26,7 @@ const SCRIPT_ID = 'scheduler';
 const SCRIPT_JS = 'content-scripts/scheduler.js';
 const SCRIPT_CSS = 'content-scripts/scheduler.css';
 
-/** True when the user has granted access to Schedule Planner. */
+/** True when the user has granted access to MyScheduler. */
 export async function hasSchedulerPermission(): Promise<boolean> {
   try {
     return await chrome.permissions.contains({ origins: [SCHEDULER_ORIGIN] });
@@ -72,18 +72,18 @@ export async function syncSchedulerScript(): Promise<void> {
           persistAcrossSessions: true,
         },
       ]);
-      logger.warn('Registered the Schedule Planner content script.');
+      logger.warn('Registered the MyScheduler content script.');
       return;
     }
 
     if (!granted && registered) {
       await chrome.scripting.unregisterContentScripts({ ids: [SCRIPT_ID] });
       logger.warn(
-        'Schedule Planner permission revoked; unregistered its content script.'
+        'MyScheduler permission revoked; unregistered its content script.'
       );
     }
   } catch (error) {
-    logger.error('Could not sync the Schedule Planner content script:', error);
+    logger.error('Could not sync the MyScheduler content script:', error);
   }
 }
 

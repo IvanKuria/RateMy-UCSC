@@ -124,7 +124,7 @@
 
 /* ── Size variants ──
  *
- * Used by the Schedule Planner surfaces, where the bar sits inside the host's
+ * Used by the MyScheduler surfaces, where the bar sits inside the host's
  * own table cells and calendar blocks rather than below a panel. These change
  * spacing and type scale ONLY — the badge, star color, radius and palette are
  * inherited from the rules above so every surface reads as one component.

@@ -41,7 +41,7 @@ export interface RatingMountRequest {
   name: string;
   /**
    * CruzID when the page's API supplied one. This is the whole point of the
-   * Schedule Planner integration: an exact id, so no name matching is needed.
+   * MyScheduler integration: an exact id, so no name matching is needed.
    * Null falls back to the bundled maps.
    */
   uid: string | null;

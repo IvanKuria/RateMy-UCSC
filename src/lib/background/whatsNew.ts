@@ -3,7 +3,7 @@
  * Opens the release notes once after an update.
  *
  * This page carries the one request the extension can no longer make on its
- * own: Schedule Planner access is an optional permission now, and
+ * own: MyScheduler access is an optional permission now, and
  * chrome.permissions.request() needs a real user gesture. Without a page of our
  * own there is nowhere to ask from — the extension cannot inject into Schedule
  * Planner to prompt there, precisely because it lacks the permission it wants.

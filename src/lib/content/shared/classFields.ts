@@ -13,10 +13,10 @@
  *     "CSE 200-01 (11897)"                   (cart, drop, enrolled rows)
  *     DERIVED_CLS_DTL_CLASS_NBR$0 -> 11897   (my class schedule)
  *
- * That number is the registrar's key for the section, and Schedule Planner's API
+ * That number is the registrar's key for the section, and MyScheduler's API
  * publishes the same number alongside the instructor's email. So a class number
  * scraped here resolves to an exact CruzID through the bundled map, with no name
- * matching at all — the same accuracy the Schedule Planner pages get directly.
+ * matching at all — the same accuracy the MyScheduler pages get directly.
  */
 
 /** A class number is a 4-6 digit registrar key ("11897"). */

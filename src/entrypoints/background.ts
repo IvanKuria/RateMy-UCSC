@@ -126,7 +126,7 @@ export default defineBackground(() => {
 
   // Reconcile on every worker start, not just on permission events. The worker
   // is torn down constantly, and a registration that only ever happened on a
-  // missed event would leave Schedule Planner silently unannotated.
+  // missed event would leave MyScheduler silently unannotated.
   void syncSchedulerScript();
 
   // Open the side panel when the extension icon is clicked

@@ -1,7 +1,7 @@
 import { defineConfig } from 'wxt';
 import tailwindcss from '@tailwindcss/vite';
 
-/** The origin Schedule Planner runs on, requested at runtime rather than up front. */
+/** The origin MyScheduler runs on, requested at runtime rather than up front. */
 const SCHEDULER_ORIGIN = 'https://ucsc.collegescheduler.com/*';
 
 export default defineConfig({
@@ -30,7 +30,7 @@ export default defineConfig({
   }),
   hooks: {
     /**
-     * Keep the Schedule Planner origin out of `host_permissions`.
+     * Keep the MyScheduler origin out of `host_permissions`.
      *
      * WXT adds a host permission for every `registration: 'runtime'` content
      * script, on the reasonable assumption that you want it granted so the
@@ -53,8 +53,8 @@ export default defineConfig({
     name: 'Rate My Slugs',
     version: '2.2.0',
     description:
-      'View professor ratings, grade distributions, and detailed profiles while browsing UCSC courses on MyUCSC and Schedule Planner.',
-    // `scripting` is required to register the Schedule Planner content script
+      'View professor ratings, grade distributions, and detailed profiles while browsing UCSC courses on MyUCSC and MyScheduler.',
+    // `scripting` is required to register the MyScheduler content script
     // once its permission is granted at runtime.
     permissions: ['storage', 'sidePanel', 'scripting'],
     action: {},
@@ -65,7 +65,7 @@ export default defineConfig({
       'https://rate-my-slugs-server.onrender.com/*',
       'https://campusdirectory.ucsc.edu/*',
     ],
-    // Schedule Planner is optional, deliberately.
+    // MyScheduler is optional, deliberately.
     //
     // Listing it as a required host permission makes the update a privilege
     // increase, and Chrome responds by DISABLING the extension for every

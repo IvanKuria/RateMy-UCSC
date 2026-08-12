@@ -5,7 +5,7 @@
  * Two jobs: stamp the versions the update moved between, and host the one
  * permission request the extension cannot make anywhere else.
  * chrome.permissions.request() needs a user gesture, and the extension cannot
- * inject a prompt into Schedule Planner because lacking that very permission is
+ * inject a prompt into MyScheduler because lacking that very permission is
  * the problem — so the button here is the only door in.
  */
 
@@ -17,7 +17,8 @@ const els = {
   title: document.getElementById('ask-title'),
   copy: document.getElementById('ask-copy'),
   allow: document.getElementById('allow') as HTMLButtonElement | null,
-  state: document.getElementById('state'),
+  granted: document.getElementById('granted'),
+  fine: document.getElementById('ask-fine'),
 };
 
 /** "v2.1.0 → v2.2.0", or just the current version on a fresh install. */
@@ -40,22 +41,25 @@ function stampVersion(): void {
  * same heading position, same copy slot, with the gold rule turning green. A
  * granted permission is a change of state, not a new screen.
  */
-function renderGrantState(granted: boolean): void {
-  const { ask, title, copy, allow, state } = els;
-  if (!ask || !title || !copy || !allow || !state) return;
+function renderGrantState(isGranted: boolean): void {
+  const { title, copy, allow, granted, fine } = els;
+  if (!title || !copy || !allow || !granted || !fine) return;
 
-  ask.dataset.state = granted ? 'on' : 'off';
-  allow.hidden = granted;
-  state.hidden = !granted;
+  allow.hidden = isGranted;
+  granted.hidden = !isGranted;
 
-  if (granted) {
-    title.textContent = 'schedule planner is on';
+  if (isGranted) {
+    title.textContent = 'You’re all set';
     copy.textContent =
-      'open a schedule and the ratings will be there. you can turn this back off any time from the extension’s site access settings.';
+      'Open a schedule and the ratings will be there, next to every instructor.';
+    fine.textContent =
+      'You can turn this back off any time under the extension’s site access settings.';
   } else {
-    title.textContent = 'one thing to turn on';
+    title.textContent = 'Turn on MyScheduler';
     copy.textContent =
-      'schedule planner is a different site from myucsc, so chrome needs your permission before the extension can read it. only ucsc.collegescheduler.com, only while you are on it — nothing is sent anywhere.';
+      'MyScheduler is a separate site from MyUCSC, so Chrome needs your permission before the extension can read it.';
+    fine.textContent =
+      'Covers ucsc.collegescheduler.com only, and only while you are on it. Nothing is sent anywhere.';
   }
 }
 
@@ -74,18 +78,18 @@ els.allow?.addEventListener('click', async () => {
   // Called directly in the handler: awaiting anything first spends the user
   // gesture and Chrome rejects the request.
   try {
-    const granted = await chrome.permissions.request({
+    const isGranted = await chrome.permissions.request({
       origins: [SCHEDULER_ORIGIN],
     });
-    renderGrantState(granted);
-    if (!granted && els.copy) {
-      els.copy.textContent =
-        'not granted. schedule planner stays unannotated and everything else works exactly as before — you can come back to this page from the extension’s options.';
+    renderGrantState(isGranted);
+    if (!isGranted && els.fine) {
+      els.fine.textContent =
+        'Not granted. MyScheduler stays unannotated and everything else keeps working — you can come back to this page from the extension’s options.';
     }
   } catch {
-    if (els.copy) {
-      els.copy.textContent =
-        'chrome would not show the prompt. you can still grant access under the extension’s site access settings.';
+    if (els.fine) {
+      els.fine.textContent =
+        'Chrome would not show the prompt. You can still grant access under the extension’s site access settings.';
     }
   }
 });
