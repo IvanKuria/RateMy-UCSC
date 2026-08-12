@@ -13,13 +13,13 @@ import {
   selectBestRmpMatch,
   fetchProfessorReviews,
 } from '@/lib/background/rmpCache';
+import {
+  clearExtensionCaches,
+  registerCacheResetOnUpdate,
+} from '@/lib/background/cacheReset';
 import { getSettings } from '@/lib/storage/settings';
 import { logger } from '@/lib/logger';
-import {
-  CLEARABLE_CACHE_PREFIXES,
-  PENDING_PROFESSOR_LATEST,
-  pendingProfessorKey,
-} from '@/lib/constants';
+import { PENDING_PROFESSOR_LATEST, pendingProfessorKey } from '@/lib/constants';
 import type {
   ExtensionMessage,
   ProfessorBundle,
@@ -112,6 +112,11 @@ async function fetchProfessorBundle(
 }
 
 export default defineBackground(() => {
+  // Registered first and synchronously: an MV3 worker is replayed from cold on
+  // each event, so a listener added later can miss the install/update it exists
+  // to handle.
+  registerCacheResetOnUpdate();
+
   // Open the side panel when the extension icon is clicked
   chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: true });
 
@@ -211,14 +216,8 @@ export default defineBackground(() => {
       if (message?.action === 'clearCache') {
         (async () => {
           try {
-            const allData = await chrome.storage.local.get();
-            const cacheKeys = Object.keys(allData).filter((key) =>
-              CLEARABLE_CACHE_PREFIXES.some((prefix) => key.startsWith(prefix))
-            );
-            if (cacheKeys.length > 0) {
-              await chrome.storage.local.remove(cacheKeys);
-            }
-            sendResponse({ status: 'success', cleared: cacheKeys.length });
+            const cleared = await clearExtensionCaches();
+            sendResponse({ status: 'success', cleared });
           } catch (error) {
             sendResponse({ status: 'error', error: (error as Error).message });
           }
