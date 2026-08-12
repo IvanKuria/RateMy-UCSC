@@ -9,6 +9,24 @@ export default defineConfig({
   srcDir: 'src',
   vite: () => ({
     plugins: [tailwindcss()],
+    build: {
+      /**
+       * Extension pages load their modules from disk, so preloading them buys
+       * nothing — and Vite's `modulepreload` support costs something. It emits
+       * `<link rel="modulepreload" crossorigin>` tags plus a polyfill chunk for
+       * browsers without native support, and in an extension page Chrome logs:
+       *
+       *   A preload for '.../chunks/_virtual_wxt-html-plugins-*.js' is found,
+       *   but is not used because it is a cross-world extension resource
+       *   mismatch.
+       *
+       * The `crossorigin` attribute puts the preload in a different fetch mode
+       * than the actual module load, so the preloaded copy is discarded and
+       * fetched again. Harmless, but it is console noise on every page, and
+       * Chrome has supported modulepreload natively for years.
+       */
+      modulePreload: false,
+    },
   }),
   hooks: {
     /**
