@@ -17,6 +17,11 @@ import {
   clearExtensionCaches,
   registerCacheResetOnUpdate,
 } from '@/lib/background/cacheReset';
+import {
+  syncSchedulerScript,
+  watchSchedulerPermission,
+} from '@/lib/background/schedulerScript';
+import { registerWhatsNewOnUpdate } from '@/lib/background/whatsNew';
 import { getSettings } from '@/lib/storage/settings';
 import { logger } from '@/lib/logger';
 import { PENDING_PROFESSOR_LATEST, pendingProfessorKey } from '@/lib/constants';
@@ -116,6 +121,13 @@ export default defineBackground(() => {
   // each event, so a listener added later can miss the install/update it exists
   // to handle.
   registerCacheResetOnUpdate();
+  registerWhatsNewOnUpdate();
+  watchSchedulerPermission();
+
+  // Reconcile on every worker start, not just on permission events. The worker
+  // is torn down constantly, and a registration that only ever happened on a
+  // missed event would leave Schedule Planner silently unannotated.
+  void syncSchedulerScript();
 
   // Open the side panel when the extension icon is clicked
   chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: true });

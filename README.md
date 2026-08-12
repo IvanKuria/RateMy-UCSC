@@ -8,7 +8,7 @@ Professor ratings, grade distributions, and detailed profiles, shown right where
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Install-4285F4.svg)](https://chromewebstore.google.com/detail/rate-my-slugs/ddmahbdpmhbeohjjblfopgggdbfieboo)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.1.0-success.svg)](https://github.com/IvanKuria/rate-my-slugs/releases)
+[![Version](https://img.shields.io/badge/version-2.2.0-success.svg)](https://github.com/IvanKuria/rate-my-slugs/releases)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-orange.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![Built with WXT](https://img.shields.io/badge/built%20with-WXT-67217A.svg)](https://wxt.dev)
 

@@ -1,6 +1,6 @@
 {
   "name": "ratemy-ucsc",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Shows Rate My Professors ratings for UCSC courses on MyUCSC enrollment pages",
   "scripts": {
     "dev": "wxt",

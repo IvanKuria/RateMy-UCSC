@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>rate my slugs — what's new</title>
+    <style>
+      /* ────────────────────────────────────────────────────────────────
+         Type and paper come from ivankuria.com — Times for content,
+         Helvetica for metadata, #ddd rather than white — so the page reads
+         as the same author's. The boldness is spent in exactly one place:
+         a full-bleed UCSC navy band holding a working replica of the thing
+         this release actually does. Everything below it stays quiet.
+         ──────────────────────────────────────────────────────────────── */
+      :root {
+        --paper: #ddd;
+        --white: #fff;
+        --ink-strong: #000;
+        --ink: #111;
+        --ink-muted: rgba(0, 0, 0, 0.44);
+        --ink-faint: rgba(0, 0, 0, 0.3);
+        --rule: rgba(0, 0, 0, 0.14);
+
+        /* UCSC navy and gold: the campus the extension belongs to. */
+        --navy: #003c6c;
+        --navy-deep: #002846;
+        --gold: #fdc700;
+
+        /* The extension's own star, unchanged from the injected bar. */
+        --star: #f59e0b;
+        --green: #2f6b2f;
+
+        --serif: 'Times New Roman', Times, Georgia, serif;
+        --ui: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: var(--ui);
+        font-size: 14px;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .wrap {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 0 32px;
+      }
+
+      /* ── hero band ───────────────────────────────────────────────── */
+      .hero {
+        background: var(--navy);
+        color: var(--white);
+        padding: 34px 0 0;
+        border-bottom: 6px solid var(--gold);
+      }
+
+      .masthead {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 46px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: var(--serif);
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.92);
+      }
+
+      /* Sammy, the extension's actual icon — not the slug glyph the rating bar
+         uses as a unit. The tile's pale blue reads well against the navy. */
+      .brand img {
+        width: 26px;
+        height: 26px;
+        border-radius: 6px;
+        object-fit: cover;
+        display: block;
+      }
+
+      .version {
+        font-size: 11px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--gold);
+        white-space: nowrap;
+      }
+
+      h1 {
+        font-family: var(--serif);
+        font-weight: 400;
+        font-size: clamp(34px, 6vw, 56px);
+        line-height: 1.04;
+        letter-spacing: -0.02em;
+        margin: 0 0 18px;
+        max-width: 15ch;
+      }
+
+      h1 em {
+        font-style: italic;
+        color: var(--gold);
+      }
+
+      .standfirst {
+        font-family: var(--serif);
+        font-size: 18px;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 0.72);
+        margin: 0 0 44px;
+        max-width: 50ch;
+      }
+
+      /* ── the replica ──
+         A real Schedule Planner row, rebuilt to scale. The badge is the
+         product; showing it land is more honest than describing it. */
+      /* Deliberately overhangs the gold rule into the grey below. A partial
+         overlap reads as a rendering bug; a decisive one reads as a choice. */
+      .replica {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -52px;
+        background: var(--white);
+        color: #333;
+        font-size: 13px;
+        box-shadow: 0 2px 14px rgba(0, 0, 0, 0.18);
+      }
+
+      .replica-caption {
+        font-size: 11px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 10px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      thead th {
+        background: var(--navy-deep);
+        color: var(--white);
+        font-family: var(--ui);
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+        padding: 9px 8px;
+        white-space: nowrap;
+      }
+
+      tbody td {
+        padding: 12px 8px;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+        white-space: nowrap;
+      }
+
+      tbody tr:nth-child(even) td {
+        background: #fafafa;
+      }
+
+      .instructor {
+        min-width: 190px;
+      }
+
+      .who-name {
+        display: block;
+      }
+
+      .who-lab {
+        color: #bbb;
+      }
+
+      /* The injected badge, styled exactly as the extension renders it. */
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        margin-top: 5px;
+        padding: 3px 7px;
+        border-radius: 6px;
+        background: #f3f4f6;
+        font-family: var(--ui);
+        font-size: 12px;
+        font-weight: 500;
+        color: #1f2937;
+        line-height: 1;
+      }
+
+      .badge .star {
+        color: var(--star);
+      }
+
+      .badge .count {
+        color: #6b7280;
+        font-size: 11px;
+        font-weight: 400;
+      }
+
+      @media (prefers-reduced-motion: no-preference) {
+        .badge {
+          opacity: 0;
+          transform: translateY(-4px);
+          animation: land 0.45s cubic-bezier(0.2, 0.7, 0.3, 1) forwards;
+        }
+        .badge.b1 {
+          animation-delay: 0.75s;
+        }
+        .badge.b2 {
+          animation-delay: 0.95s;
+        }
+      }
+
+      @keyframes land {
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      /* ── body ────────────────────────────────────────────────────── */
+      /* Top padding clears the replica's overhang before content resumes. */
+      main {
+        padding: 112px 0 90px;
+      }
+
+      .eyebrow {
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--ink-faint);
+        margin: 0 0 18px;
+      }
+
+      /* ── permission ask: the one job this page has ── */
+      /* Text and action sit side by side so the block does not trail off into
+         empty space at this width. */
+      .ask {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        background: var(--white);
+        border-left: 6px solid var(--gold);
+        padding: 28px 32px;
+        margin-bottom: 64px;
+      }
+
+      .ask[data-state='on'] {
+        border-left-color: var(--green);
+      }
+
+      .ask-action {
+        flex: none;
+      }
+
+      .ask h2 {
+        font-family: var(--serif);
+        font-weight: 400;
+        font-size: 23px;
+        margin: 0 0 8px;
+        color: var(--ink-strong);
+      }
+
+      .ask p {
+        margin: 0;
+        color: var(--ink-muted);
+        max-width: 58ch;
+      }
+
+      .allow {
+        appearance: none;
+        padding: 13px 22px;
+        white-space: nowrap;
+        border: 0;
+        background: var(--navy);
+        color: var(--white);
+        font-family: var(--ui);
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+      .allow:hover {
+        background: var(--navy-deep);
+      }
+
+      .allow:focus-visible {
+        outline: 3px solid var(--gold);
+        outline-offset: 2px;
+      }
+
+      .allow[hidden] {
+        display: none;
+      }
+
+      /* Qualified with .ask on purpose: `.ask p` sets the muted body colour at
+         (0,1,1), which outranks a lone `.state` at (0,1,0) and would silently
+         render this grey instead of green. */
+      .ask .state {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 13px;
+        color: var(--green);
+        font-weight: 500;
+        white-space: nowrap;
+      }
+
+      .ask .state[hidden] {
+        display: none;
+      }
+
+      .dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--green);
+      }
+
+      /* ── changes ── */
+      .change {
+        display: grid;
+        grid-template-columns: 96px 1fr;
+        gap: 26px;
+        padding: 17px 0;
+        border-top: 1px solid var(--rule);
+      }
+
+      .change:last-of-type {
+        border-bottom: 1px solid var(--rule);
+      }
+
+      .tag {
+        font-size: 11px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--ink-faint);
+        padding-top: 4px;
+      }
+
+      .change p {
+        font-family: var(--serif);
+        font-size: 17px;
+        line-height: 1.45;
+        margin: 0;
+      }
+
+      .change b {
+        font-weight: 400;
+        color: var(--ink-strong);
+      }
+
+      .change i {
+        font-style: italic;
+      }
+
+      /* ── closing ask ──
+         The permission is the page's job, so it keeps the filled navy button.
+         This one is genuinely secondary and gets an outline, which lets it be
+         large and obvious without competing for the same attention. */
+      .outro {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 26px;
+        margin-top: 64px;
+        padding-top: 34px;
+        border-top: 2px solid var(--ink-strong);
+      }
+
+      .outro p {
+        font-family: var(--serif);
+        font-size: 19px;
+        line-height: 1.4;
+        margin: 0;
+        max-width: 34ch;
+        color: var(--ink-strong);
+      }
+
+      .outro span {
+        display: block;
+        font-family: var(--ui);
+        font-size: 13px;
+        color: var(--ink-muted);
+        margin-top: 6px;
+      }
+
+      .star-cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+        padding: 13px 22px;
+        border: 2px solid var(--ink-strong);
+        color: var(--ink-strong);
+        font-family: var(--ui);
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        white-space: nowrap;
+        background: transparent;
+      }
+
+      .star-cta:hover {
+        background: var(--ink-strong);
+        color: var(--paper);
+      }
+
+      .star-cta:focus-visible {
+        outline: 3px solid var(--gold);
+        outline-offset: 2px;
+      }
+
+      .star-cta .glyph {
+        color: var(--star);
+        font-size: 15px;
+      }
+
+      .star-cta:hover .glyph {
+        color: var(--gold);
+      }
+
+      /* ── footer ── */
+      .colophon {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 22px;
+        margin-top: 30px;
+        font-size: 13px;
+      }
+
+      .colophon a {
+        color: var(--ink-muted);
+        text-decoration: none;
+        border-bottom: 1px solid var(--rule);
+        padding-bottom: 2px;
+      }
+
+      .colophon a:hover {
+        color: var(--ink-strong);
+        border-bottom-color: var(--ink-strong);
+      }
+
+      .colophon a:focus-visible {
+        outline: 2px solid var(--navy);
+        outline-offset: 3px;
+      }
+
+      @media (max-width: 720px) {
+        .ask {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 20px;
+        }
+      }
+
+      @media (max-width: 620px) {
+        .wrap {
+          padding: 0 20px;
+        }
+        .change {
+          grid-template-columns: 1fr;
+          gap: 5px;
+        }
+        .hide-sm {
+          display: none;
+        }
+        .replica {
+          font-size: 12px;
+          margin-bottom: -36px;
+        }
+        main {
+          padding-top: 84px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="hero">
+      <div class="wrap">
+        <div class="masthead">
+          <div class="brand">
+            <img src="/icons/sammy/sammy-128.jpg" alt="" />
+            <span>rate my slugs</span>
+          </div>
+          <div class="version" id="version"></div>
+        </div>
+
+        <h1>ratings, now where you <em>actually</em> pick classes.</h1>
+        <p class="standfirst">
+          schedule planner lists every section you are choosing between. it
+          never told you who teaches them.
+        </p>
+
+        <p class="replica-caption">schedule planner · section picker</p>
+        <div class="replica">
+          <table>
+            <thead>
+              <tr>
+                <th>Class #</th>
+                <th>Section</th>
+                <th class="hide-sm">Subject</th>
+                <th class="hide-sm">Component</th>
+                <th>Instructor</th>
+                <th class="hide-sm">Day(s) &amp; Location(s)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>11880</td>
+                <td>02</td>
+                <td class="hide-sm">CSE</td>
+                <td class="hide-sm">LEC</td>
+                <td class="instructor">
+                  <span class="who-name">Ishtiyaque Ahmad</span>
+                  <span class="badge b1">
+                    <span class="star">★</span>
+                    <strong>4.2</strong>
+                    <span class="count">(37)</span>
+                  </span>
+                </td>
+                <td class="hide-sm">TTh 7:10pm – 8:45pm</td>
+              </tr>
+              <tr>
+                <td>11875</td>
+                <td>02E</td>
+                <td class="hide-sm">CSE</td>
+                <td class="hide-sm">LBS</td>
+                <td class="instructor"><span class="who-lab">—</span></td>
+                <td class="hide-sm">Th 1:45pm – 2:45pm</td>
+              </tr>
+              <tr>
+                <td>12693</td>
+                <td>01</td>
+                <td class="hide-sm">CSE</td>
+                <td class="hide-sm">LEC</td>
+                <td class="instructor">
+                  <span class="who-name">Lindsey Kuper</span>
+                  <span class="badge b2">
+                    <span class="star">★</span>
+                    <strong>4.5</strong>
+                    <span class="count">(22)</span>
+                  </span>
+                </td>
+                <td class="hide-sm">MWF 9:20am – 10:25am</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrap">
+        <section class="ask" id="ask" data-state="off">
+          <div>
+            <h2 id="ask-title">one thing to turn on</h2>
+            <p id="ask-copy">
+              schedule planner is a different site from myucsc, so chrome needs
+              your permission before the extension can read it. only
+              ucsc.collegescheduler.com, only while you are on it — nothing is
+              sent anywhere.
+            </p>
+          </div>
+          <div class="ask-action">
+            <button class="allow" id="allow" type="button">
+              allow schedule planner
+            </button>
+            <p class="state" id="state" hidden><span class="dot"></span> on</p>
+          </div>
+        </section>
+
+        <p class="eyebrow">also in this release</p>
+
+        <section class="change">
+          <div class="tag">new</div>
+          <p>
+            <b>generated schedules.</b> every section carries its rating, and so
+            does each block on the calendar.
+          </p>
+        </section>
+
+        <section class="change">
+          <div class="tag">better</div>
+          <p>
+            <b>the right professor.</b> myucsc writes instructors as
+            <i>k. obraczka</i>, which cannot separate two people who share a
+            surname. matching now runs on the class number instead — 1,272 of
+            them for fall.
+          </p>
+        </section>
+
+        <section class="change">
+          <div class="tag">fixed</div>
+          <p>
+            <b>nine professors.</b> were the wrong person entirely.
+            <i>chen,b.</i> pointed at shaowei chen.
+          </p>
+        </section>
+
+        <section class="change">
+          <div class="tag">fixed</div>
+          <p>
+            <b>drop classes.</b> showed no ratings at all — a strange place to
+            lose them.
+          </p>
+        </section>
+
+        <section class="change">
+          <div class="tag">fixed</div>
+          <p>
+            <b>shopping cart.</b> annotated the cart and skipped the schedule
+            underneath it.
+          </p>
+        </section>
+
+        <section class="outro">
+          <p>
+            built by one student, for everyone enrolling.
+            <span>a star helps other slugs find it.</span>
+          </p>
+          <a
+            class="star-cta"
+            href="https://github.com/IvanKuria/rate-my-slugs"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="glyph" aria-hidden="true">★</span>
+            star on github
+          </a>
+        </section>
+
+        <nav class="colophon">
+          <a
+            href="https://www.linkedin.com/in/ivan-kuria-46ab68312/"
+            target="_blank"
+            rel="noopener"
+            >follow on linkedin</a
+          >
+          <a
+            href="https://github.com/IvanKuria/rate-my-slugs/releases"
+            target="_blank"
+            rel="noopener"
+            >every release</a
+          >
+          <a href="https://www.ivankuria.com" target="_blank" rel="noopener"
+            >ivankuria.com</a
+          >
+        </nav>
+      </div>
+    </main>
+
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

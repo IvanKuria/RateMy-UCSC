@@ -40,6 +40,12 @@ const PAGE_LOADERS: Record<
 
 export default defineContentScript({
   matches: ['https://ucsc.collegescheduler.com/*'],
+  // Built, but kept out of the manifest: a static content_scripts entry counts
+  // as a privilege increase just like a host permission does, and would disable
+  // the extension for existing users on update. The background worker registers
+  // this script through chrome.scripting once the optional permission is
+  // granted. See registerSchedulerScript in lib/background/schedulerScript.
+  registration: 'runtime',
   runAt: 'document_idle',
   cssInjectionMode: 'manifest',
 
