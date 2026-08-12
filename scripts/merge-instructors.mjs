@@ -169,7 +169,20 @@ async function main() {
     terms: [],
     byUid: {},
     bySubjectName: {},
+    byTermClassNumber: {},
   });
+  if (!instructors.byTermClassNumber) instructors.byTermClassNumber = {};
+
+  // ── Class numbers, scoped to their term ──
+  // Nested under the term because class numbers repeat across quarters: 11897
+  // is a different section in Fall than in Winter. A flat map would silently
+  // resolve last term's professor for this term's class.
+  if (harvest.term && harvest.sections) {
+    instructors.byTermClassNumber[harvest.term] = {
+      ...(instructors.byTermClassNumber[harvest.term] || {}),
+      ...harvest.sections,
+    };
+  }
 
   // ── Fold the harvest into the accumulated byUid index ──
   let newInstructors = 0;
@@ -252,6 +265,9 @@ async function main() {
   console.log(`prof_uids total:     ${Object.keys(uids).length}`);
   console.log(`subject-qualified:   ${Object.keys(bySubjectName).length} keys`);
   console.log(`contested keys:      ${contested.size} (dropped, unresolvable)`);
+  for (const [term, map] of Object.entries(instructors.byTermClassNumber)) {
+    console.log(`class numbers:       ${Object.keys(map).length} for ${term}`);
+  }
 
   if (conflicts.length && !verify) {
     console.log(

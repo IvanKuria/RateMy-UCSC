@@ -3,11 +3,18 @@ import {
   runRenderPipeline,
   reformatInitialLast,
 } from '@/lib/content/shared/renderPipeline';
+import {
+  extractClassNumber,
+  extractCourseFromClassName,
+} from '@/lib/content/shared/classFields';
 import type { PageConfig } from '@/types';
 
 export const PAGE_CONFIG: PageConfig = {
+  // The enrolled-classes list. It is NOT confined to the "my class schedule"
+  // screen — the same table is rendered below the cart on Add Classes and
+  // Shopping Cart, which is most of where these rows are actually seen.
   panelSelector: '[id^="trSTDNT_ENRL_SSVW$0_row"]',
-  processedClass: 'rms-processed',
+  processedClass: 'rms-processed-enrolled',
 };
 
 /**
@@ -35,6 +42,8 @@ export function renderPage(): Promise<void> {
     config: PAGE_CONFIG,
     extractProfName,
     getMountTarget,
+    extractCourseCode: extractCourseFromClassName,
+    extractClassNumber,
     panelClass: 'prof-cart-panel',
   });
 }

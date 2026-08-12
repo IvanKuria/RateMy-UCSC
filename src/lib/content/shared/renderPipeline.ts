@@ -18,6 +18,7 @@ import {
   renderComponent,
   unmountComponent,
 } from '@/lib/content/shared/mountHelper';
+import { getPageTerm } from '@/lib/content/shared/classFields';
 import { getFirst } from '@/lib/format';
 import RatingBar from '@/components/RatingBar';
 import type {
@@ -36,6 +37,11 @@ export interface RenderPipelineConfig {
   getMountTarget(panel: Element): Element;
   /** Optional course-code extraction; pages without a course pass nothing. */
   extractCourseCode?: (panel: Element) => string | null;
+  /**
+   * Optional class-number extraction. When a page provides one, the instructor
+   * resolves by exact registrar key instead of by abbreviated name.
+   */
+  extractClassNumber?: (panel: Element) => string | null;
   /** Optional class added to the panel in Phase 1 (e.g. positioning hooks). */
   panelClass?: string;
 }
@@ -44,6 +50,7 @@ interface MountRecord {
   mount: HTMLSpanElement;
   name: string;
   course: string | null;
+  classNumber: string | null;
 }
 
 /**
@@ -62,9 +69,18 @@ export function reformatInitialLast(name: string): string | null {
 export async function runRenderPipeline(
   opts: RenderPipelineConfig
 ): Promise<void> {
-  const { config, extractProfName, getMountTarget, extractCourseCode } = opts;
+  const {
+    config,
+    extractProfName,
+    getMountTarget,
+    extractCourseCode,
+    extractClassNumber,
+  } = opts;
   const panels = document.querySelectorAll(config.panelSelector);
   if (!panels.length) return;
+
+  // Read once: the term labels the whole page, not any individual row.
+  const term = getPageTerm();
 
   // Phase 1: render loading skeletons. Dedupe in case a node matches more than
   // one selector in a comma-separated list.
@@ -81,6 +97,7 @@ export async function runRenderPipeline(
     if (!name) continue;
 
     const course = extractCourseCode ? extractCourseCode(panel) : null;
+    const classNumber = extractClassNumber ? extractClassNumber(panel) : null;
     const target = getMountTarget(panel);
     if (opts.panelClass) panel.classList.add(opts.panelClass);
     // Mark processed regardless of fetch outcome so a not-found professor is
@@ -88,7 +105,7 @@ export async function runRenderPipeline(
     panel.classList.add(config.processedClass);
     const mount = createMountPoint(target, 'rms-rating-bar-root');
     renderComponent(mount, RatingBar, { professorData: null, loading: true });
-    mounts.push({ mount, name, course });
+    mounts.push({ mount, name, course, classNumber });
   }
 
   if (!mounts.length) return;
@@ -100,10 +117,10 @@ export async function runRenderPipeline(
   ]);
 
   await Promise.allSettled(
-    mounts.map(async ({ mount, name, course }) => {
-      // The course code is the tie-breaker for instructors who share a last
-      // name and first initial, so it goes in whenever the page yielded one.
-      const uID = await getUIDFromJson(name, course);
+    mounts.map(async ({ mount, name, course, classNumber }) => {
+      // The class number resolves an exact professor; the course code is the
+      // fallback tie-breaker for instructors sharing a last name and initial.
+      const uID = await getUIDFromJson(name, { course, classNumber, term });
 
       let profileDict: FetchProfessorDataResponse | null = null;
       try {

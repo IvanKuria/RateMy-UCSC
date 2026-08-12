@@ -90,7 +90,7 @@ export async function renderRatings(
     mounts.map(async (record) => {
       const { mount, name, course, variant } = record;
 
-      const uid = record.uid ?? (await getUIDFromJson(name, course));
+      const uid = record.uid ?? (await getUIDFromJson(name, { course }));
 
       let response: FetchProfessorDataResponse | null = null;
       try {

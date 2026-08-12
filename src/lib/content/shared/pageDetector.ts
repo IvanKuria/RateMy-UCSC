@@ -1,60 +1,67 @@
 import type { PageType } from '@/types';
 
 /**
- * Detects which UCSC page type we're on.
+ * Panel selectors that identify each page type, checked independently.
+ *
+ * WHY THIS RETURNS A LIST
+ * -----------------------
+ * This used to return the first matching page type, and the content script
+ * loaded that single module. MyUCSC screens are composite, so that lost
+ * content: Add Classes and Shopping Cart each render the cart table *and* the
+ * enrolled-classes table beneath it. Detection stopped at "cart-shopping", the
+ * cart module annotated its one row, and the five enrolled rows below — the
+ * ones with the instructors actually on them — were never touched.
+ *
+ * The same first-match-wins behaviour also silently broke Drop Classes: an
+ * unrelated group box was enough to answer "class-detail", a module which then
+ * matched nothing, while the generic fallback that would have worked was never
+ * consulted.
+ *
+ * Every type whose panels are present is now returned, and the caller renders
+ * all of them.
  */
-export function detectPageType(): PageType | null {
-  // Search results page
-  if (document.querySelectorAll('.panel.panel-default').length > 0)
-    return 'search';
+const PAGE_SELECTORS: Array<{ type: PageType; selector: string }> = [
+  { type: 'search', selector: '.panel.panel-default' },
+  { type: 'cart-shopping', selector: '[id^="trSSR_REGFORM_VW$0_row"]' },
+  { type: 'cart-enrolled', selector: '[id^="trSTDNT_ENRL_SSVW$0_row"]' },
+  { type: 'cart-drop', selector: '[id^="trSTDNT_ENRL_SSV1$0_row"]' },
+  {
+    type: 'class-detail',
+    selector:
+      '[id*="SSR_CLSRCH_F_WK"], .PSGROUPBOXWBO:has([id*="MTG_INSTR"]), .PSGROUPBOXWBO:has([id*="INSTR_LONG"])',
+  },
+];
 
-  // Shopping cart
-  if (document.querySelectorAll('[id^="trSSR_REGFORM_VW$0_row"]').length > 0)
-    return 'cart-shopping';
-
-  // Enrolled classes
-  if (document.querySelectorAll('[id^="trSTDNT_ENRL_SSVW$0_row"]').length > 0)
-    return 'cart-enrolled';
-
-  // Class detail / description pages.
-  // `.PSGROUPBOXWBO` is a generic PeopleSoft group-box class present on almost
-  // every MyUCSC screen, so matching it alone misclassifies unrelated pages and
-  // makes the observer fire constantly. Require it to co-occur with an
-  // instructor/meeting field that the class-detail module actually scrapes
-  // (MTG_INSTR / INSTR_LONG). The SSR_CLSRCH_F_WK class-search container still
-  // matches on its own.
-  // ASSUMPTION (needs live verification on a real class-detail page): genuine
-  // class-detail views always expose an MTG_INSTR or INSTR_LONG element inside
-  // a PSGROUPBOXWBO group box.
-  if (
-    document.querySelector('[id*="SSR_CLSRCH_F_WK"]') ||
-    (document.querySelector('.PSGROUPBOXWBO') &&
-      (document.querySelector('[id*="MTG_INSTR"]') ||
-        document.querySelector('[id*="INSTR_LONG"]')))
-  ) {
-    return 'class-detail';
+/**
+ * Returns every page type whose panels are present, most specific first.
+ *
+ * `generic-instructor` is deliberately excluded: it matches instructor fields
+ * anywhere on the page, including inside rows the specific modules already
+ * handle, so running it alongside them would double-render. The caller uses it
+ * only as a fallback when nothing else produced a rating.
+ */
+export function detectPageTypes(root: ParentNode = document): PageType[] {
+  const found: PageType[] = [];
+  for (const { type, selector } of PAGE_SELECTORS) {
+    if (root.querySelector(selector)) found.push(type);
   }
+  return found;
+}
 
-  // Enrollment confirmation
-  if (
-    document.querySelector('[id*="DERIVED_REGFRM1_SSR_PB_ADDTOLIST2"]') ||
-    document.querySelector('[id*="SSR_SS_ERD_ER"]')
-  )
-    return 'enrollment-confirm';
+/**
+ * True when the page has any instructor field at all — the condition for the
+ * generic fallback to be worth trying.
+ */
+export function hasAnyInstructorField(root: ParentNode = document): boolean {
+  return Boolean(root.querySelector('[id*="INSTR_LONG"], [id*="MTG_INSTR"]'));
+}
 
-  // Waitlist view
-  if (
-    document.querySelector('[id*="SSR_REGFORM_VW$0"]') &&
-    document.body?.textContent?.includes('Wait List')
-  )
-    return 'waitlist';
-
-  // Generic instructor pattern - catch any page with instructor name elements
-  if (
-    document.querySelector('[id*="INSTR_LONG"]') ||
-    document.querySelector('[id*="MTG_INSTR"]')
-  )
-    return 'generic-instructor';
-
-  return null;
+/**
+ * Back-compatible single-type detection: the first match, or the generic
+ * fallback when a page shows instructors that no specific module claims.
+ */
+export function detectPageType(root: ParentNode = document): PageType | null {
+  const [first] = detectPageTypes(root);
+  if (first) return first;
+  return hasAnyInstructorField(root) ? 'generic-instructor' : null;
 }

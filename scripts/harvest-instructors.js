@@ -84,6 +84,29 @@
   const encodedTerm = encodeURIComponent(term);
   console.log(`[harvest] term: ${term}`);
 
+  // ── Preflight: the course list obeys the account's Course Status filter ──
+  //
+  // With "Open Classes Only" selected — the default — /subjects/<S>/courses
+  // omits any course whose sections are all full, and the harvest then skips
+  // them without erroring. The result looks complete and quietly lacks exactly
+  // the classes students care most about. (CSE 210A, full at 0 seats, went
+  // missing this way while its regblocks endpoint returned data perfectly.)
+  //
+  // No query parameter overrides it, so this checks and refuses rather than
+  // producing a plausible-looking partial map.
+  const appData = await getJson('/api/app-data');
+  const status = (appData?.courseStatuses || []).find((s) => s.selected);
+  if (status && status.code !== 'OpenAndFull') {
+    throw new Error(
+      `Course Status is "${status.title}", which hides full classes from the ` +
+        `course list and would silently produce an incomplete harvest.\n` +
+        `Set it to "Open & Full" first: ` +
+        `${location.origin}/terms/${encodedTerm}/coursestatuses\n` +
+        `(You can set it back afterwards; it only affects scheduling views.)`
+    );
+  }
+  console.log(`[harvest] course status: ${status?.title ?? 'unknown'}`);
+
   // ── Enumerate every course in the term ──
   const subjects = await getJson(`/api/terms/${encodedTerm}/subjects`);
   console.log(`[harvest] ${subjects.length} subjects`);
@@ -100,6 +123,17 @@
   // ── Pull each course's sections and index their instructors ──
   /** CruzID -> { name, subjects: Set<string> } */
   const instructors = new Map();
+  /**
+   * Class number -> CruzID, for this term only.
+   *
+   * This is what makes MyUCSC accurate. Those pages show instructors as
+   * "K. Obraczka" but also print the class number, and PeopleSoft exposes no
+   * API to resolve one to the other. Carrying the mapping across from here
+   * turns an ambiguous name into an exact identity.
+   *
+   * Term-scoped deliberately: class numbers repeat across quarters.
+   */
+  const sections = new Map();
   const failures = [];
   let completed = 0;
 
@@ -110,12 +144,16 @@
     try {
       const data = await getJson(path);
       for (const section of data.sections || []) {
+        // The first named instructor is the one the portals display.
+        let primaryUid = null;
+
         for (const person of section.instructor || []) {
           // Without an email there is no CruzID, and a name alone is exactly
           // the ambiguous key this harvest exists to replace. Skip it.
           if (!person.email) continue;
           const uid = person.email.split('@')[0].toLowerCase();
           if (!uid) continue;
+          if (!primaryUid) primaryUid = uid;
 
           let entry = instructors.get(uid);
           if (!entry) {
@@ -128,6 +166,10 @@
             entry.name = person.name;
           }
           entry.subjects.add(subject);
+        }
+
+        if (primaryUid && section.registrationNumber) {
+          sections.set(String(section.registrationNumber), primaryUid);
         }
       }
     } catch (error) {
@@ -145,6 +187,7 @@
     harvestedAt: new Date().toISOString(),
     courseCount: courses.length,
     instructorCount: instructors.size,
+    sectionCount: sections.size,
     failures,
     instructors: Object.fromEntries(
       [...instructors].map(([uid, entry]) => [
@@ -152,11 +195,12 @@
         { name: entry.name, subjects: [...entry.subjects].sort() },
       ])
     ),
+    sections: Object.fromEntries(sections),
   };
 
   console.log(
     `[harvest] done — ${payload.instructorCount} instructors, ` +
-      `${failures.length} failed course(s)`
+      `${payload.sectionCount} class numbers, ${failures.length} failed course(s)`
   );
   if (failures.length) console.warn('[harvest] failures:', failures);
 

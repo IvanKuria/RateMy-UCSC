@@ -3,11 +3,19 @@ import {
   runRenderPipeline,
   reformatInitialLast,
 } from '@/lib/content/shared/renderPipeline';
+import {
+  extractClassNumber,
+  extractCourseFromClassName,
+} from '@/lib/content/shared/classFields';
 import type { PageConfig } from '@/types';
 
 export const PAGE_CONFIG: PageConfig = {
   panelSelector: '[id^="trSSR_REGFORM_VW$0_row"]',
-  processedClass: 'rms-processed',
+  // Marker is per-module, not shared. Several of these tables coexist on one
+  // page (the cart sits above the current-schedule list), and modules now run
+  // together — a shared marker would let whichever ran first claim a row and
+  // silently stop the others from annotating their own.
+  processedClass: 'rms-processed-cart',
 };
 
 /**
@@ -38,6 +46,10 @@ export function renderPage(): Promise<void> {
     config: PAGE_CONFIG,
     extractProfName,
     getMountTarget,
+    // Cart rows label the class "CSE 200-01 (11897)", giving both the exact
+    // class number and the subject for fallback disambiguation.
+    extractCourseCode: extractCourseFromClassName,
+    extractClassNumber,
     panelClass: 'prof-cart-panel',
   });
 }

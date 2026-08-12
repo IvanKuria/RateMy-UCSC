@@ -31,4 +31,12 @@ export interface InstructorsIndex {
   terms: string[];
   byUid: Record<string, InstructorEntry>;
   bySubjectName: Record<string, string>;
+  /**
+   * Term -> class number -> CruzID.
+   *
+   * The exact-identity path for MyUCSC, whose pages abbreviate instructors to
+   * "K. Obraczka" but do print the class number. Nested by term because class
+   * numbers are only unique within one.
+   */
+  byTermClassNumber: Record<string, Record<string, string>>;
 }

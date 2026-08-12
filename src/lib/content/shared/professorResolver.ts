@@ -86,29 +86,63 @@ function extractSubject(course: string | null | undefined): string | null {
   return match ? match[1].toUpperCase() : null;
 }
 
+/** Everything a page can tell us about which class a name belongs to. */
+export interface UidLookupContext {
+  /** Course code, e.g. "CSE 200". */
+  course?: string | null;
+  /** Registrar class number, e.g. "11897". */
+  classNumber?: string | null;
+  /** Term label, e.g. "2026 Fall Quarter". Required to use classNumber. */
+  term?: string | null;
+}
+
 /**
  * Resolves a professor's UID, most-confident source first:
  *
- *   1. subject-qualified index — "AM|lee,d" vs "CMPM|lee,d". The only step that
- *      can tell two professors apart when they share a last name and first
- *      initial, which is why it outranks an exact key match: for "Lee,D." on an
- *      AM course the abbreviated map confidently returns the wrong person.
- *   2. exact key in the abbreviated map.
- *   3. unique "Last,F." match in the abbreviated map.
+ *   1. class number within its term — an exact registrar key, so no name
+ *      matching happens at all. This is how MyUCSC gets the same accuracy the
+ *      Schedule Planner pages get from their API.
+ *   2. subject-qualified index — "AM|lee,d" vs "CMPM|lee,d". Tells two
+ *      professors apart when they share a last name and first initial, which is
+ *      why it outranks an exact key match: for "Lee,D." on an AM course the
+ *      abbreviated map confidently returns the wrong person.
+ *   3. exact key in the abbreviated map.
+ *   4. unique "Last,F." match in the abbreviated map.
  *
- * Returns null when nothing matches. `course` is optional; without it step 1 is
- * skipped and behaviour is as it was before the index existed.
+ * Returns null when nothing matches. Every context field is optional; supplying
+ * none reduces this to the original name-only behaviour.
  */
 export async function getUIDFromJson(
   name: string,
-  course?: string | null
+  context?: UidLookupContext | null
 ): Promise<string | null> {
   const data = await loadProfUids();
 
+  const { course, classNumber, term } = context ?? {};
   const { last, firstInitial } = parseInstructorName(name);
   const subject = extractSubject(course);
 
-  // 1. Subject-qualified.
+  // 1. Class number, scoped to its term.
+  if (classNumber && term) {
+    const instructors = await loadInstructors();
+    const uid = instructors?.byTermClassNumber?.[term]?.[classNumber];
+    if (uid) {
+      // Cross-check the last name before trusting it. The class number is an
+      // exact key, but only for the term it was harvested in — if the page's
+      // term label were ever misread, this catches it rather than silently
+      // showing a professor from a different quarter.
+      const harvested = instructors?.byUid?.[uid]?.name;
+      const harvestedLast = parseInstructorName(harvested).last;
+      if (!last || !harvestedLast || harvestedLast === last) return uid;
+
+      logger.warn(
+        `Class ${classNumber} (${term}) maps to "${harvested}" but the page ` +
+          `shows "${name}" — ignoring the class-number match.`
+      );
+    }
+  }
+
+  // 2. Subject-qualified.
   if (subject && last && firstInitial) {
     const instructors = await loadInstructors();
     const qualified =

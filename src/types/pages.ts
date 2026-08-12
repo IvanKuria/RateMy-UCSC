@@ -7,6 +7,8 @@ export type PageType =
   | 'search'
   | 'cart-shopping'
   | 'cart-enrolled'
+  /** Enrollment: Drop Classes. Its rows use the SSV1 view, not SSVW. */
+  | 'cart-drop'
   | 'class-detail'
   | 'enrollment-confirm'
   | 'waitlist'
