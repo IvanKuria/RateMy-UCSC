@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T03:16:58.297Z",
+  "generatedAt": "2026-08-12T03:24:01.204Z",
   "terms": [
     "2026 Fall Quarter"
   ],
@@ -144,7 +144,8 @@
     "brummell": {
       "name": "Nicholas H Brummell",
       "subjects": [
-        "AM"
+        "AM",
+        "PHYS"
       ]
     },
     "nvanduke": {
@@ -643,7 +644,8 @@
     "jmercer1": {
       "name": "Jaron Mercer",
       "subjects": [
-        "CHEM"
+        "CHEM",
+        "GCH"
       ]
     },
     "mcalegar": {
@@ -913,6 +915,7 @@
     "kkusic": {
       "name": "Kristen Kusic Heady",
       "subjects": [
+        "BIOE",
         "CRSN"
       ]
     },
@@ -1039,7 +1042,8 @@
     "jdiaz98": {
       "name": "Josen Diaz",
       "subjects": [
-        "CRES"
+        "CRES",
+        "FMST"
       ]
     },
     "jsalaz27": {
@@ -1051,6 +1055,7 @@
     "sshangeb": {
       "name": "Savannah T Shange-Binion",
       "subjects": [
+        "ANTH",
         "CRES",
         "FMST"
       ]
@@ -1608,6 +1613,7 @@
     "absouza": {
       "name": "Abel Souza",
       "subjects": [
+        "CMPM",
         "CSE"
       ]
     },
@@ -1686,12 +1692,14 @@
     "rsundar2": {
       "name": "Ramakrishnan Sundara Raman",
       "subjects": [
+        "CMPM",
         "CSE"
       ]
     },
     "macordob": {
       "name": "Marcela Alfaro Cordoba",
       "subjects": [
+        "CMPM",
         "CSE",
         "STAT"
       ]
@@ -1711,6 +1719,7 @@
     "drsantos": {
       "name": "Dorothy Resplandor Santos",
       "subjects": [
+        "ART",
         "CT"
       ]
     },
@@ -1742,6 +1751,7 @@
     "jkemper": {
       "name": "Jonaya Kemper",
       "subjects": [
+        "ARTG",
         "CT"
       ]
     },
@@ -1761,7 +1771,8 @@
     "mcha63": {
       "name": "Mijin Cha",
       "subjects": [
-        "ENVS"
+        "ENVS",
+        "LGST"
       ]
     },
     "crivaspl": {
@@ -1846,7 +1857,8 @@
     "cbenner": {
       "name": "Chris Benner",
       "subjects": [
-        "ENVS"
+        "ENVS",
+        "SOCY"
       ]
     },
     "jbury": {
@@ -1960,7 +1972,8 @@
     "rderoock": {
       "name": "Roberto Santiago de Roock",
       "subjects": [
-        "EDUC"
+        "EDUC",
+        "SOCY"
       ]
     },
     "hcvander": {
@@ -2136,7 +2149,8 @@
     "jag": {
       "name": "Jennifer Ann Gonzalez",
       "subjects": [
-        "HAVC"
+        "HAVC",
+        "HISC"
       ]
     },
     "dcmurray": {
@@ -2202,7 +2216,9 @@
     "kgutie20": {
       "name": "Kathleen Gutierrez",
       "subjects": [
-        "HIS"
+        "ANTH",
+        "HIS",
+        "POLI"
       ]
     },
     "akreps": {
@@ -2233,7 +2249,9 @@
     "atsing": {
       "name": "Anna L Tsing",
       "subjects": [
-        "HIS"
+        "ANTH",
+        "HIS",
+        "POLI"
       ]
     },
     "naso": {
@@ -2277,7 +2295,8 @@
     "ronichol": {
       "name": "Robert Nichols",
       "subjects": [
-        "HISC"
+        "HISC",
+        "LGST"
       ]
     },
     "mtomba": {
@@ -2301,6 +2320,7 @@
     "kringlan": {
       "name": "Kathryn Elizabeth Ringland",
       "subjects": [
+        "CMPM",
         "HCI"
       ]
     },
@@ -2361,7 +2381,8 @@
     "rmajzler": {
       "name": "Robert D Majzler",
       "subjects": [
-        "JRLC"
+        "JRLC",
+        "PSYC"
       ]
     },
     "rachgood": {
@@ -2379,6 +2400,7 @@
     "jbrahins": {
       "name": "Joshua D Brahinsky",
       "subjects": [
+        "CMMU",
         "JRLC"
       ]
     },
@@ -2809,7 +2831,8 @@
     "ksilva": {
       "name": "Kathryn Grace Silva",
       "subjects": [
-        "MERR"
+        "MERR",
+        "PSYC"
       ]
     },
     "jakay": {
@@ -3175,6 +3198,7 @@
     "ydaifall": {
       "name": "Yasmeen Daifallah",
       "subjects": [
+        "LGST",
         "POLI"
       ]
     },
@@ -3297,6 +3321,7 @@
     "mrizzo": {
       "name": "Martin Rizzo-Martinez",
       "subjects": [
+        "FILM",
         "SOCD"
       ]
     },
@@ -3411,6 +3436,7 @@
     "ccamblin": {
       "name": "Caren Elise Camblin",
       "subjects": [
+        "JRLC",
         "STEV"
       ]
     },
@@ -3441,6 +3467,7 @@
     "aginther": {
       "name": "Amy Mihyang T Ginther",
       "subjects": [
+        "DANM",
         "THEA"
       ]
     },
@@ -3465,6 +3492,7 @@
     "prodri28": {
       "name": "Pamela Rodriguez-Montero",
       "subjects": [
+        "ART",
         "THEA"
       ]
     },
@@ -3483,6 +3511,7 @@
     "bogordon": {
       "name": "Robert John Gordon",
       "subjects": [
+        "LALS",
         "THEA"
       ]
     },
@@ -3495,6 +3524,7 @@
     "renelson": {
       "name": "Rachel Elizabeth Nelson",
       "subjects": [
+        "FMST",
         "VAST"
       ]
     },
@@ -3543,6 +3573,8 @@
     "mjs": {
       "name": "Melanie Springer",
       "subjects": [
+        "LGST",
+        "POLI",
         "UCDC"
       ]
     },
@@ -3659,6 +3691,819 @@
       "subjects": [
         "WRIT"
       ]
+    },
+    "ohervet": {
+      "name": "Olivier Hervet",
+      "subjects": [
+        "ASTR"
+      ]
+    },
+    "hongwang": {
+      "name": "Hongyun Wang",
+      "subjects": [
+        "AM"
+      ]
+    },
+    "qgong": {
+      "name": "Qi Gong",
+      "subjects": [
+        "AM"
+      ]
+    },
+    "eswensen": {
+      "name": "Elizabeth A Swensen",
+      "subjects": [
+        "ARTG"
+      ]
+    },
+    "voelze": {
+      "name": "Viktoria Oelze",
+      "subjects": [
+        "ANTH"
+      ]
+    },
+    "mmoodie": {
+      "name": "Megan Colleen Moodie",
+      "subjects": [
+        "ANTH"
+      ]
+    },
+    "hauter": {
+      "name": "Ashwak Sam Hauter",
+      "subjects": [
+        "ANTH"
+      ]
+    },
+    "chern133": {
+      "name": "Carla Hernandez Garavito",
+      "subjects": [
+        "ANTH"
+      ]
+    },
+    "jdaehnke": {
+      "name": "Jon D Daehnke",
+      "subjects": [
+        "ANTH"
+      ]
+    },
+    "smonagha": {
+      "name": "Sean M Monaghan",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "srsanfor": {
+      "name": "Sarah Sanford",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "shsu34": {
+      "name": "Shao-Feng Hsu",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "aaltstat": {
+      "name": "Ann Amica Altstatt",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "jjacks11": {
+      "name": "Jonathan Jackson",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "trmcewen": {
+      "name": "Travis McEwen",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "jiminlee": {
+      "name": "Jimin Lee",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "badonald": {
+      "name": "Bryan A. Donaldson",
+      "subjects": [
+        "APLX"
+      ]
+    },
+    "aayzner": {
+      "name": "Alex Ayzner",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "davisje": {
+      "name": "James Edward Davis",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "jeshragh": {
+      "name": "Jason Eshraghian",
+      "subjects": [
+        "CMPM",
+        "ECE"
+      ]
+    },
+    "lgilpin": {
+      "name": "Leilani Hendrina Gilpin",
+      "subjects": [
+        "CMPM",
+        "CSE"
+      ]
+    },
+    "jgonz406": {
+      "name": "Javier Gonzalez-Rocha",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "oarden": {
+      "name": "Owen Arden",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "alacarde": {
+      "name": "Alvaro A Cardenas",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "asporka": {
+      "name": "Adam Sporka",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "aborker": {
+      "name": "Abraham Borker",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "benet": {
+      "name": "David Liu Benet",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "sreilly": {
+      "name": "Sean Bryant Reilly",
+      "subjects": [
+        "BIOE",
+        "CRSN"
+      ]
+    },
+    "rsallada": {
+      "name": "Ryan Salladay",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "omcornej": {
+      "name": "Omar Cornejo",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "amart474": {
+      "name": "Ari E Martinez",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "shalonzo": {
+      "name": "Suzanne Henson Alonzo",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "costa": {
+      "name": "Dan Costa",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "trgallag": {
+      "name": "Tricia Gallagher-Geurtsen",
+      "subjects": [
+        "CRES",
+        "EDUC"
+      ]
+    },
+    "asharia1": {
+      "name": "Ali Shariati",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "hgnewman": {
+      "name": "Hayley Gabriella Newman",
+      "subjects": [
+        "COWL"
+      ]
+    },
+    "asomekh": {
+      "name": "Addi Somekh",
+      "subjects": [
+        "COWL"
+      ]
+    },
+    "rvarga10": {
+      "name": "Richard Vargas",
+      "subjects": [
+        "CRWN"
+      ]
+    },
+    "srao23": {
+      "name": "Sri Rao",
+      "subjects": [
+        "CRWN"
+      ]
+    },
+    "nada": {
+      "name": "Nada Miljkovic",
+      "subjects": [
+        "CRWN"
+      ]
+    },
+    "yanik": {
+      "name": "Ali A Yanik",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "pedrotti": {
+      "name": "Kenneth Pedrotti",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "lparsa": {
+      "name": "Leila Parsa",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "stmcguir": {
+      "name": "Steve McGuire",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "nkhan15": {
+      "name": "Nora Khan",
+      "subjects": [
+        "CT"
+      ]
+    },
+    "mlesani": {
+      "name": "Mohsen Lesani",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "ddbailey": {
+      "name": "Delbert Dean Bailey",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "rjullig": {
+      "name": "Richard K Jullig",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "yzhou284": {
+      "name": "Yuyin Zhou",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "ntziavel": {
+      "name": "Nikolaos Tziavelis",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "tysorens": {
+      "name": "Tyler Sorensen",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "cixie": {
+      "name": "Cihang Xie",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "mweems": {
+      "name": "Marianne Weems",
+      "subjects": [
+        "DANM",
+        "THEA"
+      ]
+    },
+    "apaytan": {
+      "name": "Adina Paytan",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "ameining": {
+      "name": "Aaron Gregory Meininger",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "stowen": {
+      "name": "Stephen Arthur Owen",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "rkissell": {
+      "name": "Rene Kissell",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "alashaw": {
+      "name": "Amanda Lashaw",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "stopiary": {
+      "name": "Topiary Landberg",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "bevans": {
+      "name": "Bryn Elen Hutchins Evans",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "brworthi": {
+      "name": "Bryony Worthington",
+      "subjects": [
+        "ENVS",
+        "POLI"
+      ]
+    },
+    "lbugg": {
+      "name": "Laura Beth Bugg",
+      "subjects": [
+        "GCH"
+      ]
+    },
+    "cdiazcas": {
+      "name": "Carlos Diaz Castillo",
+      "subjects": [
+        "GCH"
+      ]
+    },
+    "mlesar": {
+      "name": "Michelle Danit Lesar",
+      "subjects": [
+        "GCH"
+      ]
+    },
+    "rcaillou": {
+      "name": "Renee Cailloux",
+      "subjects": [
+        "FREN"
+      ]
+    },
+    "amgroom": {
+      "name": "Amelia Groom",
+      "subjects": [
+        "FMST"
+      ]
+    },
+    "ykyo": {
+      "name": "Yi Yi Mon (Rosaline) Kyo",
+      "subjects": [
+        "HAVC"
+      ]
+    },
+    "kpolzak": {
+      "name": "Kailani Polzak",
+      "subjects": [
+        "HAVC"
+      ]
+    },
+    "jdaperez": {
+      "name": "Justin Perez",
+      "subjects": [
+        "LALS"
+      ]
+    },
+    "jkimmey": {
+      "name": "Jacqueline Kimmey",
+      "subjects": [
+        "METX"
+      ]
+    },
+    "saltikov": {
+      "name": "Chad W Saltikov",
+      "subjects": [
+        "METX"
+      ]
+    },
+    "tehrhard": {
+      "name": "Torsten Ehrhardt",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "dnfarquh": {
+      "name": "Dion N Farquhar",
+      "subjects": [
+        "LGST"
+      ]
+    },
+    "ewilso13": {
+      "name": "Elspeth M Wilson",
+      "subjects": [
+        "LGST",
+        "POLI"
+      ]
+    },
+    "coonerty": {
+      "name": "Ryan Emmett Coonerty",
+      "subjects": [
+        "LGST"
+      ]
+    },
+    "jdinisha": {
+      "name": "Janette Dinishak",
+      "subjects": [
+        "LGST",
+        "PHIL"
+      ]
+    },
+    "slnichol": {
+      "name": "Shawn Leslie Nichols",
+      "subjects": [
+        "LGST",
+        "POLI"
+      ]
+    },
+    "asbatish": {
+      "name": "Ashwin Batish",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "jafrisan": {
+      "name": "Jay Afrisando",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "fiechter": {
+      "name": "Jerome Fiechter",
+      "subjects": [
+        "OCEA"
+      ]
+    },
+    "aalexan6": {
+      "name": "Aris Alexandradinata",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "aiyan": {
+      "name": "Aiming Yan",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "apr": {
+      "name": "Arthur P Ramirez",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "ariley2": {
+      "name": "Allen Riley",
+      "subjects": [
+        "PRTR"
+      ]
+    },
+    "vseth": {
+      "name": "Vanita Seth",
+      "subjects": [
+        "POLI"
+      ]
+    },
+    "dpmath": {
+      "name": "Dean P Mathiowetz",
+      "subjects": [
+        "POLI"
+      ]
+    },
+    "tserres": {
+      "name": "Thomas Serres",
+      "subjects": [
+        "POLI"
+      ]
+    },
+    "ebertram": {
+      "name": "Eva C Bertram",
+      "subjects": [
+        "POLI"
+      ]
+    },
+    "bcstorm": {
+      "name": "Benjamin C Storm",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "nogard": {
+      "name": "Travis L Seymour",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "cam": {
+      "name": "Campbell Leaper",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "kcardill": {
+      "name": "Kimberly Sue Cardilla",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "nakhtar": {
+      "name": "Nameera N Akhtar",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "hghwang": {
+      "name": "Hyesung Grace Hwang",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "bholbroo": {
+      "name": "Bryan Bailey Holbrook",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "foxtree": {
+      "name": "Jean E Fox Tree",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "jujlopez": {
+      "name": "Julisa Jessica Lopez",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "sgrabe": {
+      "name": "Shelly A. Grabe",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "rgcovarr": {
+      "name": "Rebecca G Covarrubias",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "acook2": {
+      "name": "Andrea Cook",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "mmcnamar": {
+      "name": "Megan Bethany McNamara",
+      "subjects": [
+        "SOCY"
+      ]
+    },
+    "jmorse1": {
+      "name": "Jaimie Morse",
+      "subjects": [
+        "SOCY"
+      ]
+    },
+    "sbarbora": {
+      "name": "Sanjay Barbora",
+      "subjects": [
+        "SOCY"
+      ]
+    },
+    "cmcculle": {
+      "name": "Christie G Mccullen",
+      "subjects": [
+        "SOCY"
+      ]
+    },
+    "jupedroz": {
+      "name": "Juan Pedroza",
+      "subjects": [
+        "SOCY"
+      ]
+    },
+    "lsharris": {
+      "name": "Laura Suzanne Harrison",
+      "subjects": [
+        "SOCY"
+      ]
+    },
+    "kmitch": {
+      "name": "Katharyne W Mitchell",
+      "subjects": [
+        "SOCY"
+      ]
+    },
+    "bticknor": {
+      "name": "Benjamin Ticknor",
+      "subjects": [
+        "STAT"
+      ]
+    },
+    "zli439": {
+      "name": "Zehang Li",
+      "subjects": [
+        "STAT"
+      ]
+    },
+    "ezyzik": {
+      "name": "Eve C Zyzik",
+      "subjects": [
+        "SPAN"
+      ]
+    },
+    "kgrenz": {
+      "name": "Kaila Marie Grenz",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "mmagalhe": {
+      "name": "Marina Magalhaes",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "ssolt": {
+      "name": "Susan Solt",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "dmaier": {
+      "name": "David S. Maier",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "clee185": {
+      "name": "Cynthia Ling Lee",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "hnemati": {
+      "name": "Hamid R Nemati",
+      "subjects": [
+        "TIM"
+      ]
+    },
+    "tkirsch": {
+      "name": "Taylor Joy Kirsch",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "dmjoeste": {
+      "name": "Daniel McKenna Joesten",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "dsilva": {
+      "name": "Denise Silva",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "ammccour": {
+      "name": "Alexandra Marie McCourt",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "susannah": {
+      "name": "Susannah Alicia Carney-Waddy",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "tilwong": {
+      "name": "Tiffany Lynn Wong",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "plongo": {
+      "name": "Philip Longo",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "tloeffle": {
+      "name": "Toby H Loeffler",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "mmlane": {
+      "name": "Madeline M Lane",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "lschilz": {
+      "name": "Lisa Schilz",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "avidali": {
+      "name": "Amy Vidali",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "lgalas": {
+      "name": "Lara Ramos Galas",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "ryking": {
+      "name": "Robin Y King",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "bose": {
+      "name": "Dev Bose",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "hamilton": {
+      "name": "Roxanne P Hamilton",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "tterhaar": {
+      "name": "Terry L Terhaar",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "wouldgo": {
+      "name": "Tanner WouldGo",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "jkareem": {
+      "name": "Jamila Kareem",
+      "subjects": [
+        "WRIT"
+      ]
     }
   },
   "bySubjectName": {
@@ -3690,6 +4535,7 @@
     "STAT|katznelson,y": "yorik",
     "AM|matilsky,l": "lmatilsk",
     "AM|brummell,n": "brummell",
+    "PHYS|brummell,n": "brummell",
     "AM|duker,n": "nvanduke",
     "AM|garaud,p": "pgaraud",
     "AM|chattopadhyay,a": "aschatto",
@@ -3779,6 +4625,7 @@
     "CHEM|stone,m": "mds",
     "CHEM|braslau,r": "rbraslau",
     "CHEM|mercer,j": "jmercer1",
+    "GCH|mercer,j": "jmercer1",
     "CHEM|andrade,m": "mcalegar",
     "CHEM|zhang,j": "zhang",
     "CHEM|sanchez,l": "lmsanche",
@@ -3828,6 +4675,7 @@
     "CLNI|simon,a": "agsimon",
     "CLNI|silva,m": "adesilv2",
     "CRSN|freiwald,a": "afreiwal",
+    "BIOE|heady,k": "kkusic",
     "CRSN|heady,k": "kkusic",
     "CRSN|ball,t": "tball",
     "CMMU|alkon,a": "aalkon",
@@ -3850,7 +4698,9 @@
     "CMPM|lin,a": "alin148",
     "CRES|ife,f": "fife",
     "CRES|diaz,j": "jdiaz98",
+    "FMST|diaz,j": "jdiaz98",
     "CRES|casumbal-salazar,i": "jsalaz27",
+    "ANTH|shange-binion,s": "sshangeb",
     "CRES|shange-binion,s": "sshangeb",
     "FMST|shange-binion,s": "sshangeb",
     "CRES|hong,c": "cjhong",
@@ -3948,6 +4798,7 @@
     "CSE|flanagan,c": "cormac",
     "CSE|xu,y": "yxu314",
     "CSE|hu,l": "lhu82",
+    "CMPM|souza,a": "absouza",
     "CSE|souza,a": "absouza",
     "CSE|wang,c": "cwang001",
     "CSE|parsa,m": "meparsa",
@@ -3961,22 +4812,27 @@
     "CSE|richmond,d": "durichmo",
     "CSE|kuper,l": "lkuper",
     "CSE|qian,c": "cqian12",
+    "CMPM|raman,r": "rsundar2",
     "CSE|raman,r": "rsundar2",
+    "CMPM|cordoba,m": "macordob",
     "CSE|cordoba,m": "macordob",
     "STAT|cordoba,m": "macordob",
     "CSE|manduchi,r": "manduchi",
     "CT|darke,a": "darke",
+    "ART|santos,d": "drsantos",
     "CT|santos,d": "drsantos",
     "ENVS|pearson,k": "kapearso",
     "ENVS|feldstein,d": "dfeldste",
     "STEV|feldstein,d": "dfeldste",
     "ENVS|kulikowski,a": "akulikow",
     "ENVS|lu,f": "floralu",
+    "ARTG|kemper,j": "jkemper",
     "CT|kemper,j": "jkemper",
     "ENVS|yang,b": "byang85",
     "GIST|yang,b": "byang85",
     "ENVS|sarker,p": "psarker",
     "ENVS|cha,m": "mcha63",
+    "LGST|cha,m": "mcha63",
     "ENVS|rivasplata,c": "crivaspl",
     "CSP|kapuscinski,a": "akapusci",
     "ENVS|kapuscinski,a": "akapusci",
@@ -3992,6 +4848,7 @@
     "ENVS|wilmers,c": "cwilmers",
     "ENVS|winton,s": "scwinton",
     "ENVS|benner,c": "cbenner",
+    "SOCY|benner,c": "cbenner",
     "ENVS|bury,j": "jbury",
     "ENVS|campbell,e": "jojcampb",
     "ENVS|fairbairn,m": "mfairbai",
@@ -4011,6 +4868,7 @@
     "EDUC|maddox,e": "emaddox",
     "EDUC|kenner,k": "kkenner",
     "EDUC|roock,r": "rderoock",
+    "SOCY|roock,r": "rderoock",
     "EDUC|vandercook,h": "hcvander",
     "EDUC|hinz,j": "jhinz",
     "EDUC|jaggar,s": "sjaggar",
@@ -4042,6 +4900,7 @@
     "HAVC|rosa,t": "trosa",
     "HAVC|evangelatou,m": "maevang",
     "HAVC|gonzalez,j": "jag",
+    "HISC|gonzalez,j": "jag",
     "HAVC|murray,d": "dcmurray",
     "HAVC|wasserman,m": "mowasser",
     "HAVC|bordeaux,c": "cbordeau",
@@ -4052,13 +4911,17 @@
     "HIS|porter,e": "ecporter",
     "HIS|chan,s": "spchan",
     "HIS|mota,t": "tmota",
+    "ANTH|gutierrez,k": "kgutie20",
     "HIS|gutierrez,k": "kgutie20",
+    "POLI|gutierrez,k": "kgutie20",
     "HIS|kreps,a": "akreps",
     "HIS|hu,m": "mhu",
     "HIS|kehler,e": "ekehler",
     "STEV|kehler,e": "ekehler",
     "HIS|cobbins-modica,q": "qcobbins",
+    "ANTH|tsing,a": "atsing",
     "HIS|tsing,a": "atsing",
+    "POLI|tsing,a": "atsing",
     "HIS|aso,n": "naso",
     "HIS|christy,a": "achristy",
     "HIS|derr,j": "jderr",
@@ -4068,9 +4931,11 @@
     "LIT|sullivan,e": "easulliv",
     "HIS|matera,m": "mmatera",
     "HISC|nichols,r": "ronichol",
+    "LGST|nichols,r": "ronichol",
     "HISC|tomba,m": "mtomba",
     "HISC|bargu,b": "bbargu",
     "HCI|su,n": "normsu",
+    "CMPM|ringland,k": "kringlan",
     "HCI|ringland,k": "kringlan",
     "HCI|moghaddam,y": "yamoghad",
     "HCI|chung,c": "cfchung",
@@ -4082,8 +4947,10 @@
     "JRLC|farro,a": "alwatana",
     "JRLC|birts,a": "abirts",
     "JRLC|majzler,r": "rmajzler",
+    "PSYC|majzler,r": "rmajzler",
     "JRLC|goodman,r": "rachgood",
     "JRLC|magnone,s": "smagnone",
+    "CMMU|brahinsky,j": "jbrahins",
     "JRLC|brahinsky,j": "jbrahins",
     "JRLC|figueroa,j": "jdfiguer",
     "JRLC|maret,s": "sumaret",
@@ -4160,6 +5027,7 @@
     "MSE|lederman,d": "dlederma",
     "MUSC|berman,n": "natb",
     "MERR|silva,k": "ksilva",
+    "PSYC|silva,k": "ksilva",
     "MERR|kay,j": "jakay",
     "MERR|wong,c": "cijwong",
     "MERR|higdon,n": "nhigdon",
@@ -4220,6 +5088,7 @@
     "POLI|eaton,k": "keaton",
     "POLI|pasotti,e": "pasotti",
     "POLI|schoenman,r": "rschoenm",
+    "LGST|daifallah,y": "ydaifall",
     "POLI|daifallah,y": "ydaifall",
     "POLI|read,b": "bread",
     "PRTR|moody,i": "imoody",
@@ -4242,6 +5111,7 @@
     "SOCY|zhao,m": "mzhao58",
     "SOCY|reardon,j": "reardon1",
     "SOCY|angelo,h": "hangelo",
+    "FILM|rizzo-martinez,m": "mrizzo",
     "SOCD|rizzo-martinez,m": "mrizzo",
     "SOCD|alonso,j": "joalonso",
     "SOCD|furloni,m": "mfurloni",
@@ -4261,20 +5131,25 @@
     "STEV|silver,k": "ksilver",
     "STEV|rifaqat,z": "zrifaqat",
     "STEV|samuels,j": "jsamuels",
+    "JRLC|camblin,c": "ccamblin",
     "STEV|camblin,c": "ccamblin",
     "STEV|childers,g": "gchilder",
     "STEV|heald,a": "aheald",
     "THEA|johnson,z": "zjohnso1",
     "THEA|fritsch,g": "gfritsch",
+    "DANM|ginther,a": "aginther",
     "THEA|ginther,a": "aginther",
     "THEA|wear,r": "rwear",
     "THEA|chemers,m": "chemers",
     "THEA|pearlman,c": "cpearlm1",
+    "ART|rodriguez-montero,p": "prodri28",
     "THEA|rodriguez-montero,p": "prodri28",
     "THEA|williams,d": "dwilliam",
     "THEA|rollins,l": "lirollin",
+    "LALS|gordon,r": "bogordon",
     "THEA|gordon,r": "bogordon",
     "THEA|ochoa,m": "marcia8a",
+    "FMST|nelson,r": "renelson",
     "VAST|nelson,r": "renelson",
     "STAT|lee,j": "jle297",
     "STAT|wang,y": "ywan1334",
@@ -4283,6 +5158,8 @@
     "STAT|parker,p": "pparker1",
     "STAT|kottas,a": "thanos",
     "STAT|shen,y": "yshen167",
+    "LGST|springer,m": "mjs",
+    "POLI|springer,m": "mjs",
     "UCDC|springer,m": "mjs",
     "TIM|munger,t": "tmunger",
     "WRIT|helmer,k": "khelmer",
@@ -4302,7 +5179,150 @@
     "WRIT|amis,m": "mamis",
     "WRIT|baker,m": "mbaker",
     "WRIT|hagen,j": "joyhagen",
-    "WRIT|shearer,h": "hshearer"
+    "WRIT|shearer,h": "hshearer",
+    "ASTR|hervet,o": "ohervet",
+    "AM|wang,h": "hongwang",
+    "AM|gong,q": "qgong",
+    "ARTG|swensen,e": "eswensen",
+    "ANTH|oelze,v": "voelze",
+    "ANTH|moodie,m": "mmoodie",
+    "ANTH|hauter,a": "hauter",
+    "ANTH|garavito,c": "chern133",
+    "ANTH|daehnke,j": "jdaehnke",
+    "ART|monaghan,s": "smonagha",
+    "ART|sanford,s": "srsanfor",
+    "ART|hsu,s": "shsu34",
+    "ART|altstatt,a": "aaltstat",
+    "ART|jackson,j": "jjacks11",
+    "ART|mcewen,t": "trmcewen",
+    "ART|lee,j": "jiminlee",
+    "APLX|donaldson,b": "badonald",
+    "CHEM|ayzner,a": "aayzner",
+    "CMPM|davis,j": "davisje",
+    "CMPM|eshraghian,j": "jeshragh",
+    "ECE|eshraghian,j": "jeshragh",
+    "CMPM|gilpin,l": "lgilpin",
+    "CSE|gilpin,l": "lgilpin",
+    "CMPM|gonzalez-rocha,j": "jgonz406",
+    "CMPM|arden,o": "oarden",
+    "CMPM|cardenas,a": "alacarde",
+    "CMPM|sporka,a": "asporka",
+    "BIOE|borker,a": "aborker",
+    "BIOE|benet,d": "benet",
+    "BIOE|reilly,s": "sreilly",
+    "CRSN|reilly,s": "sreilly",
+    "BIOE|salladay,r": "rsallada",
+    "BIOE|cornejo,o": "omcornej",
+    "BIOE|martinez,a": "amart474",
+    "BIOE|alonzo,s": "shalonzo",
+    "BIOE|costa,d": "costa",
+    "CRES|gallagher-geurtsen,t": "trgallag",
+    "EDUC|gallagher-geurtsen,t": "trgallag",
+    "BME|shariati,a": "asharia1",
+    "COWL|newman,h": "hgnewman",
+    "COWL|somekh,a": "asomekh",
+    "CRWN|vargas,r": "rvarga10",
+    "CRWN|rao,s": "srao23",
+    "CRWN|miljkovic,n": "nada",
+    "ECE|yanik,a": "yanik",
+    "ECE|pedrotti,k": "pedrotti",
+    "ECE|parsa,l": "lparsa",
+    "ECE|mcguire,s": "stmcguir",
+    "CT|khan,n": "nkhan15",
+    "CSE|lesani,m": "mlesani",
+    "CSE|bailey,d": "ddbailey",
+    "CSE|jullig,r": "rjullig",
+    "CSE|zhou,y": "yzhou284",
+    "CSE|tziavelis,n": "ntziavel",
+    "CSE|sorensen,t": "tysorens",
+    "CSE|xie,c": "cixie",
+    "DANM|weems,m": "mweems",
+    "THEA|weems,m": "mweems",
+    "EART|paytan,a": "apaytan",
+    "ECON|meininger,a": "ameining",
+    "ECON|owen,s": "stowen",
+    "EDUC|kissell,r": "rkissell",
+    "EDUC|lashaw,a": "alashaw",
+    "FILM|landberg,t": "stopiary",
+    "ENVS|evans,b": "bevans",
+    "ENVS|worthington,b": "brworthi",
+    "POLI|worthington,b": "brworthi",
+    "GCH|bugg,l": "lbugg",
+    "GCH|castillo,c": "cdiazcas",
+    "GCH|lesar,m": "mlesar",
+    "FREN|cailloux,r": "rcaillou",
+    "FMST|groom,a": "amgroom",
+    "HAVC|kyo,y": "ykyo",
+    "HAVC|polzak,k": "kpolzak",
+    "LALS|perez,j": "jdaperez",
+    "METX|kimmey,j": "jkimmey",
+    "METX|saltikov,c": "saltikov",
+    "MATH|ehrhardt,t": "tehrhard",
+    "LGST|farquhar,d": "dnfarquh",
+    "LGST|wilson,e": "ewilso13",
+    "POLI|wilson,e": "ewilso13",
+    "LGST|coonerty,r": "coonerty",
+    "LGST|dinishak,j": "jdinisha",
+    "PHIL|dinishak,j": "jdinisha",
+    "LGST|nichols,s": "slnichol",
+    "POLI|nichols,s": "slnichol",
+    "MUSC|batish,a": "asbatish",
+    "MUSC|afrisando,j": "jafrisan",
+    "OCEA|fiechter,j": "fiechter",
+    "PHYS|alexandradinata,a": "aalexan6",
+    "PHYS|yan,a": "aiyan",
+    "PHYS|ramirez,a": "apr",
+    "PRTR|riley,a": "ariley2",
+    "POLI|seth,v": "vseth",
+    "POLI|mathiowetz,d": "dpmath",
+    "POLI|serres,t": "tserres",
+    "POLI|bertram,e": "ebertram",
+    "PSYC|storm,b": "bcstorm",
+    "PSYC|seymour,t": "nogard",
+    "PSYC|leaper,c": "cam",
+    "PSYC|cardilla,k": "kcardill",
+    "PSYC|akhtar,n": "nakhtar",
+    "PSYC|hwang,h": "hghwang",
+    "PSYC|holbrook,b": "bholbroo",
+    "PSYC|tree,j": "foxtree",
+    "PSYC|lopez,j": "jujlopez",
+    "PSYC|grabe,s": "sgrabe",
+    "PSYC|covarrubias,r": "rgcovarr",
+    "PSYC|cook,a": "acook2",
+    "SOCY|mcnamara,m": "mmcnamar",
+    "SOCY|morse,j": "jmorse1",
+    "SOCY|barbora,s": "sbarbora",
+    "SOCY|mccullen,c": "cmcculle",
+    "SOCY|pedroza,j": "jupedroz",
+    "SOCY|harrison,l": "lsharris",
+    "SOCY|mitchell,k": "kmitch",
+    "STAT|ticknor,b": "bticknor",
+    "STAT|li,z": "zli439",
+    "SPAN|zyzik,e": "ezyzik",
+    "THEA|grenz,k": "kgrenz",
+    "THEA|magalhaes,m": "mmagalhe",
+    "THEA|solt,s": "ssolt",
+    "THEA|maier,d": "dmaier",
+    "THEA|lee,c": "clee185",
+    "TIM|nemati,h": "hnemati",
+    "WRIT|kirsch,t": "tkirsch",
+    "WRIT|joesten,d": "dmjoeste",
+    "WRIT|silva,d": "dsilva",
+    "WRIT|mccourt,a": "ammccour",
+    "WRIT|carney-waddy,s": "susannah",
+    "WRIT|wong,t": "tilwong",
+    "WRIT|longo,p": "plongo",
+    "WRIT|loeffler,t": "tloeffle",
+    "WRIT|lane,m": "mmlane",
+    "WRIT|schilz,l": "lschilz",
+    "WRIT|vidali,a": "avidali",
+    "WRIT|galas,l": "lgalas",
+    "WRIT|king,r": "ryking",
+    "WRIT|bose,d": "bose",
+    "WRIT|hamilton,r": "hamilton",
+    "WRIT|terhaar,t": "tterhaar",
+    "WRIT|wouldgo,t": "wouldgo",
+    "WRIT|kareem,j": "jkareem"
   },
   "byTermClassNumber": {
     "2026 Fall Quarter": {
@@ -4315,22 +5335,38 @@
       "10015": "jfortney",
       "10017": "nimara",
       "10018": "ireneg",
+      "10021": "asomekh",
       "10022": "ksilver",
       "10028": "scotei",
       "10029": "jgampel",
+      "10030": "jokelley",
       "10033": "jokelley",
       "10034": "raimondi",
       "10035": "raimondi",
       "10036": "imparker",
+      "10037": "jpitterm",
+      "10038": "jpitterm",
       "10039": "jpitterm",
+      "10040": "costa",
+      "10041": "costa",
+      "10042": "costa",
+      "10043": "costa",
+      "10044": "bernardi",
+      "10045": "bernardi",
+      "10046": "bernardi",
+      "10047": "bernardi",
       "10048": "bernardi",
       "10050": "ajabraha",
       "10051": "ajabraha",
       "10052": "jgampel",
+      "10053": "nada",
       "10055": "jgampel",
+      "10058": "kgutie20",
       "10059": "fraja",
       "10060": "bebreen",
       "10061": "kgutie20",
+      "10066": "qgong",
+      "10067": "hongwang",
       "10068": "lmatilsk",
       "10072": "aschatto",
       "10074": "jusimons",
@@ -4358,6 +5394,8 @@
       "10116": "lwalker",
       "10117": "lperezde",
       "10118": "cmrivas",
+      "10119": "ksilva",
+      "10120": "ksilva",
       "10122": "jag",
       "10123": "furtado",
       "10125": "bjly",
@@ -4376,12 +5414,15 @@
       "10139": "rafox",
       "10140": "rafox",
       "10141": "cglogova",
+      "10144": "ronichol",
       "10145": "bbargu",
       "10147": "kaspence",
+      "10148": "sshangeb",
       "10149": "alreroma",
       "10150": "alreroma",
       "10151": "alreroma",
       "10152": "jdiaz98",
+      "10156": "jbrahins",
       "10157": "mgong9",
       "10158": "gmcguir1",
       "10159": "duchacon",
@@ -4397,9 +5438,13 @@
       "10170": "gbulman",
       "10171": "boxjenk",
       "10172": "mleung13",
+      "10173": "stowen",
+      "10174": "kcfung",
       "10175": "kkletzer",
       "10176": "tshirley",
+      "10177": "kpommere",
       "10178": "chu78",
+      "10179": "ameining",
       "10180": "rhardie1",
       "10181": "arzucker",
       "10182": "arzucker",
@@ -4416,12 +5461,18 @@
       "10193": "kcfung",
       "10194": "kmonsen",
       "10224": "ronichol",
+      "10225": "sshangeb",
       "10233": "rderoock",
+      "10234": "rkissell",
       "10235": "kkenner",
+      "10236": "alashaw",
       "10237": "hangelo",
       "10238": "reardon1",
+      "10240": "sbarbora",
+      "10241": "cbenner",
       "10242": "chruvalc",
       "10243": "achan146",
+      "10244": "badonald",
       "10245": "xiz",
       "10246": "cedwards",
       "10247": "fife",
@@ -4430,11 +5481,14 @@
       "10250": "mcasumba",
       "10252": "cjhong",
       "10253": "jsalaz27",
+      "10254": "rkissell",
       "10255": "emaddox",
       "10256": "hcvander",
       "10257": "jhinz",
       "10258": "nwlang",
       "10259": "jdewitt1",
+      "10260": "jdinisha",
+      "10262": "jdinisha",
       "10263": "jjohns",
       "10264": "jhinz",
       "10265": "sjaggar",
@@ -4456,21 +5510,53 @@
       "10286": "malebron",
       "10287": "floralu",
       "10288": "psarker",
+      "10289": "ydaifall",
       "10290": "ydaifall",
+      "10291": "hauter",
+      "10292": "dnfarquh",
       "10293": "rschoenm",
       "10294": "keaton",
+      "10295": "ebertram",
+      "10297": "vseth",
+      "10304": "tserres",
+      "10305": "pasotti",
+      "10306": "keaton",
+      "10313": "coonerty",
+      "10319": "mjs",
+      "10333": "ydaifall",
+      "10335": "slnichol",
+      "10342": "mmoodie",
+      "10346": "chern133",
+      "10348": "ewilso13",
+      "10349": "mjs",
+      "10350": "ewilso13",
+      "10352": "jdaehnke",
+      "10357": "voelze",
+      "10359": "slnichol",
+      "10360": "slnichol",
       "10361": "eschach",
+      "10362": "lfehrens",
       "10363": "cmrivas",
       "10364": "smfalcon",
       "10365": "smfalcon",
       "10366": "cmartin7",
       "10367": "cmartin7",
+      "10368": "jdaperez",
       "10369": "alegraer",
       "10370": "srubin",
+      "10371": "kmitch",
+      "10372": "lsharris",
+      "10373": "mmcnamar",
+      "10374": "cmcculle",
+      "10375": "jmorse1",
+      "10376": "sbarbora",
       "10377": "mzhao58",
       "10378": "aargenal",
+      "10379": "mmcnamar",
       "10380": "lballoff",
+      "10381": "tserres",
       "10383": "bread",
+      "10384": "dpmath",
       "10385": "dlederma",
       "10386": "abrsvn",
       "10387": "jlaw5",
@@ -4480,8 +5566,20 @@
       "10391": "abrsvn",
       "10392": "panand",
       "10393": "rbennett",
+      "10394": "nogard",
+      "10395": "rmajzler",
+      "10396": "lhoverst",
+      "10397": "hraila",
       "10398": "hraila",
+      "10399": "bholbroo",
+      "10400": "rgcovarr",
+      "10401": "hhausman",
+      "10402": "hghwang",
+      "10403": "acook2",
+      "10405": "cam",
       "10406": "damenend",
+      "10407": "foxtree",
+      "10408": "bcstorm",
       "10409": "jtaft",
       "10410": "lballoff",
       "10414": "gbordign",
@@ -4490,12 +5588,16 @@
       "10417": "rbaumbac",
       "10418": "sashake3",
       "10419": "sashake3",
+      "10420": "aiyan",
+      "10421": "aiyan",
       "10422": "migrober",
       "10423": "afurniss",
       "10424": "baschumm",
       "10425": "jvelasc5",
       "10426": "sritz",
       "10427": "bdhar",
+      "10428": "aalexan6",
+      "10429": "bdhar",
       "10430": "dsmith8",
       "10431": "eshaghou",
       "10432": "dsmith8",
@@ -4504,6 +5606,7 @@
       "10435": "mowasser",
       "10436": "kbundy",
       "10439": "pweiss",
+      "10440": "nimara",
       "10441": "nmovshov",
       "10446": "anaru",
       "10450": "chrhamil",
@@ -4517,6 +5620,7 @@
       "10462": "flanam",
       "10463": "flanam",
       "10464": "flanam",
+      "10465": "asbatish",
       "10466": "fakotuah",
       "10467": "swilley",
       "10468": "evsincla",
@@ -4532,12 +5636,26 @@
       "10482": "elgarcia",
       "10483": "hboeger",
       "10484": "chrhamil",
+      "10485": "shsu34",
       "10486": "bkieslin",
       "10487": "natb",
       "10488": "estephe",
       "10489": "hjdee",
       "10490": "kkarlic",
+      "10491": "smonagha",
       "10492": "cbueno1",
+      "10493": "srsanfor",
+      "10494": "jiminlee",
+      "10495": "jjacks11",
+      "10496": "aaltstat",
+      "10498": "trmcewen",
+      "10499": "mgwyn",
+      "10500": "aaltstat",
+      "10501": "gwhipple",
+      "10502": "drsantos",
+      "10503": "estephe",
+      "10504": "smonagha",
+      "10505": "srsanfor",
       "10506": "mgwyn",
       "10507": "gwhipple",
       "10508": "mfurloni",
@@ -4547,13 +5665,20 @@
       "10512": "wsack",
       "10514": "mzhao58",
       "10515": "ireneg",
+      "10516": "mrizzo",
       "10517": "eshanken",
       "10518": "ryu941",
+      "10519": "stopiary",
       "10520": "afriz",
+      "10521": "aphid",
       "10522": "eshanken",
       "10523": "limbrick",
       "10524": "natashav",
       "10553": "clamborg",
+      "10554": "egregor",
+      "10558": "jupedroz",
+      "10559": "aargenal",
+      "10561": "rderoock",
       "10569": "jshanks",
       "10604": "ofregoso",
       "10605": "vccortez",
@@ -4583,11 +5708,15 @@
       "10629": "hboeger",
       "10630": "chemers",
       "10632": "aginther",
+      "10633": "clee185",
       "10635": "lirollin",
       "10637": "prodri28",
       "10638": "cpearlm1",
       "10639": "kgillett",
+      "10641": "norlandi",
+      "10642": "jdinisha",
       "10643": "jellis",
+      "10644": "kxrobert",
       "10645": "jbowin",
       "10646": "dfboyd",
       "10647": "jward2",
@@ -4596,13 +5725,28 @@
       "10650": "vgpagani",
       "10651": "svahradi",
       "10652": "bcolquit",
+      "10653": "olena",
       "10654": "jshanks",
       "10655": "vccortez",
       "10656": "bwarecki",
+      "10657": "jsanfor2",
+      "10658": "rohinton",
       "10659": "nbhalla",
       "10663": "mdoody",
       "10664": "hartzog",
       "10665": "jshanks",
+      "10679": "gsbrown",
+      "10680": "gsbrown",
+      "10681": "gsbrown",
+      "10682": "gsbrown",
+      "10683": "gsbrown",
+      "10684": "gsbrown",
+      "10685": "gsbrown",
+      "10686": "gsbrown",
+      "10687": "gsbrown",
+      "10688": "gsbrown",
+      "10689": "gsbrown",
+      "10690": "gsbrown",
       "10701": "tfavalor",
       "10704": "imoody",
       "10705": "zrifaqat",
@@ -4617,12 +5761,16 @@
       "10753": "abirts",
       "10755": "kyukawa",
       "10756": "juhazlew",
+      "10764": "jeshragh",
+      "10765": "jeshragh",
+      "10769": "srao23",
       "10783": "chgray",
       "10785": "enealand",
       "10786": "smichel3",
       "10788": "dmlau",
       "10796": "jokelley",
       "10801": "tmunger",
+      "10804": "hlitz",
       "10817": "jsanfor2",
       "10818": "vccortez",
       "10819": "haussler",
@@ -4633,11 +5781,14 @@
       "10825": "gdevine",
       "10838": "rwear",
       "10839": "rwear",
+      "10840": "ajrudnic",
+      "10844": "stmcguir",
       "10846": "mteodore",
       "10847": "dmilutin",
       "10848": "elkaim",
       "10849": "manduchi",
       "10852": "ewilli18",
+      "10854": "scwinton",
       "10855": "dlee105",
       "10856": "zyu135",
       "10857": "rsundar2",
@@ -4650,6 +5801,8 @@
       "10865": "byang85",
       "10866": "byang85",
       "10867": "yzhan419",
+      "10868": "pedrotti",
+      "10869": "bticknor",
       "10876": "igarrick",
       "10877": "meger",
       "10878": "meger",
@@ -4657,6 +5810,7 @@
       "10880": "brummell",
       "10889": "mrolandi",
       "10890": "ottemann",
+      "10893": "ssolt",
       "10899": "dghendri",
       "10902": "tleckman",
       "10905": "tleckman",
@@ -4675,10 +5829,15 @@
       "10964": "jpitterm",
       "10965": "jusimons",
       "10972": "hsaijo",
+      "10979": "asomekh",
       "10980": "hye30",
+      "10984": "lparsa",
+      "10987": "lparsa",
       "10992": "shonig",
       "10994": "rmehta2",
       "10995": "rolund",
+      "10997": "ohervet",
+      "10998": "ccamblin",
       "10999": "arzucker",
       "11000": "vccortez",
       "11001": "cstinnef",
@@ -4686,6 +5845,7 @@
       "11013": "ac6p",
       "11014": "gtserenj",
       "11016": "aginther",
+      "11019": "lknisely",
       "11029": "epalkova",
       "11038": "egregor",
       "11039": "rbraslau",
@@ -4695,23 +5855,32 @@
       "11051": "rmdubois",
       "11052": "pmkelly",
       "11053": "idolgov",
+      "11057": "dghendri",
       "11058": "vollmers",
       "11059": "jbittarp",
+      "11061": "tleckman",
+      "11064": "kkusic",
+      "11065": "sreilly",
       "11066": "tduplant",
+      "11073": "sreilly",
       "11076": "skurnia",
       "11077": "rmdubois",
       "11079": "anbrooks",
       "11080": "naltice",
       "11081": "naltice",
+      "11082": "hgnewman",
       "11083": "kkroeker",
       "11084": "kkroeker",
       "11087": "mbrice1",
       "11088": "dwright1",
+      "11089": "brworthi",
       "11090": "aykhalid",
       "11093": "aykhalid",
+      "11095": "shlrusse",
       "11096": "dkim142",
       "11097": "ejw",
       "11098": "veenstra",
+      "11112": "asporka",
       "11113": "trettenw",
       "11114": "afreiwal",
       "11115": "kkusic",
@@ -4836,14 +6005,18 @@
       "11277": "jbrahins",
       "11278": "smagnone",
       "11279": "jdfiguer",
+      "11282": "fiechter",
       "11287": "jmercer1",
       "11290": "jogsmith",
       "11291": "jwest1",
       "11292": "jmercer1",
+      "11293": "vcooppan",
       "11295": "jogsmith",
+      "11296": "mweems",
       "11297": "idemertz",
       "11298": "tycolema",
       "11303": "lkuper",
+      "11304": "npourman",
       "11309": "rprado",
       "11310": "yshen167",
       "11312": "cormac",
@@ -4868,6 +6041,7 @@
       "11381": "yamoghad",
       "11382": "yamoghad",
       "11383": "jowolf",
+      "11385": "jkimmey",
       "11392": "ramarine",
       "11405": "cstinnef",
       "11406": "cstinnef",
@@ -4875,40 +6049,67 @@
       "11420": "damatorr",
       "11421": "damatorr",
       "11422": "damatorr",
+      "11424": "trgallag",
+      "11432": "ymonasty",
       "11435": "dcharris",
+      "11438": "davisje",
+      "11439": "absouza",
+      "11440": "kringlan",
+      "11441": "jeshragh",
+      "11442": "dlee105",
+      "11447": "ejw",
+      "11448": "lgilpin",
+      "11449": "rsundar2",
+      "11452": "jgonz406",
+      "11453": "meger",
       "11454": "yorik",
       "11461": "susaha",
       "11462": "susaha",
       "11463": "mds",
+      "11464": "aborker",
+      "11465": "aborker",
+      "11466": "aborker",
       "11467": "ksilva",
+      "11469": "jmercer1",
+      "11470": "cdiazcas",
       "11471": "pweiss",
       "11492": "ajohnst3",
       "11537": "ssalama",
+      "11538": "saltikov",
       "11540": "tfavalor",
       "11541": "tfavalor",
       "11544": "alegraer",
+      "11569": "naltice",
       "11575": "dkim142",
       "11576": "idemertz",
       "11581": "amsmith",
       "11591": "shlrusse",
+      "11593": "mbrice1",
+      "11594": "jkemper",
+      "11595": "eswensen",
       "11596": "jokelley",
       "11599": "sesh",
       "11611": "paballar",
       "11618": "khmiga",
       "11621": "weissman",
       "11629": "pgaraud",
+      "11631": "asharia1",
       "11632": "hsyeh",
       "11642": "jkemper",
       "11643": "kgillett",
       "11644": "darke",
       "11646": "alin100",
+      "11647": "mmagalhe",
       "11648": "tsharf",
+      "11661": "omcornej",
       "11662": "dbernick",
       "11664": "musacchi",
       "11665": "drsantos",
       "11667": "vollmers",
       "11668": "zyu135",
+      "11669": "nkhan15",
       "11670": "absouza",
+      "11671": "lknisely",
       "11682": "imparker",
       "11683": "tmwillia",
       "11685": "dcroll",
@@ -4918,10 +6119,13 @@
       "11713": "askemer",
       "11714": "foley",
       "11715": "adityars",
+      "11717": "benet",
       "11718": "rdunkin",
       "11732": "ekim62",
       "11737": "tmjlowe",
+      "11746": "shalonzo",
       "11751": "asizemor",
+      "11768": "aayzner",
       "11776": "askrajna",
       "11777": "kkroeker",
       "11782": "cambinde",
@@ -4930,6 +6134,8 @@
       "11828": "srubin",
       "11829": "akilpatr",
       "11830": "gmoulds",
+      "11831": "rjullig",
+      "11832": "rjullig",
       "11833": "rgrazian",
       "11838": "cparsa",
       "11845": "slokey",
@@ -4939,6 +6145,10 @@
       "11852": "cbrison",
       "11853": "yxu314",
       "11856": "lmsanche",
+      "11857": "gmoulds",
+      "11867": "gmoulds",
+      "11872": "ddbailey",
+      "11873": "cjwestph",
       "11874": "griggs",
       "11880": "isahmad",
       "11895": "yorik",
@@ -4946,13 +6156,16 @@
       "11902": "nimontaz",
       "11909": "hsavage",
       "11911": "terryb",
+      "11912": "cstinnef",
       "11914": "hourigan",
       "11915": "hourigan",
       "11916": "nfinnega",
       "11917": "nfinnega",
       "11952": "wg7",
       "11964": "kkletzer",
+      "11973": "hschmidt",
       "11981": "sbose3",
+      "11986": "elkaim",
       "11987": "nellis1",
       "12000": "nlazzati",
       "12001": "byang85",
@@ -4970,17 +6183,22 @@
       "12027": "rprado",
       "12028": "ywan1334",
       "12034": "hye30",
+      "12038": "yanik",
       "12043": "sbose3",
+      "12046": "yanik",
       "12047": "nlazzati",
+      "12048": "yanik",
       "12049": "pwintz",
       "12057": "nellis1",
       "12058": "tmunger",
       "12062": "ywan1334",
       "12064": "ywan1334",
+      "12076": "hnemati",
       "12083": "mgong9",
       "12084": "rbennett",
       "12096": "ppolissa",
       "12097": "cedwards",
+      "12098": "cedwards",
       "12099": "bmason2",
       "12109": "paldhous",
       "12114": "kholl",
@@ -4988,6 +6206,7 @@
       "12116": "jstuart",
       "12117": "kmonsen",
       "12118": "thanos",
+      "12123": "scwinton",
       "12124": "sjaggar",
       "12127": "hlitz",
       "12128": "akapusci",
@@ -5020,16 +6239,23 @@
       "12168": "aalkon",
       "12203": "gfritsch",
       "12205": "jzornow",
+      "12209": "mmagalhe",
       "12211": "jzornow",
       "12212": "lirollin",
       "12213": "marcia8a",
       "12214": "zjohnso1",
+      "12215": "kgrenz",
       "12222": "pdey",
+      "12223": "durichmo",
       "12224": "durichmo",
+      "12225": "clamborg",
       "12226": "jmart425",
       "12236": "imparker",
+      "12237": "amart474",
+      "12242": "bevans",
       "12273": "ekaryndi",
       "12278": "ekaryndi",
+      "12285": "prodri28",
       "12286": "prencipe",
       "12288": "prencipe",
       "12289": "ccastil2",
@@ -5046,6 +6272,8 @@
       "12301": "prencipe",
       "12302": "tingting",
       "12303": "shoshi",
+      "12304": "rcaillou",
+      "12305": "rcaillou",
       "12306": "kyukawa",
       "12307": "naokoyam",
       "12308": "naokoyam",
@@ -5060,9 +6288,11 @@
       "12317": "slain",
       "12318": "ccastil2",
       "12319": "ccastil2",
+      "12332": "brummell",
       "12333": "waltmann",
       "12334": "mhance",
       "12335": "mclapham",
+      "12336": "apr",
       "12337": "mclapham",
       "12338": "mclapham",
       "12339": "mclapham",
@@ -5088,15 +6318,34 @@
       "12454": "jusuh",
       "12461": "beren",
       "12462": "lescoba6",
+      "12463": "tehrhard",
       "12464": "ginzburg",
       "12465": "jusuh",
+      "12467": "pedrotti",
+      "12470": "ntziavel",
       "12475": "sim9",
       "12477": "rhingtge",
+      "12480": "gsbrown",
+      "12481": "gsbrown",
+      "12482": "gsbrown",
+      "12483": "gsbrown",
+      "12484": "gsbrown",
+      "12485": "gsbrown",
+      "12486": "gsbrown",
+      "12487": "gsbrown",
+      "12488": "gsbrown",
+      "12489": "gsbrown",
+      "12490": "gsbrown",
+      "12491": "gsbrown",
       "12492": "gsbrown",
+      "12493": "gsbrown",
       "12494": "gsbrown",
       "12496": "hlitz",
       "12502": "kamehiro",
       "12503": "cbordeau",
+      "12504": "kpolzak",
+      "12505": "ykyo",
+      "12506": "maevang",
       "12507": "dcmurray",
       "12508": "maevang",
       "12509": "brogoff",
@@ -5111,16 +6360,26 @@
       "12518": "jeyamash",
       "12519": "zurbrigg",
       "12520": "cbonam",
+      "12522": "zurbrigg",
       "12523": "jamal",
+      "12524": "jeyamash",
+      "12525": "bholbroo",
+      "12526": "kcardill",
+      "12527": "nakhtar",
       "12528": "jreti",
+      "12529": "jreti",
       "12530": "sshangeb",
+      "12531": "sshangeb",
       "12532": "sshangeb",
       "12533": "mda",
+      "12534": "voelze",
       "12535": "lfehrens",
+      "12536": "jreti",
       "12537": "jomanava",
       "12538": "jomanava",
       "12541": "clamborg",
       "12542": "aarondek",
+      "12543": "amgroom",
       "12550": "esabrams",
       "12555": "khelmer",
       "12556": "deldesso",
@@ -5130,7 +6389,9 @@
       "12561": "kamaross",
       "12562": "deldesso",
       "12563": "jlaw5",
+      "12564": "jdiaz98",
       "12565": "mcamps",
+      "12566": "renelson",
       "12567": "renelson",
       "12568": "elhalk",
       "12569": "elhalk",
@@ -5149,9 +6410,47 @@
       "12592": "mbaker",
       "12593": "cgarrech",
       "12594": "cgarrech",
+      "12596": "griggs",
       "12597": "cgarrech",
+      "12598": "hshearer",
+      "12599": "tkirsch",
+      "12602": "dmjoeste",
+      "12603": "dsilva",
+      "12604": "ammccour",
+      "12605": "ammccour",
+      "12606": "mbaker",
+      "12607": "dsilva",
+      "12608": "susannah",
+      "12609": "tilwong",
+      "12610": "susannah",
+      "12611": "dmjoeste",
+      "12612": "tilwong",
+      "12613": "plongo",
+      "12614": "tloeffle",
+      "12615": "mmlane",
+      "12616": "plongo",
+      "12617": "lschilz",
+      "12618": "lschilz",
+      "12619": "avidali",
+      "12620": "avidali",
+      "12621": "lgalas",
+      "12622": "lgalas",
+      "12623": "ryking",
+      "12624": "ryking",
+      "12625": "ryking",
+      "12626": "bose",
+      "12627": "bose",
+      "12628": "hamilton",
+      "12629": "hamilton",
+      "12630": "tterhaar",
+      "12631": "tterhaar",
+      "12632": "tterhaar",
       "12635": "cbordeau",
+      "12638": "mlesar",
+      "12639": "trgallag",
       "12641": "ychen225",
+      "12642": "apaytan",
+      "12643": "jmorse1",
       "12647": "elkaim",
       "12648": "elkaim",
       "12651": "ac6p",
@@ -5167,9 +6466,17 @@
       "12671": "egregor",
       "12683": "cambinde",
       "12685": "nimontaz",
+      "12686": "mlesani",
+      "12688": "dcharris",
       "12689": "absouza",
+      "12690": "yzhou284",
       "12691": "meparsa",
       "12692": "meparsa",
+      "12693": "lkuper",
+      "12694": "tysorens",
+      "12695": "lgilpin",
+      "12696": "cixie",
+      "12699": "ezyzik",
       "12700": "cwang001",
       "12701": "sumaret",
       "12702": "sumaret",
@@ -5183,41 +6490,70 @@
       "12714": "gulysse",
       "12715": "panand",
       "12717": "pasotti",
+      "12718": "rschoenm",
       "12721": "mgong9",
       "12723": "rmc",
       "12724": "hesteria",
       "12725": "clamborg",
       "12726": "clamborg",
+      "12727": "zli439",
+      "12732": "lbugg",
+      "12733": "lbugg",
+      "12735": "lmsanche",
       "12751": "mcalegar",
       "12776": "jtaft",
+      "12777": "sgrabe",
       "12780": "gfarredo",
       "12781": "tleckman",
+      "12783": "atsing",
+      "12784": "chern133",
       "12785": "alin148",
       "12786": "alin148",
+      "12793": "ronichol",
       "12905": "beosborn",
       "12906": "brij43",
       "12907": "brij43",
       "12908": "akapusci",
+      "12909": "boxjenk",
       "12910": "bkarl",
       "12920": "joyhagen",
       "12921": "joyhagen",
       "12922": "hshearer",
+      "12934": "tkirsch",
+      "12938": "paballar",
+      "12949": "dmaier",
       "12974": "srubin",
+      "13004": "mweems",
+      "13005": "aginther",
       "13008": "pechrist",
+      "13009": "brworthi",
       "13010": "mcha63",
+      "13013": "sbose3",
+      "13016": "macordob",
       "13017": "sphilpot",
       "13018": "sphilpot",
+      "13019": "oarden",
+      "13020": "alacarde",
+      "13021": "prodri28",
       "13022": "bogordon",
+      "13023": "jag",
+      "13024": "jag",
+      "13050": "jafrisan",
       "13056": "anunes",
       "13057": "byang85",
       "13058": "byang85",
       "13059": "byang85",
       "13060": "byang85",
+      "13061": "prodri28",
+      "13067": "bogordon",
       "13085": "rjibrin",
+      "13086": "alashaw",
       "25839": "mjs",
       "25840": "mjs",
+      "25844": "mcha63",
       "25846": "afurniss",
       "25853": "igarrick",
+      "25859": "dwilliam",
       "25860": "pparker1",
       "25864": "kapearso",
       "25875": "dfeldste",
@@ -5229,12 +6565,14 @@
       "25900": "mdmccar",
       "25901": "mdmccar",
       "25902": "aberrahm",
+      "25909": "jujlopez",
       "25924": "jpoblete",
       "25929": "lwalker",
       "25930": "aphid",
       "25931": "ntran44",
       "25932": "bbargu",
       "25933": "mtomba",
+      "25940": "amoren53",
       "25941": "amoren53",
       "25942": "ksgruesz",
       "25943": "jogsmith",
@@ -5244,11 +6582,17 @@
       "25948": "dbernick",
       "25951": "asmith25",
       "25955": "cche75",
+      "25957": "cche75",
       "25960": "zaazimme",
       "25961": "zaazimme",
+      "25984": "rsallada",
+      "25986": "kgutie20",
       "25987": "clamborg",
+      "25989": "ariley2",
       "25992": "trosa",
       "26005": "aberrahm",
+      "26009": "wouldgo",
+      "26010": "jkareem",
       "26014": "abreaksp",
       "26015": "abreaksp",
       "26016": "abreaksp",
