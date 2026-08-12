@@ -122,6 +122,85 @@
   transform: translateX(2px);
 }
 
+/* ── Size variants ──
+ *
+ * Used by the Schedule Planner surfaces, where the bar sits inside the host's
+ * own table cells and calendar blocks rather than below a panel. These change
+ * spacing and type scale ONLY — the badge, star color, radius and palette are
+ * inherited from the rules above so every surface reads as one component.
+ *
+ * The font is deliberately re-inherited here: the base bar pins its own
+ * system font stack, which would sit a hair off the host's Roboto when the two
+ * share a line inside a table cell.
+ */
+.rms-rating-bar--compact,
+.rms-rating-bar--chip {
+  margin: 0;
+  padding-left: 0;
+  font-family: inherit;
+  vertical-align: middle;
+}
+
+.rms-rating-bar--compact {
+  gap: 6px;
+  margin-left: 8px;
+}
+
+.rms-rating-bar--compact .rms-rating {
+  padding: 3px 7px;
+  font-size: 12px;
+}
+
+.rms-rating-bar--compact .rms-star {
+  font-size: 12px;
+}
+
+.rms-rating-bar--compact .rms-count {
+  font-size: 11px;
+}
+
+.rms-rating-bar--compact .rms-details {
+  padding: 3px 8px;
+  font-size: 12px;
+}
+
+/* Calendar blocks are only a few lines tall, so the chip is the badge alone. */
+.rms-rating-bar--chip {
+  gap: 0;
+  margin-top: 2px;
+}
+
+.rms-rating-bar--chip .rms-rating {
+  padding: 1px 5px;
+  font-size: 11px;
+  /* Blocks are tinted per course; a translucent white keeps the badge legible
+     on every tint without hardcoding one background per color. */
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.rms-rating-bar--chip .rms-star {
+  font-size: 11px;
+}
+
+/* ── Schedule summary sub-row ──
+ *
+ * The generated-schedule table has no Instructor column, so its rating lives in
+ * a row appended beneath the section. Indented to read as belonging to the row
+ * above rather than as a section of its own.
+ */
+/* Selector is deliberately over-qualified. MyScheduler aligns cells with a
+   descendant rule of the form `.css-<hash> td`, which at (0,1,1) outranks a
+   lone `.rms-schedule-cell` at (0,1,0) — a single class here silently loses and
+   the bar renders centered. Naming both elements takes this to (0,2,2), which
+   wins without resorting to !important. */
+tr.rms-schedule-row > td.rms-schedule-cell {
+  padding: 2px 0 8px 16px;
+  border: 0;
+  /* Left-aligned to match how the app lays out its own per-section sub-content
+     (the Notes line), so the bar reads as part of that block. */
+  text-align: left;
+}
+
 /* ── Skeleton / shimmer loading ── */
 .rms-rating-bar-skeleton {
   display: inline-block;
@@ -132,6 +211,18 @@
   background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
   background-size: 200% 100%;
   animation: rms-shimmer 1.5s ease-in-out infinite;
+}
+
+.rms-rating-bar-skeleton.rms-rating-bar--compact {
+  height: 20px;
+  width: 130px;
+  margin: 0 0 0 8px;
+}
+
+.rms-rating-bar-skeleton.rms-rating-bar--chip {
+  height: 16px;
+  width: 44px;
+  margin: 2px 0 0;
 }
 
 @keyframes rms-shimmer {

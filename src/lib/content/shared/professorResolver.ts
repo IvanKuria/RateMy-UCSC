@@ -4,6 +4,7 @@ import type {
   ProfUidsMap,
   ResearchTopicsMap,
   ClassesMap,
+  InstructorsIndex,
   FetchProfessorDataResponse,
 } from '@/types';
 
@@ -11,6 +12,7 @@ import type {
 let profUidsCache: ProfUidsMap | null = null;
 let researchCache: ResearchTopicsMap | null = null;
 let classesCache: ClassesMap | null = null;
+let instructorsCache: InstructorsIndex | null = null;
 
 /**
  * Kicks off all JSON fetches concurrently so data is warm
@@ -18,8 +20,29 @@ let classesCache: ClassesMap | null = null;
  */
 export function preloadData(): void {
   loadProfUids();
+  loadInstructors();
   fetchLocalResearchData();
   fetchLocalClassesData();
+}
+
+/**
+ * Loads the harvested instructor index (see scripts/merge-instructors.mjs).
+ * Absent or malformed data is not fatal — resolution falls back to the
+ * abbreviated map, which is how this worked before the index existed.
+ */
+async function loadInstructors(): Promise<InstructorsIndex | null> {
+  if (instructorsCache) return instructorsCache;
+
+  const url = chrome.runtime.getURL('data/instructors.json');
+  try {
+    const response = await fetch(url);
+    if (!response.ok) return null;
+    instructorsCache = (await response.json()) as InstructorsIndex;
+    return instructorsCache;
+  } catch (e) {
+    logger.error('Error loading instructors.json:', e);
+    return null;
+  }
 }
 
 /**
@@ -41,50 +64,86 @@ async function loadProfUids(): Promise<ProfUidsMap> {
 }
 
 /**
- * Resolves a professor's UID from the JSON dataset.
- * Strategy: exact match, then fuzzy match on "Last,F." pattern.
- * Returns null if not found.
+ * Extracts a bare CruzID from a prof_uids value, which is historically either
+ * a bare uid or a directory URL containing `uid=...`.
  */
-export async function getUIDFromJson(name: string): Promise<string | null> {
+function extractUid(value: string | undefined): string | null {
+  if (!value) return null;
+  const stringValue = String(value);
+  const uidMatch = stringValue.match(/uid=([\w-]+)/);
+  if (uidMatch && uidMatch[1]) return uidMatch[1];
+  return stringValue.includes('http') ? null : stringValue;
+}
+
+/**
+ * Pulls the subject code out of a course string ("CSE 101" -> "CSE").
+ */
+function extractSubject(course: string | null | undefined): string | null {
+  if (!course) return null;
+  const match = String(course)
+    .trim()
+    .match(/^([A-Za-z]{2,5})\b/);
+  return match ? match[1].toUpperCase() : null;
+}
+
+/**
+ * Resolves a professor's UID, most-confident source first:
+ *
+ *   1. subject-qualified index — "AM|lee,d" vs "CMPM|lee,d". The only step that
+ *      can tell two professors apart when they share a last name and first
+ *      initial, which is why it outranks an exact key match: for "Lee,D." on an
+ *      AM course the abbreviated map confidently returns the wrong person.
+ *   2. exact key in the abbreviated map.
+ *   3. unique "Last,F." match in the abbreviated map.
+ *
+ * Returns null when nothing matches. `course` is optional; without it step 1 is
+ * skipped and behaviour is as it was before the index existed.
+ */
+export async function getUIDFromJson(
+  name: string,
+  course?: string | null
+): Promise<string | null> {
   const data = await loadProfUids();
-  let uID: string | null = null;
-  let value = data[name];
 
-  if (!value) {
+  const { last, firstInitial } = parseInstructorName(name);
+  const subject = extractSubject(course);
+
+  // 1. Subject-qualified.
+  if (subject && last && firstInitial) {
+    const instructors = await loadInstructors();
+    const qualified =
+      instructors?.bySubjectName?.[`${subject}|${last},${firstInitial}`];
+    if (qualified) return qualified;
+  }
+
+  // 2. Exact key.
+  const exact = extractUid(data[name]);
+  if (exact) return exact;
+
+  // 3. Unique "Last,F." match. Two keys matching means the name is genuinely
+  // ambiguous and any pick would be a coin flip, so resolve nothing rather than
+  // show a confidently wrong professor.
+  if (last && firstInitial) {
     try {
-      // Derive the target last name + first initial from the scraped name and
-      // match it against the "Last,F."-formatted JSON keys.
-      const { last: targetLast, firstInitial: targetFirstInitial } =
-        parseInstructorName(name);
+      const matches = Object.keys(data).filter((key) => {
+        if (!key.includes(',')) return false;
+        const parsed = parseInstructorName(key);
+        return parsed.last === last && parsed.firstInitial === firstInitial;
+      });
 
-      if (targetLast && targetFirstInitial) {
-        const matchKey = Object.keys(data).find((key) => {
-          // The JSON keys are always in "Last,F." format; skip any without it.
-          if (!key.includes(',')) return false;
-          const { last, firstInitial } = parseInstructorName(key);
-          return last === targetLast && firstInitial === targetFirstInitial;
-        });
-
-        if (matchKey) {
-          value = data[matchKey];
-        }
+      if (matches.length === 1) return extractUid(data[matches[0]]);
+      if (matches.length > 1) {
+        logger.warn(
+          `Ambiguous instructor "${name}"${subject ? ` (${subject})` : ''}: ` +
+            `${matches.length} candidates, no subject match — skipping.`
+        );
       }
     } catch (err) {
       logger.error('Error during fuzzy matching:', err);
     }
   }
 
-  if (value) {
-    const stringValue = String(value);
-    const uidMatch = stringValue.match(/uid=([\w-]+)/);
-    if (uidMatch && uidMatch[1]) {
-      uID = uidMatch[1];
-    } else if (!stringValue.includes('http')) {
-      uID = stringValue;
-    }
-  }
-
-  return uID;
+  return null;
 }
 
 /**

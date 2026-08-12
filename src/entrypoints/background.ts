@@ -7,6 +7,7 @@
  */
 
 import { fetchCachedCampusDirectoryProfile } from '@/lib/background/campusDirectoryCache';
+import { searchUidByName } from '@/lib/background/uidSearchCache';
 import {
   fetchCachedRateMyProfessorData,
   selectBestRmpMatch,
@@ -35,14 +36,24 @@ async function fetchProfessorBundle(
   ID: string | null,
   rateMyProfSchoolId?: string
 ): Promise<ProfessorBundle> {
-  const hasUID = ID != null;
+  // The bundled maps only know instructors from harvested terms, so a caller
+  // that could not resolve a UID gets one more chance against the live campus
+  // directory before we give up on the profile half of the bundle. The RMP
+  // fetch keys off the name and does not wait on it.
   const rmpCacheKey = ID ?? `name_${name}`;
+  const rmpPromise = fetchCachedRateMyProfessorData(
+    rmpCacheKey,
+    name,
+    rateMyProfSchoolId
+  );
+
+  const resolvedID = ID ?? (await searchUidByName(name));
 
   const [campusResponse, rmpResult] = await Promise.all([
-    hasUID
-      ? fetchCachedCampusDirectoryProfile(ID)
+    resolvedID
+      ? fetchCachedCampusDirectoryProfile(resolvedID)
       : Promise.resolve({ data: null, success: false }),
-    fetchCachedRateMyProfessorData(rmpCacheKey, name, rateMyProfSchoolId),
+    rmpPromise,
   ]);
 
   const campusData = campusResponse?.data ?? null;

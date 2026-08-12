@@ -1,0 +1,4307 @@
+{
+  "generatedAt": "2026-08-12T01:58:19.813Z",
+  "terms": [
+    "2026 Fall Quarter"
+  ],
+  "byUid": {
+    "jbittarp": {
+      "name": "Josefina Bittar Prieto",
+      "subjects": [
+        "APLX",
+        "SPAN"
+      ]
+    },
+    "aberrahm": {
+      "name": "Abdelkader Berrahmoun",
+      "subjects": [
+        "ARBC"
+      ]
+    },
+    "lfehrens": {
+      "name": "Lars Fehren-Schmitz",
+      "subjects": [
+        "ANTH"
+      ]
+    },
+    "mda": {
+      "name": "Mark D Anderson",
+      "subjects": [
+        "ANTH"
+      ]
+    },
+    "achan146": {
+      "name": "Ariel Shuk Ling Chan",
+      "subjects": [
+        "APLX"
+      ]
+    },
+    "jreti": {
+      "name": "Joseph Reti",
+      "subjects": [
+        "ANTH"
+      ]
+    },
+    "dpmiller": {
+      "name": "Donald Patrick Miller",
+      "subjects": [
+        "APLX"
+      ]
+    },
+    "eschach": {
+      "name": "Emily A Schach",
+      "subjects": [
+        "ANTH"
+      ]
+    },
+    "kbundy": {
+      "name": "Kevin A Bundy",
+      "subjects": [
+        "ASTR"
+      ]
+    },
+    "nmovshov": {
+      "name": "Naor Movshovitz",
+      "subjects": [
+        "ASTR"
+      ]
+    },
+    "rmc": {
+      "name": "Ruth Murray-Clay",
+      "subjects": [
+        "ASTR"
+      ]
+    },
+    "adityars": {
+      "name": "Aditya Rohan Sengupta",
+      "subjects": [
+        "ASTR"
+      ]
+    },
+    "jfortney": {
+      "name": "Jonathan J Fortney",
+      "subjects": [
+        "ASTR"
+      ]
+    },
+    "zaazimme": {
+      "name": "Zachary A Zimmer",
+      "subjects": [
+        "ASTR",
+        "LIT"
+      ]
+    },
+    "askemer": {
+      "name": "Andrew Joseph Skemer",
+      "subjects": [
+        "ASTR",
+        "LIT"
+      ]
+    },
+    "nimara": {
+      "name": "Nia Imara",
+      "subjects": [
+        "ASTR"
+      ]
+    },
+    "pdey": {
+      "name": "Papri Dey",
+      "subjects": [
+        "AM"
+      ]
+    },
+    "foley": {
+      "name": "Ryan Joseph Foley",
+      "subjects": [
+        "ASTR"
+      ]
+    },
+    "jusimons": {
+      "name": "Julie Simons",
+      "subjects": [
+        "AM"
+      ]
+    },
+    "pwintz": {
+      "name": "Paul Kenna Wintz",
+      "subjects": [
+        "AM"
+      ]
+    },
+    "yorik": {
+      "name": "Yonatan Katznelson",
+      "subjects": [
+        "AM",
+        "MATH",
+        "STAT"
+      ]
+    },
+    "lmatilsk": {
+      "name": "Loren Matilsky",
+      "subjects": [
+        "AM"
+      ]
+    },
+    "brummell": {
+      "name": "Nicholas H Brummell",
+      "subjects": [
+        "AM"
+      ]
+    },
+    "nvanduke": {
+      "name": "Nathan Connor Van Duker",
+      "subjects": [
+        "AM"
+      ]
+    },
+    "pgaraud": {
+      "name": "Pascale Garaud",
+      "subjects": [
+        "AM"
+      ]
+    },
+    "aschatto": {
+      "name": "Ashesh Chattopadhyay",
+      "subjects": [
+        "AM"
+      ]
+    },
+    "nioannid": {
+      "name": "Nilah Ioannidis",
+      "subjects": [
+        "AM"
+      ]
+    },
+    "dlee79": {
+      "name": "Dongwook Lee",
+      "subjects": [
+        "AM"
+      ]
+    },
+    "mgwyn": {
+      "name": "Melissa Gwyn",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "gwhipple": {
+      "name": "Grant Whipple",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "cbueno1": {
+      "name": "Cláudio Bueno",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "idolgov": {
+      "name": "Ilia Dolgov",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "hjdee": {
+      "name": "Wendy Dee Hibbert-Jones",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "estephe": {
+      "name": "Elizabeth Stephens",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "kkarlic": {
+      "name": "Karolina Karlic",
+      "subjects": [
+        "ART"
+      ]
+    },
+    "kgillett": {
+      "name": "Kristen Ling Gillette",
+      "subjects": [
+        "ARTG",
+        "CT"
+      ]
+    },
+    "egregor": {
+      "name": "Eduard Joseph Gregor",
+      "subjects": [
+        "ARTG",
+        "CMPM"
+      ]
+    },
+    "paballar": {
+      "name": "Patrick Michael Ballard",
+      "subjects": [
+        "ARTG"
+      ]
+    },
+    "mbrice1": {
+      "name": "mattie brice",
+      "subjects": [
+        "ARTG"
+      ]
+    },
+    "dwright1": {
+      "name": "dani wright",
+      "subjects": [
+        "ARTG"
+      ]
+    },
+    "tleckman": {
+      "name": "Tad Ander Leckman",
+      "subjects": [
+        "ARTG",
+        "CMPM"
+      ]
+    },
+    "rdunkin": {
+      "name": "Robin Christine Dunkin",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "askrajna": {
+      "name": "Aleksandra Skrajna",
+      "subjects": [
+        "BIOC"
+      ]
+    },
+    "bernardi": {
+      "name": "Giacomo Bernardi",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "tduplant": {
+      "name": "Tamara Madeleine Duplantis",
+      "subjects": [
+        "ARTG"
+      ]
+    },
+    "bbmarino": {
+      "name": "Baldo Branimir Marinovic",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "jpitterm": {
+      "name": "Jarmila Pittermann",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "imparker": {
+      "name": "Ingrid Marie Parker",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "raimondi": {
+      "name": "Peter T Raimondi",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "jogsmith": {
+      "name": "Joshua Gray Smith",
+      "subjects": [
+        "BIOE",
+        "CSP"
+      ]
+    },
+    "kkroeker": {
+      "name": "Kristy Jean Kroeker",
+      "subjects": [
+        "BIOE",
+        "CSP"
+      ]
+    },
+    "jokelley": {
+      "name": "Joanna Lynne Kelley",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "akilpatr": {
+      "name": "Auston Marmaduke Kilpatrick",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "epalkova": {
+      "name": "Eric P. Palkovacs",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "rmehta2": {
+      "name": "Rita Mehta",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "dcroll": {
+      "name": "Donald A Croll",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "tmwillia": {
+      "name": "Terrie M Williams",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "rsbeltra": {
+      "name": "Roxanne Santina Beltran",
+      "subjects": [
+        "BIOE"
+      ]
+    },
+    "etu6": {
+      "name": "Elu (I Ju) Tu",
+      "subjects": [
+        "CHIN"
+      ]
+    },
+    "tingting": {
+      "name": "Ting-Ting Wu",
+      "subjects": [
+        "CHIN"
+      ]
+    },
+    "srubin": {
+      "name": "Seth M Rubin",
+      "subjects": [
+        "BIOL",
+        "CHEM"
+      ]
+    },
+    "jshanks": {
+      "name": "James A Shanks",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "gbordign": {
+      "name": "Guido Bordignon",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "hboeger": {
+      "name": "Hanns Hinrich Boeger",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "mzuniga": {
+      "name": "Martha C Zuniga",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "hartzog": {
+      "name": "Grant A Hartzog",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "mdoody": {
+      "name": "Michael Jake Doody",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "nbhalla": {
+      "name": "Needhi Bhalla",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "bwarecki": {
+      "name": "Brandt Bernard Warecki",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "bcolquit": {
+      "name": "Bradley Mark Colquitt",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "vccortez": {
+      "name": "Valerie Crystal Cortez",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "svahradi": {
+      "name": "Scott K. Vahradian",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "jsanfor2": {
+      "name": "Jeremy R Sanford",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "jward2": {
+      "name": "Jordan Ward",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "cgreider": {
+      "name": "Carol Greider",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "dfboyd": {
+      "name": "David Fielding Boyd",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "ares": {
+      "name": "Manuel Ares",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "bchen": {
+      "name": "Bin Chen",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "mromer37": {
+      "name": "Matthew Romero",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "dfeldhei": {
+      "name": "David A Feldheim",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "mjurica": {
+      "name": "Melissa S Jurica",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "rohinton": {
+      "name": "Rohinton T Kamakaka",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "dkellogg": {
+      "name": "Douglas Kellogg",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "lhinck": {
+      "name": "Lindsay Hinck",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "jarriber": {
+      "name": "Joshua A Arribere",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "sucarpen": {
+      "name": "Susan Carpenter",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "ssikanda": {
+      "name": "Shaheen Sikandar",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "ssalama": {
+      "name": "Sofie R Salama",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "wtsulliv": {
+      "name": "William Sullivan",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "olena": {
+      "name": "Olena Morozova",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "ekim62": {
+      "name": "Euiseok Kim",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "upsharma": {
+      "name": "Upasna Sharma",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "yizuo": {
+      "name": "Yi Zuo",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "zwang36": {
+      "name": "Zhu Wang",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "ofregoso": {
+      "name": "Oliver Isauro Fregoso",
+      "subjects": [
+        "BIOL"
+      ]
+    },
+    "alegraer": {
+      "name": "Aura Alegra Eroy-Reveles",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "pweiss": {
+      "name": "Peter Scott Weiss",
+      "subjects": [
+        "CHEM",
+        "EART"
+      ]
+    },
+    "ajohnst3": {
+      "name": "Anna Rose Johnston",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "cambinde": {
+      "name": "Caitlin Maria Binder",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "cbrison": {
+      "name": "Caileen Marie Brison",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "slokey": {
+      "name": "Robert Scott Lokey",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "asizemor": {
+      "name": "Anne Sizemore",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "mds": {
+      "name": "Michael D Stone",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "rbraslau": {
+      "name": "Rebecca Braslau",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "jmercer1": {
+      "name": "Jaron Mercer",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "mcalegar": {
+      "name": "Marcos Felipe Calegari Andrade",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "zhang": {
+      "name": "Jin Zhong Zhang",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "lmsanche": {
+      "name": "Laura Margaret Sanchez",
+      "subjects": [
+        "CHEM"
+      ]
+    },
+    "dghendri": {
+      "name": "Dianne G Hendricks",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "vollmers": {
+      "name": "Christopher Vollmers",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "tmjlowe": {
+      "name": "Todd M.J. Lowe",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "haussler": {
+      "name": "David Haussler",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "dbernick": {
+      "name": "David Lee Bernick",
+      "subjects": [
+        "BME",
+        "CMPM"
+      ]
+    },
+    "rmdubois": {
+      "name": "Rebecca M Dubois",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "regreen": {
+      "name": "Richard Edward E Green",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "rucorbet": {
+      "name": "Russell Corbett-Detig",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "alioanni": {
+      "name": "Alexander Ioannidis",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "shlrusse": {
+      "name": "Shelbi Russell",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "dkim142": {
+      "name": "Daniel Kim",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "jstuart": {
+      "name": "Joshua M Stuart",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "cforsber": {
+      "name": "Camilla E Forsberg",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "bpaten": {
+      "name": "Benedict John Paten",
+      "subjects": [
+        "BME",
+        "CSE"
+      ]
+    },
+    "anbrooks": {
+      "name": "Angela Brooks",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "npourman": {
+      "name": "Nader Pourmand",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "khmiga": {
+      "name": "Karen Hayden Miga",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "tsharf": {
+      "name": "Tal Sharf",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "hsyeh": {
+      "name": "Hsien-Wei Yeh",
+      "subjects": [
+        "BME"
+      ]
+    },
+    "sjcummin": {
+      "name": "Shannon J Cummings",
+      "subjects": [
+        "CRSN"
+      ]
+    },
+    "mschmede": {
+      "name": "Maximillian Myers Schmeder",
+      "subjects": [
+        "CRSN"
+      ]
+    },
+    "kamaross": {
+      "name": "Katherine Marie Ross",
+      "subjects": [
+        "CRSN",
+        "WRIT"
+      ]
+    },
+    "cklusmei": {
+      "name": "Cathryn Klusmeier",
+      "subjects": [
+        "CRSN"
+      ]
+    },
+    "juhazlew": {
+      "name": "Julianne Adams Hazlewood",
+      "subjects": [
+        "CRSN",
+        "ENVS"
+      ]
+    },
+    "cweygand": {
+      "name": "Clara Sophia Weygandt",
+      "subjects": [
+        "CRSN"
+      ]
+    },
+    "fraja": {
+      "name": "Fatima Hafeez Raja",
+      "subjects": [
+        "CRSN",
+        "OAKS"
+      ]
+    },
+    "neils": {
+      "name": "Neil Schaefer",
+      "subjects": [
+        "CRSN"
+      ]
+    },
+    "calsoyas": {
+      "name": "Candace Calsoyas",
+      "subjects": [
+        "CRSN"
+      ]
+    },
+    "trettenw": {
+      "name": "Thomas Rettenwender",
+      "subjects": [
+        "CRSN"
+      ]
+    },
+    "kmonsen": {
+      "name": "Katie Lenore Monsen",
+      "subjects": [
+        "CRSN",
+        "ENVS"
+      ]
+    },
+    "scotei": {
+      "name": "Stefania Cotei",
+      "subjects": [
+        "CLNI"
+      ]
+    },
+    "jgampel": {
+      "name": "Jared A Gampel",
+      "subjects": [
+        "CLNI"
+      ]
+    },
+    "ajabraha": {
+      "name": "Ajit Abraham",
+      "subjects": [
+        "CLNI"
+      ]
+    },
+    "kaspence": {
+      "name": "Keith Aaron Spencer",
+      "subjects": [
+        "CLNI"
+      ]
+    },
+    "alreroma": {
+      "name": "Alisha Rene Romano",
+      "subjects": [
+        "CLNI"
+      ]
+    },
+    "wviebahn": {
+      "name": "Wesley Johanna Viebahn",
+      "subjects": [
+        "CLNI"
+      ]
+    },
+    "aibessai": {
+      "name": "Andrea Ibessaine",
+      "subjects": [
+        "CLNI"
+      ]
+    },
+    "agsimon": {
+      "name": "Agnes Simon",
+      "subjects": [
+        "CLNI"
+      ]
+    },
+    "adesilv2": {
+      "name": "M. W. Amarasiri de Silva",
+      "subjects": [
+        "CLNI"
+      ]
+    },
+    "afreiwal": {
+      "name": "Anne Freiwald",
+      "subjects": [
+        "CRSN"
+      ]
+    },
+    "kkusic": {
+      "name": "Kristen Kusic Heady",
+      "subjects": [
+        "CRSN"
+      ]
+    },
+    "tball": {
+      "name": "Tamara Bethune Ball",
+      "subjects": [
+        "CRSN"
+      ]
+    },
+    "aalkon": {
+      "name": "Alison Alkon",
+      "subjects": [
+        "CMMU"
+      ]
+    },
+    "mimccart": {
+      "name": "Michael McCarthy",
+      "subjects": [
+        "CMMU"
+      ]
+    },
+    "damatorr": {
+      "name": "David Manuel Torres-Mendoza",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "tfavalor": {
+      "name": "Tela Favaloro",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "gdevine": {
+      "name": "Graeme Devine",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "meger": {
+      "name": "Markus Eger",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "amsmith": {
+      "name": "Adam Marshall Smith",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "tycolema": {
+      "name": "Tyler Coleman",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "naltice": {
+      "name": "Nathan Altice",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "sagorman": {
+      "name": "Samantha Gorman",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "ejw": {
+      "name": "Jim Whitehead",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "skurnia": {
+      "name": "Sri H Kurniawan",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "mseifeln": {
+      "name": "Magy Seif El-Nasr",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "dlee105": {
+      "name": "David Lee",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "nwardrip": {
+      "name": "Noah Wardrip-Fruin",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "malebron": {
+      "name": "Marisol LeBron",
+      "subjects": [
+        "CRES"
+      ]
+    },
+    "aykhalid": {
+      "name": "Ayesha Khalid",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "alin148": {
+      "name": "Allen Yilun Lin",
+      "subjects": [
+        "CMPM"
+      ]
+    },
+    "fife": {
+      "name": "Fahima Ife",
+      "subjects": [
+        "CRES"
+      ]
+    },
+    "jdiaz98": {
+      "name": "Josen Diaz",
+      "subjects": [
+        "CRES"
+      ]
+    },
+    "jsalaz27": {
+      "name": "Iokepa Casumbal-Salazar",
+      "subjects": [
+        "CRES"
+      ]
+    },
+    "sshangeb": {
+      "name": "Savannah T Shange-Binion",
+      "subjects": [
+        "CRES",
+        "FMST"
+      ]
+    },
+    "cjhong": {
+      "name": "Christine Hong",
+      "subjects": [
+        "CRES"
+      ]
+    },
+    "mcasumba": {
+      "name": "Melisa Casumbal",
+      "subjects": [
+        "CRES"
+      ]
+    },
+    "ksharm35": {
+      "name": "Kriti Sharma",
+      "subjects": [
+        "CRES"
+      ]
+    },
+    "cstinnef": {
+      "name": "Caitlin Marie Stinneford",
+      "subjects": [
+        "COWL"
+      ]
+    },
+    "pmkelly": {
+      "name": "Patricia M Kelly",
+      "subjects": [
+        "COWL"
+      ]
+    },
+    "enealand": {
+      "name": "Eireene Nealand",
+      "subjects": [
+        "COWL"
+      ]
+    },
+    "smichel3": {
+      "name": "Stephanie Michelet",
+      "subjects": [
+        "COWL"
+      ]
+    },
+    "dmlau": {
+      "name": "David M Lau",
+      "subjects": [
+        "COWL"
+      ]
+    },
+    "rtbarret": {
+      "name": "Robert Theodore Barrett",
+      "subjects": [
+        "COWL"
+      ]
+    },
+    "tthorpe": {
+      "name": "Todd Nathan Thorpe",
+      "subjects": [
+        "COWL"
+      ]
+    },
+    "vtroyer": {
+      "name": "Virginia Darlow Troyer",
+      "subjects": [
+        "COWL"
+      ]
+    },
+    "ymonasty": {
+      "name": "Yuliya Monastyrska",
+      "subjects": [
+        "CRWN"
+      ]
+    },
+    "chgray": {
+      "name": "Chris Hables Gray",
+      "subjects": [
+        "CRWN"
+      ]
+    },
+    "mrhoward": {
+      "name": "Mark Richard Sean Howard",
+      "subjects": [
+        "CRWN"
+      ]
+    },
+    "lperezde": {
+      "name": "Livia Perez",
+      "subjects": [
+        "CRWN",
+        "FILM"
+      ]
+    },
+    "jproust": {
+      "name": "Jeanne Proust",
+      "subjects": [
+        "CRWN"
+      ]
+    },
+    "fgonza19": {
+      "name": "Francis Carolina Gonzalez Riano",
+      "subjects": [
+        "CRWN"
+      ]
+    },
+    "trigby": {
+      "name": "Theo Rigby",
+      "subjects": [
+        "CRWN"
+      ]
+    },
+    "lberkley": {
+      "name": "Lisa Berkley",
+      "subjects": [
+        "CRWN"
+      ]
+    },
+    "kgreaney": {
+      "name": "Kathleen J Greaney",
+      "subjects": [
+        "CRWN"
+      ]
+    },
+    "breguero": {
+      "name": "Borja Gonzalez Reguero",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "mclapham": {
+      "name": "Matthew E Clapham",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "xiz": {
+      "name": "Xi Zhang",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "hsavage": {
+      "name": "Heather Savage",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "terryb": {
+      "name": "Terrence J Blackburn",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "jowolf": {
+      "name": "Jonathan Wolf",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "ewilli18": {
+      "name": "Ethan Williams",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "mhain": {
+      "name": "Mathis P Hain",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "hourigan": {
+      "name": "Jeremy Keith Hourigan",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "igarrick": {
+      "name": "Ian Garrick-Bethell",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "brodsky": {
+      "name": "Emily Elizabeth Brodsky",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "griggs": {
+      "name": "Gary B Griggs",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "nfinnega": {
+      "name": "Noah J Finnegan",
+      "subjects": [
+        "EART"
+      ]
+    },
+    "yzhan419": {
+      "name": "Yu Zhang",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "thuh": {
+      "name": "Tae Myung Huh",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "ychen225": {
+      "name": "Yihsu Chen",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "nellis1": {
+      "name": "Nathan Ellis",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "hye30": {
+      "name": "Hao Ye",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "hschmidt": {
+      "name": "Holger Schmidt",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "elkaim": {
+      "name": "Gabriel Hugh Elkaim",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "ac6p": {
+      "name": "Stephen C Petersen",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "corzine": {
+      "name": "Keith Corzine",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "sbose3": {
+      "name": "Soumya Bose",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "zyu135": {
+      "name": "Zhicong Yu",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "hamid": {
+      "name": "Hamid R Sadjadpour",
+      "subjects": [
+        "CSE",
+        "ECE"
+      ]
+    },
+    "mrolandi": {
+      "name": "Marco A Rolandi",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "mteodore": {
+      "name": "Mircea S.V. Teodorescu",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "dmilutin": {
+      "name": "Dejan Milutinovic",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "moye": {
+      "name": "Michael M Oye",
+      "subjects": [
+        "ECE"
+      ]
+    },
+    "jhgonzal": {
+      "name": "Julie H Gonzalez",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "kcfung": {
+      "name": "Kwok-Chiu Fung",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "kekjones": {
+      "name": "Kevin K Jones",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "mabullen": {
+      "name": "Maria Bullen",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "marion": {
+      "name": "Justin Marion",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "nlazzati": {
+      "name": "Natalia Lazzati",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "wg7": {
+      "name": "WEISHI GU",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "sander12": {
+      "name": "Scott Anderson",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "cdobkin": {
+      "name": "Carlos Eduardo Dobkin",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "gbulman": {
+      "name": "George Bulman",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "arzucker": {
+      "name": "Ariel Zucker",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "rhardie1": {
+      "name": "Ruth Hardie",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "chu78": {
+      "name": "Chenyue Hu",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "kkletzer": {
+      "name": "Kenneth M Kletzer",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "tshirley": {
+      "name": "Thomas Anh Shirley",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "pechrist": {
+      "name": "Peter Christensen",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "mleung13": {
+      "name": "Michael Leung",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "boxjenk": {
+      "name": "Nirvikar Singh",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "jmart425": {
+      "name": "Julian Martinez-Iriarte",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "gkim44": {
+      "name": "Gueyon Kim",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "kpommere": {
+      "name": "Kai Pommerenke",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "jwest1": {
+      "name": "Jeremy West",
+      "subjects": [
+        "CSP",
+        "ECON"
+      ]
+    },
+    "hsaijo": {
+      "name": "Hikaru Saijo",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "gtserenj": {
+      "name": "Gerelt Tserenjigmid",
+      "subjects": [
+        "ECON"
+      ]
+    },
+    "susaha": {
+      "name": "Subhra Saha",
+      "subjects": [
+        "ECON",
+        "STAT"
+      ]
+    },
+    "gmoulds": {
+      "name": "Gerald Bennett Moulds",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "veenstra": {
+      "name": "Kerry Scott Veenstra",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "ajrudnic": {
+      "name": "Alexander J Rudnick",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "kymiller": {
+      "name": "Kyle A Miller",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "cjwestph": {
+      "name": "Cedric Westphal",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "iparanja": {
+      "name": "Ishaan Anil Paranjape",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "mlarissa": {
+      "name": "Larissa A Munishkina",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "ramarine": {
+      "name": "Razvan V Marinescu",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "rgrazian": {
+      "name": "Richard Michael Jude Graziani",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "hyue11": {
+      "name": "Hao Yue",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "isahmad": {
+      "name": "Ishtiyaque Ahmad",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "sesh": {
+      "name": "Seshadhri Comandur",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "nimontaz": {
+      "name": "Niloofar Montazeri",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "idemertz": {
+      "name": "Ioannis Demertzis",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "cormac": {
+      "name": "Cormac A Flanagan",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "yxu314": {
+      "name": "Yuanchao Xu",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "lhu82": {
+      "name": "Liting Hu",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "absouza": {
+      "name": "Abel Souza",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "cwang001": {
+      "name": "Chenguang Wang",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "meparsa": {
+      "name": "Mehrdad Parsa",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "cparsa": {
+      "name": "Christina Leigh Parsa",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "dcharris": {
+      "name": "David Charles Harrison",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "obraczka": {
+      "name": "Katia Obraczka",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "sim9": {
+      "name": "Sungjin Im",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "musacchi": {
+      "name": "John T Musacchio",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "dfremont": {
+      "name": "Daniel Fremont",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "hlitz": {
+      "name": "Heiner Litz",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "durichmo": {
+      "name": "Dustin Richmond",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "lkuper": {
+      "name": "Lindsey Kuper",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "cqian12": {
+      "name": "Chen Qian",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "rsundar2": {
+      "name": "Ramakrishnan Sundara Raman",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "macordob": {
+      "name": "Marcela Alfaro Cordoba",
+      "subjects": [
+        "CSE",
+        "STAT"
+      ]
+    },
+    "manduchi": {
+      "name": "Roberto Manduchi",
+      "subjects": [
+        "CSE"
+      ]
+    },
+    "darke": {
+      "name": "A.M. Darke",
+      "subjects": [
+        "CT"
+      ]
+    },
+    "drsantos": {
+      "name": "Dorothy Resplandor Santos",
+      "subjects": [
+        "CT"
+      ]
+    },
+    "kapearso": {
+      "name": "Kaila Ann Marjorie Pearson",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "dfeldste": {
+      "name": "Darrow Samuel Feldstein",
+      "subjects": [
+        "ENVS",
+        "STEV"
+      ]
+    },
+    "akulikow": {
+      "name": "Andy John Kulikowski II II",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "floralu": {
+      "name": "Flora E. Lu",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "jkemper": {
+      "name": "Jonaya Kemper",
+      "subjects": [
+        "CT"
+      ]
+    },
+    "byang85": {
+      "name": "Bo Yang",
+      "subjects": [
+        "ENVS",
+        "GIST"
+      ]
+    },
+    "psarker": {
+      "name": "Pallab Kumer Sarker",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "mcha63": {
+      "name": "Mijin Cha",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "crivaspl": {
+      "name": "Charles Rivasplata",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "akapusci": {
+      "name": "Anne Kapuscinski",
+      "subjects": [
+        "CSP",
+        "ENVS"
+      ]
+    },
+    "wxcheng": {
+      "name": "Weixin Cheng",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "sphilpot": {
+      "name": "Stacy M Philpott",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "kholl": {
+      "name": "Karen D Holl",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "lwalker": {
+      "name": "Logan Kennard Walker",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "mamonten": {
+      "name": "Maywa Montenegro de Wit",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "nocampop": {
+      "name": "Natalia Ocampo-Penuela",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "srrajan": {
+      "name": "S Ravi Rajan",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "klseto": {
+      "name": "Katherine Seto",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "hawaterh": {
+      "name": "Hannah Danielle Waterhouse",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "cwilmers": {
+      "name": "Christopher C Wilmers",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "scwinton": {
+      "name": "Scott Winton",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "cbenner": {
+      "name": "Chris Benner",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "jbury": {
+      "name": "Jeffrey T Bury",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "jojcampb": {
+      "name": "Elliott Campbell",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "mfairbai": {
+      "name": "Madeleine Patricia Fairbairn",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "bhaddad": {
+      "name": "Brent M Haddad",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "sjinnah": {
+      "name": "Sikina Jinnah",
+      "subjects": [
+        "ENVS"
+      ]
+    },
+    "cglogova": {
+      "name": "Chariell Smith",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "natashav": {
+      "name": "Natasha V.",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "ilusztig": {
+      "name": "Irene E. Lusztig",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "sekara": {
+      "name": "Selmin Kara",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "limbrick": {
+      "name": "Peter Eo Limbrick",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "ryu941": {
+      "name": "Ronja Yu",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "aphid": {
+      "name": "Abram Stern",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "ireneg": {
+      "name": "Irene Gustafson",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "afriz": {
+      "name": "Anna M Friz",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "eshanken": {
+      "name": "Edward A. Shanken",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "wsack": {
+      "name": "Warren Sack",
+      "subjects": [
+        "FILM"
+      ]
+    },
+    "emaddox": {
+      "name": "Emily Maddox",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "kkenner": {
+      "name": "Kylie Alisa Kenner",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "rderoock": {
+      "name": "Roberto Santiago de Roock",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "hcvander": {
+      "name": "Hayley Vandercook",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "jhinz": {
+      "name": "Jennifer Jones Hinz",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "sjaggar": {
+      "name": "Sumita Ruth Jaggar",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "jdewitt1": {
+      "name": "Jamie Dewitt",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "nwlang": {
+      "name": "Nora Walsh Lang",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "jjohns": {
+      "name": "Janet Rachel Johns",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "nrbernas": {
+      "name": "Natalie Renee Bernasconi",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "ptan19": {
+      "name": "Paulo Tan",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "ereigh": {
+      "name": "Emily Reigh",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "daisymar": {
+      "name": "Daisy A Martin",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "arshad": {
+      "name": "Arshad Ali",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "pchuang": {
+      "name": "Patrick Y Chuang",
+      "subjects": [
+        "ESCI"
+      ]
+    },
+    "rjibrin": {
+      "name": "Rekia Gina Jibrin",
+      "subjects": [
+        "EDUC"
+      ]
+    },
+    "clamborg": {
+      "name": "Carl Lamborg",
+      "subjects": [
+        "ESCI",
+        "OCEA"
+      ]
+    },
+    "eyrahav": {
+      "name": "Eyal Rahav",
+      "subjects": [
+        "ESCI"
+      ]
+    },
+    "clbeauli": {
+      "name": "Claudie Beaulieu",
+      "subjects": [
+        "ESCI"
+      ]
+    },
+    "gulysse": {
+      "name": "Gina Ulysse",
+      "subjects": [
+        "FMST"
+      ]
+    },
+    "aarondek": {
+      "name": "Anjali R Arondekar",
+      "subjects": [
+        "FMST"
+      ]
+    },
+    "tamarcel": {
+      "name": "Taryn Marcelino",
+      "subjects": [
+        "FMST"
+      ]
+    },
+    "crohmer": {
+      "name": "Carine Rohmer",
+      "subjects": [
+        "FREN"
+      ]
+    },
+    "mcamps": {
+      "name": "Manel Camps",
+      "subjects": [
+        "GCH"
+      ]
+    },
+    "drahal": {
+      "name": "Danny Rahal",
+      "subjects": [
+        "GCH",
+        "PSYC"
+      ]
+    },
+    "gsteinro": {
+      "name": "Galia Stein-Rosen",
+      "subjects": [
+        "HEBR"
+      ]
+    },
+    "bjly": {
+      "name": "Boreth J. Ly",
+      "subjects": [
+        "HAVC"
+      ]
+    },
+    "bkarl": {
+      "name": "Brian Karl",
+      "subjects": [
+        "HAVC"
+      ]
+    },
+    "furtado": {
+      "name": "Nicole Furtado",
+      "subjects": [
+        "HAVC"
+      ]
+    },
+    "trosa": {
+      "name": "Tatiane Schilaro Santa Rosa",
+      "subjects": [
+        "HAVC"
+      ]
+    },
+    "maevang": {
+      "name": "Maria Evangelatou",
+      "subjects": [
+        "HAVC"
+      ]
+    },
+    "jag": {
+      "name": "Jennifer Ann Gonzalez",
+      "subjects": [
+        "HAVC"
+      ]
+    },
+    "dcmurray": {
+      "name": "Derek C. Murray",
+      "subjects": [
+        "HAVC"
+      ]
+    },
+    "mowasser": {
+      "name": "Martha Wasserman",
+      "subjects": [
+        "HAVC"
+      ]
+    },
+    "cbordeau": {
+      "name": "Clementine Bordeaux",
+      "subjects": [
+        "HAVC"
+      ]
+    },
+    "kamehiro": {
+      "name": "Stacy L Kamehiro",
+      "subjects": [
+        "HAVC"
+      ]
+    },
+    "catjones": {
+      "name": "Catherine A Jones",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "lonetree": {
+      "name": "Amy J Lonetree",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "bebreen": {
+      "name": "Benjamin Patrick Breen",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "ecporter": {
+      "name": "Eric C Porter",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "spchan": {
+      "name": "Shelly Chan",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "tmota": {
+      "name": "Thiago Mota",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "kgutie20": {
+      "name": "Kathleen Gutierrez",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "akreps": {
+      "name": "Anne S Kreps",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "mhu": {
+      "name": "Minghui Hu",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "ekehler": {
+      "name": "Edward Harold Kehler",
+      "subjects": [
+        "HIS",
+        "STEV"
+      ]
+    },
+    "qcobbins": {
+      "name": "Quin'Nita Cobbins-Modica",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "atsing": {
+      "name": "Anna L Tsing",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "naso": {
+      "name": "Noriko Aso",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "achristy": {
+      "name": "Alan S Christy",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "jderr": {
+      "name": "Jennifer L. Derr",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "rafox": {
+      "name": "Renee Allyson Fox",
+      "subjects": [
+        "HIS",
+        "LIT"
+      ]
+    },
+    "easulliv": {
+      "name": "Elaine A. Sullivan",
+      "subjects": [
+        "HIS",
+        "LIT"
+      ]
+    },
+    "mmatera": {
+      "name": "Marc A Matera",
+      "subjects": [
+        "HIS"
+      ]
+    },
+    "ronichol": {
+      "name": "Robert Nichols",
+      "subjects": [
+        "HISC"
+      ]
+    },
+    "mtomba": {
+      "name": "Massimiliano Tomba",
+      "subjects": [
+        "HISC"
+      ]
+    },
+    "bbargu": {
+      "name": "Banu Bargu",
+      "subjects": [
+        "HISC"
+      ]
+    },
+    "normsu": {
+      "name": "Norman Su",
+      "subjects": [
+        "HCI"
+      ]
+    },
+    "kringlan": {
+      "name": "Kathryn Elizabeth Ringland",
+      "subjects": [
+        "HCI"
+      ]
+    },
+    "yamoghad": {
+      "name": "Yasaman Moghaddam",
+      "subjects": [
+        "HCI"
+      ]
+    },
+    "cfchung": {
+      "name": "Christina Chung",
+      "subjects": [
+        "HCI"
+      ]
+    },
+    "shoshi": {
+      "name": "Saori Hoshi",
+      "subjects": [
+        "JAPN"
+      ]
+    },
+    "mitakeuc": {
+      "name": "Miyuki Takeuchi",
+      "subjects": [
+        "JAPN"
+      ]
+    },
+    "kyukawa": {
+      "name": "Keiko Yukawa",
+      "subjects": [
+        "JAPN"
+      ]
+    },
+    "naokoyam": {
+      "name": "Naoko Yamamoto",
+      "subjects": [
+        "JAPN"
+      ]
+    },
+    "edegarmo": {
+      "name": "Erica Lane DeGarmo",
+      "subjects": [
+        "JRLC"
+      ]
+    },
+    "alwatana": {
+      "name": "Alejandra Watanabe Farro",
+      "subjects": [
+        "JRLC"
+      ]
+    },
+    "abirts": {
+      "name": "Angela Birts",
+      "subjects": [
+        "JRLC"
+      ]
+    },
+    "rmajzler": {
+      "name": "Robert D Majzler",
+      "subjects": [
+        "JRLC"
+      ]
+    },
+    "rachgood": {
+      "name": "Rachel A Goodman",
+      "subjects": [
+        "JRLC"
+      ]
+    },
+    "smagnone": {
+      "name": "Sophia B Magnone",
+      "subjects": [
+        "JRLC"
+      ]
+    },
+    "jbrahins": {
+      "name": "Joshua D Brahinsky",
+      "subjects": [
+        "JRLC"
+      ]
+    },
+    "jdfiguer": {
+      "name": "Jennifer Diana Figueroa",
+      "subjects": [
+        "JRLC"
+      ]
+    },
+    "sumaret": {
+      "name": "Susan Maret",
+      "subjects": [
+        "JRLC"
+      ]
+    },
+    "swatrous": {
+      "name": "Susan Allen Watrous",
+      "subjects": [
+        "KRSG"
+      ]
+    },
+    "prencipe": {
+      "name": "Maria A. Prencipe",
+      "subjects": [
+        "ITAL"
+      ]
+    },
+    "lballoff": {
+      "name": "Lily Balloffet",
+      "subjects": [
+        "LALS"
+      ]
+    },
+    "cmartin7": {
+      "name": "Cinthya Martinez",
+      "subjects": [
+        "LALS"
+      ]
+    },
+    "kfirsova": {
+      "name": "Ksenia Fir",
+      "subjects": [
+        "KRSG"
+      ]
+    },
+    "rprasad4": {
+      "name": "Radhika Prasad",
+      "subjects": [
+        "KRSG",
+        "PRTR"
+      ]
+    },
+    "jleslie": {
+      "name": "Juliana I Leslie",
+      "subjects": [
+        "KRSG"
+      ]
+    },
+    "mmarzec": {
+      "name": "Matthew Marzec",
+      "subjects": [
+        "KRSG"
+      ]
+    },
+    "mirapopo": {
+      "name": "Mimi Rapoport",
+      "subjects": [
+        "KRSG"
+      ]
+    },
+    "dabjones": {
+      "name": "Daryl Bjorn Jones",
+      "subjects": [
+        "KRSG"
+      ]
+    },
+    "jgauger": {
+      "name": "Jeremy Gauger",
+      "subjects": [
+        "KRSG"
+      ]
+    },
+    "maiscruz": {
+      "name": "M. Isabel Cruz",
+      "subjects": [
+        "KRSG"
+      ]
+    },
+    "msanders": {
+      "name": "Melissa Lynn Sanders-Self",
+      "subjects": [
+        "KRSG",
+        "PRTR"
+      ]
+    },
+    "igross": {
+      "name": "Isabelle Caroline Gross",
+      "subjects": [
+        "KRSG"
+      ]
+    },
+    "jtaft": {
+      "name": "Jessica Taft",
+      "subjects": [
+        "LALS"
+      ]
+    },
+    "shankari": {
+      "name": "Shankari Patel",
+      "subjects": [
+        "LALS"
+      ]
+    },
+    "cmrivas": {
+      "name": "Cecilia M. Rivas",
+      "subjects": [
+        "LALS"
+      ]
+    },
+    "smfalcon": {
+      "name": "Sylvanna M. Falcon",
+      "subjects": [
+        "LALS"
+      ]
+    },
+    "gfarredo": {
+      "name": "Gabriela F Arredondo",
+      "subjects": [
+        "LALS"
+      ]
+    },
+    "jlaw5": {
+      "name": "Jess H.-K. Law",
+      "subjects": [
+        "HTEC",
+        "LING"
+      ]
+    },
+    "duchacon": {
+      "name": "Dustin Chacón",
+      "subjects": [
+        "LING"
+      ]
+    },
+    "mtoosarv": {
+      "name": "Maziar Toosarvandani",
+      "subjects": [
+        "LING"
+      ]
+    },
+    "aeangele": {
+      "name": "Andrew Edward Angeles",
+      "subjects": [
+        "LING"
+      ]
+    },
+    "gmcguir1": {
+      "name": "Grant L McGuire",
+      "subjects": [
+        "LING"
+      ]
+    },
+    "rysling": {
+      "name": "Amanda Jasmine Rysling",
+      "subjects": [
+        "LING"
+      ]
+    },
+    "panand": {
+      "name": "Pranav Anand",
+      "subjects": [
+        "LING"
+      ]
+    },
+    "abrsvn": {
+      "name": "Adrian Brasoveanu",
+      "subjects": [
+        "LING"
+      ]
+    },
+    "mgong9": {
+      "name": "Mia Gong",
+      "subjects": [
+        "LING"
+      ]
+    },
+    "rbennett": {
+      "name": "Ryan Thomas Bennett",
+      "subjects": [
+        "LING"
+      ]
+    },
+    "hank": {
+      "name": "Jorge Hankamer",
+      "subjects": [
+        "LING"
+      ]
+    },
+    "ykiper": {
+      "name": "Yagmur Kiper",
+      "subjects": [
+        "LING"
+      ]
+    },
+    "tamanoi": {
+      "name": "Hirotaka Tamanoi",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "nandini": {
+      "name": "Nandini Bhattacharya",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "weissman": {
+      "name": "Martin Weissman",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "sserboi": {
+      "name": "Suzana Serboi",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "phbarron": {
+      "name": "Philip Barron",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "lzlin": {
+      "name": "Longzhi Lin",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "jpan53": {
+      "name": "Jiayin Pan",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "rhingtge": {
+      "name": "Robert Leo Hingtgen",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "jusuh": {
+      "name": "Junecue Suh",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "beren": {
+      "name": "Beren Sanders",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "lescoba6": {
+      "name": "Laura Escobar Vega",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "ginzburg": {
+      "name": "Viktor Ginzburg",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "lewis": {
+      "name": "Debra K Lewis",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "jelkass": {
+      "name": "Jesse Kass",
+      "subjects": [
+        "MATH"
+      ]
+    },
+    "bartun": {
+      "name": "Burcak Artun",
+      "subjects": [
+        "METX"
+      ]
+    },
+    "alin100": {
+      "name": "Audrie Lin",
+      "subjects": [
+        "METX"
+      ]
+    },
+    "ottemann": {
+      "name": "Karen M Ottemann",
+      "subjects": [
+        "METX"
+      ]
+    },
+    "asmith25": {
+      "name": "Amanda M. Smith",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "vcooppan": {
+      "name": "Vilashini Cooppan",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "rvwilson": {
+      "name": "Ronaldo V. Wilson",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "ksgruesz": {
+      "name": "Kirsten S Gruesz",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "ankberry": {
+      "name": "Annika Kate Berry",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "ntran44": {
+      "name": "Nghiem H Tran",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "gxli": {
+      "name": "Grace Xiyuan Li",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "rolazo": {
+      "name": "Rodrigo Lazo",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "cgomezri": {
+      "name": "Camilo Gomez-Rivas",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "keilen": {
+      "name": "Sean Keilen",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "jkbiehl": {
+      "name": "Jody Kleinberg Biehl",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "cche75": {
+      "name": "Christopher S Chen",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "harcole": {
+      "name": "Hannah R Cole",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "mdevecka": {
+      "name": "Martin J Devecka",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "jetseng": {
+      "name": "Jennifer Tseng",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "jpoblete": {
+      "name": "Juan E Poblete",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "chruvalc": {
+      "name": "Christian Ruvalcaba",
+      "subjects": [
+        "LIT",
+        "SPAN"
+      ]
+    },
+    "abivens": {
+      "name": "Andrew Hunter Bivens",
+      "subjects": [
+        "LIT"
+      ]
+    },
+    "dlederma": {
+      "name": "David Lederman",
+      "subjects": [
+        "MSE"
+      ]
+    },
+    "natb": {
+      "name": "Nathaniel Aaron Berman",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "ksilva": {
+      "name": "Kathryn Grace Silva",
+      "subjects": [
+        "MERR"
+      ]
+    },
+    "jakay": {
+      "name": "Josef Alexandre Kay",
+      "subjects": [
+        "MERR"
+      ]
+    },
+    "cijwong": {
+      "name": "Cindy Wong",
+      "subjects": [
+        "MERR"
+      ]
+    },
+    "nhigdon": {
+      "name": "Nolan Higdon",
+      "subjects": [
+        "MERR"
+      ]
+    },
+    "dfister": {
+      "name": "Daniel Fister",
+      "subjects": [
+        "MERR"
+      ]
+    },
+    "bkieslin": {
+      "name": "Bruce A Kiesling",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "elgarcia": {
+      "name": "Ed Garcia",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "bbaumbus": {
+      "name": "Brian Baumbusch",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "chrhamil": {
+      "name": "Charles R Hamilton",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "anunes": {
+      "name": "Alexander James Nunes",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "jdiaz59": {
+      "name": "Juan Diaz",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "msvega": {
+      "name": "Magdalena Soledad Vega",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "blc": {
+      "name": "Ben Leeds Carson",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "flanam": {
+      "name": "Faith Suzanne Lanam",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "swilley": {
+      "name": "Sheila Kay Willey",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "evsincla": {
+      "name": "Emily Victoria Sinclair",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "nihammon": {
+      "name": "Nicol Hammond",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "fakotuah": {
+      "name": "Francis K Akotuah",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "mheying": {
+      "name": "Madison Erin Heying",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "hesteria": {
+      "name": "Karlton E Hester",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "seixas": {
+      "name": "Christopher J Pratorius",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "gfiore": {
+      "name": "Giacomo Fiore",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "anaru": {
+      "name": "Akua Naru",
+      "subjects": [
+        "MUSC"
+      ]
+    },
+    "ialane": {
+      "name": "Ian Lane",
+      "subjects": [
+        "NLP"
+      ]
+    },
+    "luca": {
+      "name": "Luca De Alfaro",
+      "subjects": [
+        "NLP"
+      ]
+    },
+    "jmflanig": {
+      "name": "Jeffrey Michael Flanigan",
+      "subjects": [
+        "NLP"
+      ]
+    },
+    "polito": {
+      "name": "Michael Polito",
+      "subjects": [
+        "OCEA"
+      ]
+    },
+    "arsfried": {
+      "name": "Ari Seth Friedlaender",
+      "subjects": [
+        "OCEA"
+      ]
+    },
+    "pjlam": {
+      "name": "Phoebe Lam",
+      "subjects": [
+        "OCEA"
+      ]
+    },
+    "mdmccar": {
+      "name": "Matthew D McCarthy",
+      "subjects": [
+        "OCEA"
+      ]
+    },
+    "amoren53": {
+      "name": "Allison Moreno",
+      "subjects": [
+        "OCEA"
+      ]
+    },
+    "ammoore": {
+      "name": "Andrew M Moore",
+      "subjects": [
+        "OCEA"
+      ]
+    },
+    "ppolissa": {
+      "name": "Pratigya Polissar",
+      "subjects": [
+        "OCEA"
+      ]
+    },
+    "cedwards": {
+      "name": "Christopher A Edwards",
+      "subjects": [
+        "OCEA"
+      ]
+    },
+    "jbowin": {
+      "name": "John F Bowin",
+      "subjects": [
+        "PHIL"
+      ]
+    },
+    "kxrobert": {
+      "name": "Kyle Robertson",
+      "subjects": [
+        "PHIL"
+      ]
+    },
+    "norlandi": {
+      "name": "Nico Orlandi",
+      "subjects": [
+        "PHIL"
+      ]
+    },
+    "abestone": {
+      "name": "Abraham D Stone",
+      "subjects": [
+        "PHIL"
+      ]
+    },
+    "jellis": {
+      "name": "Jonathan E Ellis",
+      "subjects": [
+        "PHIL"
+      ]
+    },
+    "dsmith8": {
+      "name": "David M Smith",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "ekaryndi": {
+      "name": "Eliina Sylvi Karyndinha",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "bdhar": {
+      "name": "Barun Dhar",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "anseeger": {
+      "name": "Andrea Yolande Seeger",
+      "subjects": [
+        "OAKS"
+      ]
+    },
+    "lknisely": {
+      "name": "Lindsay Elizabeth Knisely",
+      "subjects": [
+        "OAKS"
+      ]
+    },
+    "deljones": {
+      "name": "Derrick Lamarr Jones",
+      "subjects": [
+        "OAKS"
+      ]
+    },
+    "eaoconne": {
+      "name": "Erin Ann O'Connell",
+      "subjects": [
+        "OAKS"
+      ]
+    },
+    "eshaghou": {
+      "name": "Edgar Shaghoulian",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "gsbrown": {
+      "name": "George S Brown",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "sritz": {
+      "name": "Steven Ritz",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "jvelasc5": {
+      "name": "Jairo Velasco Jr.",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "baschumm": {
+      "name": "Bruce A Schumm",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "sashake3": {
+      "name": "Alexander Sher",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "afurniss": {
+      "name": "Amy K Furniss",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "migrober": {
+      "name": "Grant Roberts",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "rbaumbac": {
+      "name": "Ryan Eagle Baumbach",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "waltmann": {
+      "name": "Wolfgang Altmannshofer",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "mhance": {
+      "name": "Michael Hance",
+      "subjects": [
+        "PHYS"
+      ]
+    },
+    "shonig": {
+      "name": "Susanna Erin Honig",
+      "subjects": [
+        "PBS"
+      ]
+    },
+    "keaton": {
+      "name": "Kent H Eaton",
+      "subjects": [
+        "POLI"
+      ]
+    },
+    "pasotti": {
+      "name": "Eleonora Pasotti",
+      "subjects": [
+        "POLI"
+      ]
+    },
+    "rschoenm": {
+      "name": "Roger Schoenman",
+      "subjects": [
+        "POLI"
+      ]
+    },
+    "ydaifall": {
+      "name": "Yasmeen Daifallah",
+      "subjects": [
+        "POLI"
+      ]
+    },
+    "bread": {
+      "name": "Benjamin Read",
+      "subjects": [
+        "POLI"
+      ]
+    },
+    "imoody": {
+      "name": "Ingrid B Moody",
+      "subjects": [
+        "PRTR"
+      ]
+    },
+    "lpeacock": {
+      "name": "Laurel Peacock",
+      "subjects": [
+        "PRTR"
+      ]
+    },
+    "cganem": {
+      "name": "Claire Alice Ganem",
+      "subjects": [
+        "PRTR"
+      ]
+    },
+    "ebachman": {
+      "name": "Erik M. Bachman",
+      "subjects": [
+        "PRTR"
+      ]
+    },
+    "rsyka": {
+      "name": "Raty Syka",
+      "subjects": [
+        "PRTR"
+      ]
+    },
+    "paldhous": {
+      "name": "Peter Aldhous",
+      "subjects": [
+        "SCIC"
+      ]
+    },
+    "ehayden": {
+      "name": "Erika Hayden",
+      "subjects": [
+        "SCIC"
+      ]
+    },
+    "mamendoz": {
+      "name": "Martha Mendoza",
+      "subjects": [
+        "SCIC"
+      ]
+    },
+    "bmason2": {
+      "name": "Elizabeth Lane Mason",
+      "subjects": [
+        "SCIC"
+      ]
+    },
+    "slain": {
+      "name": "Stephanie L Lain",
+      "subjects": [
+        "SPAN"
+      ]
+    },
+    "ccastil2": {
+      "name": "Carolina Castillo Trelles",
+      "subjects": [
+        "SPAN"
+      ]
+    },
+    "babaraho": {
+      "name": "Byron A Barahona",
+      "subjects": [
+        "SPAN"
+      ]
+    },
+    "sbmalone": {
+      "name": "Sandra Malone",
+      "subjects": [
+        "SPAN",
+        "SPHS"
+      ]
+    },
+    "vgpagani": {
+      "name": "Maria Gonzalez Pagani",
+      "subjects": [
+        "SPAN",
+        "SPHS"
+      ]
+    },
+    "aargenal": {
+      "name": "Amy Argenal",
+      "subjects": [
+        "SOCY"
+      ]
+    },
+    "mzhao58": {
+      "name": "Mengyang (Zoe) Zhao",
+      "subjects": [
+        "SOCY"
+      ]
+    },
+    "reardon1": {
+      "name": "Jennifer E Reardon",
+      "subjects": [
+        "SOCY"
+      ]
+    },
+    "hangelo": {
+      "name": "Hillary Angelo",
+      "subjects": [
+        "SOCY"
+      ]
+    },
+    "mrizzo": {
+      "name": "Martin Rizzo-Martinez",
+      "subjects": [
+        "SOCD"
+      ]
+    },
+    "joalonso": {
+      "name": "Jonathan Alonso",
+      "subjects": [
+        "SOCD"
+      ]
+    },
+    "mfurloni": {
+      "name": "Mario Furloni",
+      "subjects": [
+        "SOCD"
+      ]
+    },
+    "hraila": {
+      "name": "Hannah Raila",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "damenend": {
+      "name": "David Menendez",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "jamal": {
+      "name": "Jamal Williams",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "cbonam": {
+      "name": "Courtney Bonam",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "zurbrigg": {
+      "name": "Eileen L Zurbriggen",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "hkim306": {
+      "name": "Hanna Kim",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "jeyamash": {
+      "name": "Jeremy Yamashiro",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "hhausman": {
+      "name": "Hannah Hausman",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "amanago": {
+      "name": "Adriana Manago",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "saslih": {
+      "name": "Siwar Hasan-Aslih",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "lhoverst": {
+      "name": "Liv J Hoversten",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "brogoff": {
+      "name": "Barbara Rogoff",
+      "subjects": [
+        "PSYC"
+      ]
+    },
+    "jzornow": {
+      "name": "Jennifer Zornow",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "ksilver": {
+      "name": "Kiva Rafael Silver",
+      "subjects": [
+        "STEV"
+      ]
+    },
+    "zrifaqat": {
+      "name": "Zeb Rifaqat",
+      "subjects": [
+        "STEV"
+      ]
+    },
+    "jsamuels": {
+      "name": "Jessica Alida Samuels",
+      "subjects": [
+        "STEV"
+      ]
+    },
+    "ccamblin": {
+      "name": "Caren Elise Camblin",
+      "subjects": [
+        "STEV"
+      ]
+    },
+    "gchilder": {
+      "name": "Geoffrey Michael Childers",
+      "subjects": [
+        "STEV"
+      ]
+    },
+    "aheald": {
+      "name": "Abigail Heald",
+      "subjects": [
+        "STEV"
+      ]
+    },
+    "zjohnso1": {
+      "name": "Zalissa Johnson",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "gfritsch": {
+      "name": "Gregory J Fritsch",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "aginther": {
+      "name": "Amy Mihyang T Ginther",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "rwear": {
+      "name": "Rebecca Wear",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "chemers": {
+      "name": "Michael M. Chemers",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "cpearlm1": {
+      "name": "Cid Pearlman",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "prodri28": {
+      "name": "Pamela Rodriguez-Montero",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "dwilliam": {
+      "name": "Donald Williams",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "lirollin": {
+      "name": "Lisa Marie Rollins",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "bogordon": {
+      "name": "Robert John Gordon",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "marcia8a": {
+      "name": "Marcia Ochoa",
+      "subjects": [
+        "THEA"
+      ]
+    },
+    "renelson": {
+      "name": "Rachel Elizabeth Nelson",
+      "subjects": [
+        "VAST"
+      ]
+    },
+    "jle297": {
+      "name": "Ju Hee Lee",
+      "subjects": [
+        "STAT"
+      ]
+    },
+    "ywan1334": {
+      "name": "Yunan Wang",
+      "subjects": [
+        "STAT"
+      ]
+    },
+    "rprado": {
+      "name": "Raquel Prado",
+      "subjects": [
+        "STAT"
+      ]
+    },
+    "rolund": {
+      "name": "Robert Lund",
+      "subjects": [
+        "STAT"
+      ]
+    },
+    "pparker1": {
+      "name": "Paul Parker",
+      "subjects": [
+        "STAT"
+      ]
+    },
+    "thanos": {
+      "name": "Athanasios Kottas",
+      "subjects": [
+        "STAT"
+      ]
+    },
+    "yshen167": {
+      "name": "Yunyi Shen",
+      "subjects": [
+        "STAT"
+      ]
+    },
+    "mjs": {
+      "name": "Melanie Springer",
+      "subjects": [
+        "UCDC"
+      ]
+    },
+    "tmunger": {
+      "name": "Tyler Rey Munger",
+      "subjects": [
+        "TIM"
+      ]
+    },
+    "khelmer": {
+      "name": "Kimberly A. Helmer",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "cgarrech": {
+      "name": "Christopher K Garrecht-Williams",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "brij43": {
+      "name": "Brij D Lunine",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "abreaksp": {
+      "name": "Anthony Sebastian Breakspear",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "nrperera": {
+      "name": "Nirshan Rex-Boniface Perera",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "jomanava": {
+      "name": "Joseph Mark Navarro",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "esabrams": {
+      "name": "Elizabeth S Abrams",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "deldesso": {
+      "name": "Dina El Dessouky",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "sjcoulte": {
+      "name": "Steven John Coulter",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "elhalk": {
+      "name": "Erica Louise Halk",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "esnberry": {
+      "name": "Ellen Spencer Newberry",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "beosborn": {
+      "name": "Bettina Osborne",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "bshanley": {
+      "name": "Brett Shanley",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "snuilach": {
+      "name": "Sara Louise Nuila-Chae",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "mamis": {
+      "name": "Margaret Crane Amis",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "mbaker": {
+      "name": "Mark Baker",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "joyhagen": {
+      "name": "Joy Anna Hagen",
+      "subjects": [
+        "WRIT"
+      ]
+    },
+    "hshearer": {
+      "name": "Heather Shearer",
+      "subjects": [
+        "WRIT"
+      ]
+    }
+  },
+  "bySubjectName": {
+    "APLX|prieto,j": "jbittarp",
+    "SPAN|prieto,j": "jbittarp",
+    "ARBC|berrahmoun,a": "aberrahm",
+    "ANTH|fehren-schmitz,l": "lfehrens",
+    "ANTH|anderson,m": "mda",
+    "APLX|chan,a": "achan146",
+    "ANTH|reti,j": "jreti",
+    "APLX|miller,d": "dpmiller",
+    "ANTH|schach,e": "eschach",
+    "ASTR|bundy,k": "kbundy",
+    "ASTR|movshovitz,n": "nmovshov",
+    "ASTR|murray-clay,r": "rmc",
+    "ASTR|sengupta,a": "adityars",
+    "ASTR|fortney,j": "jfortney",
+    "ASTR|zimmer,z": "zaazimme",
+    "LIT|zimmer,z": "zaazimme",
+    "ASTR|skemer,a": "askemer",
+    "LIT|skemer,a": "askemer",
+    "ASTR|imara,n": "nimara",
+    "AM|dey,p": "pdey",
+    "ASTR|foley,r": "foley",
+    "AM|simons,j": "jusimons",
+    "AM|wintz,p": "pwintz",
+    "AM|katznelson,y": "yorik",
+    "MATH|katznelson,y": "yorik",
+    "STAT|katznelson,y": "yorik",
+    "AM|matilsky,l": "lmatilsk",
+    "AM|brummell,n": "brummell",
+    "AM|duker,n": "nvanduke",
+    "AM|garaud,p": "pgaraud",
+    "AM|chattopadhyay,a": "aschatto",
+    "AM|ioannidis,n": "nioannid",
+    "AM|lee,d": "dlee79",
+    "ART|gwyn,m": "mgwyn",
+    "ART|whipple,g": "gwhipple",
+    "ART|bueno,c": "cbueno1",
+    "ART|dolgov,i": "idolgov",
+    "ART|hibbert-jones,w": "hjdee",
+    "ART|stephens,e": "estephe",
+    "ART|karlic,k": "kkarlic",
+    "ARTG|gillette,k": "kgillett",
+    "CT|gillette,k": "kgillett",
+    "ARTG|gregor,e": "egregor",
+    "CMPM|gregor,e": "egregor",
+    "ARTG|ballard,p": "paballar",
+    "ARTG|brice,m": "mbrice1",
+    "ARTG|wright,d": "dwright1",
+    "ARTG|leckman,t": "tleckman",
+    "CMPM|leckman,t": "tleckman",
+    "BIOE|dunkin,r": "rdunkin",
+    "BIOC|skrajna,a": "askrajna",
+    "BIOE|bernardi,g": "bernardi",
+    "ARTG|duplantis,t": "tduplant",
+    "BIOE|marinovic,b": "bbmarino",
+    "BIOE|pittermann,j": "jpitterm",
+    "BIOE|parker,i": "imparker",
+    "BIOE|raimondi,p": "raimondi",
+    "BIOE|smith,j": "jogsmith",
+    "CSP|smith,j": "jogsmith",
+    "BIOE|kroeker,k": "kkroeker",
+    "CSP|kroeker,k": "kkroeker",
+    "BIOE|kelley,j": "jokelley",
+    "BIOE|kilpatrick,a": "akilpatr",
+    "BIOE|palkovacs,e": "epalkova",
+    "BIOE|mehta,r": "rmehta2",
+    "BIOE|croll,d": "dcroll",
+    "BIOE|williams,t": "tmwillia",
+    "BIOE|beltran,r": "rsbeltra",
+    "CHIN|tu,e": "etu6",
+    "CHIN|wu,t": "tingting",
+    "BIOL|rubin,s": "srubin",
+    "CHEM|rubin,s": "srubin",
+    "BIOL|shanks,j": "jshanks",
+    "BIOL|bordignon,g": "gbordign",
+    "BIOL|boeger,h": "hboeger",
+    "BIOL|zuniga,m": "mzuniga",
+    "BIOL|hartzog,g": "hartzog",
+    "BIOL|doody,m": "mdoody",
+    "BIOL|bhalla,n": "nbhalla",
+    "BIOL|warecki,b": "bwarecki",
+    "BIOL|colquitt,b": "bcolquit",
+    "BIOL|cortez,v": "vccortez",
+    "BIOL|vahradian,s": "svahradi",
+    "BIOL|sanford,j": "jsanfor2",
+    "BIOL|ward,j": "jward2",
+    "BIOL|greider,c": "cgreider",
+    "BIOL|boyd,d": "dfboyd",
+    "BIOL|ares,m": "ares",
+    "BIOL|chen,b": "bchen",
+    "BIOL|romero,m": "mromer37",
+    "BIOL|feldheim,d": "dfeldhei",
+    "BIOL|jurica,m": "mjurica",
+    "BIOL|kamakaka,r": "rohinton",
+    "BIOL|kellogg,d": "dkellogg",
+    "BIOL|hinck,l": "lhinck",
+    "BIOL|arribere,j": "jarriber",
+    "BIOL|carpenter,s": "sucarpen",
+    "BIOL|sikandar,s": "ssikanda",
+    "BIOL|salama,s": "ssalama",
+    "BIOL|sullivan,w": "wtsulliv",
+    "BIOL|morozova,o": "olena",
+    "BIOL|kim,e": "ekim62",
+    "BIOL|sharma,u": "upsharma",
+    "BIOL|zuo,y": "yizuo",
+    "BIOL|wang,z": "zwang36",
+    "BIOL|fregoso,o": "ofregoso",
+    "CHEM|eroy-reveles,a": "alegraer",
+    "CHEM|weiss,p": "pweiss",
+    "EART|weiss,p": "pweiss",
+    "CHEM|johnston,a": "ajohnst3",
+    "CHEM|binder,c": "cambinde",
+    "CHEM|brison,c": "cbrison",
+    "CHEM|lokey,r": "slokey",
+    "CHEM|sizemore,a": "asizemor",
+    "CHEM|stone,m": "mds",
+    "CHEM|braslau,r": "rbraslau",
+    "CHEM|mercer,j": "jmercer1",
+    "CHEM|andrade,m": "mcalegar",
+    "CHEM|zhang,j": "zhang",
+    "CHEM|sanchez,l": "lmsanche",
+    "BME|hendricks,d": "dghendri",
+    "BME|vollmers,c": "vollmers",
+    "BME|lowe,t": "tmjlowe",
+    "BME|haussler,d": "haussler",
+    "BME|bernick,d": "dbernick",
+    "CMPM|bernick,d": "dbernick",
+    "BME|dubois,r": "rmdubois",
+    "BME|green,r": "regreen",
+    "BME|corbett-detig,r": "rucorbet",
+    "BME|ioannidis,a": "alioanni",
+    "BME|russell,s": "shlrusse",
+    "BME|kim,d": "dkim142",
+    "BME|stuart,j": "jstuart",
+    "BME|forsberg,c": "cforsber",
+    "BME|paten,b": "bpaten",
+    "CSE|paten,b": "bpaten",
+    "BME|brooks,a": "anbrooks",
+    "BME|pourmand,n": "npourman",
+    "BME|miga,k": "khmiga",
+    "BME|sharf,t": "tsharf",
+    "BME|yeh,h": "hsyeh",
+    "CRSN|cummings,s": "sjcummin",
+    "CRSN|schmeder,m": "mschmede",
+    "CRSN|ross,k": "kamaross",
+    "WRIT|ross,k": "kamaross",
+    "CRSN|klusmeier,c": "cklusmei",
+    "CRSN|hazlewood,j": "juhazlew",
+    "ENVS|hazlewood,j": "juhazlew",
+    "CRSN|weygandt,c": "cweygand",
+    "CRSN|raja,f": "fraja",
+    "OAKS|raja,f": "fraja",
+    "CRSN|schaefer,n": "neils",
+    "CRSN|calsoyas,c": "calsoyas",
+    "CRSN|rettenwender,t": "trettenw",
+    "CRSN|monsen,k": "kmonsen",
+    "ENVS|monsen,k": "kmonsen",
+    "CLNI|cotei,s": "scotei",
+    "CLNI|gampel,j": "jgampel",
+    "CLNI|abraham,a": "ajabraha",
+    "CLNI|spencer,k": "kaspence",
+    "CLNI|romano,a": "alreroma",
+    "CLNI|viebahn,w": "wviebahn",
+    "CLNI|ibessaine,a": "aibessai",
+    "CLNI|simon,a": "agsimon",
+    "CLNI|silva,m": "adesilv2",
+    "CRSN|freiwald,a": "afreiwal",
+    "CRSN|heady,k": "kkusic",
+    "CRSN|ball,t": "tball",
+    "CMMU|alkon,a": "aalkon",
+    "CMMU|mccarthy,m": "mimccart",
+    "CMPM|torres-mendoza,d": "damatorr",
+    "CMPM|favaloro,t": "tfavalor",
+    "CMPM|devine,g": "gdevine",
+    "CMPM|eger,m": "meger",
+    "CMPM|smith,a": "amsmith",
+    "CMPM|coleman,t": "tycolema",
+    "CMPM|altice,n": "naltice",
+    "CMPM|gorman,s": "sagorman",
+    "CMPM|whitehead,j": "ejw",
+    "CMPM|kurniawan,s": "skurnia",
+    "CMPM|el-nasr,m": "mseifeln",
+    "CMPM|lee,d": "dlee105",
+    "CMPM|wardrip-fruin,n": "nwardrip",
+    "CRES|lebron,m": "malebron",
+    "CMPM|khalid,a": "aykhalid",
+    "CMPM|lin,a": "alin148",
+    "CRES|ife,f": "fife",
+    "CRES|diaz,j": "jdiaz98",
+    "CRES|casumbal-salazar,i": "jsalaz27",
+    "CRES|shange-binion,s": "sshangeb",
+    "FMST|shange-binion,s": "sshangeb",
+    "CRES|hong,c": "cjhong",
+    "CRES|casumbal,m": "mcasumba",
+    "CRES|sharma,k": "ksharm35",
+    "COWL|stinneford,c": "cstinnef",
+    "COWL|kelly,p": "pmkelly",
+    "COWL|nealand,e": "enealand",
+    "COWL|michelet,s": "smichel3",
+    "COWL|lau,d": "dmlau",
+    "COWL|barrett,r": "rtbarret",
+    "COWL|thorpe,t": "tthorpe",
+    "COWL|troyer,v": "vtroyer",
+    "CRWN|monastyrska,y": "ymonasty",
+    "CRWN|gray,c": "chgray",
+    "CRWN|howard,m": "mrhoward",
+    "CRWN|perez,l": "lperezde",
+    "FILM|perez,l": "lperezde",
+    "CRWN|proust,j": "jproust",
+    "CRWN|riano,f": "fgonza19",
+    "CRWN|rigby,t": "trigby",
+    "CRWN|berkley,l": "lberkley",
+    "CRWN|greaney,k": "kgreaney",
+    "EART|reguero,b": "breguero",
+    "EART|clapham,m": "mclapham",
+    "EART|zhang,x": "xiz",
+    "EART|savage,h": "hsavage",
+    "EART|blackburn,t": "terryb",
+    "EART|wolf,j": "jowolf",
+    "EART|williams,e": "ewilli18",
+    "EART|hain,m": "mhain",
+    "EART|hourigan,j": "hourigan",
+    "EART|garrick-bethell,i": "igarrick",
+    "EART|brodsky,e": "brodsky",
+    "EART|griggs,g": "griggs",
+    "EART|finnegan,n": "nfinnega",
+    "ECE|zhang,y": "yzhan419",
+    "ECE|huh,t": "thuh",
+    "ECE|chen,y": "ychen225",
+    "ECE|ellis,n": "nellis1",
+    "ECE|ye,h": "hye30",
+    "ECE|schmidt,h": "hschmidt",
+    "ECE|elkaim,g": "elkaim",
+    "ECE|petersen,s": "ac6p",
+    "ECE|corzine,k": "corzine",
+    "ECE|bose,s": "sbose3",
+    "ECE|yu,z": "zyu135",
+    "CSE|sadjadpour,h": "hamid",
+    "ECE|sadjadpour,h": "hamid",
+    "ECE|rolandi,m": "mrolandi",
+    "ECE|teodorescu,m": "mteodore",
+    "ECE|milutinovic,d": "dmilutin",
+    "ECE|oye,m": "moye",
+    "ECON|gonzalez,j": "jhgonzal",
+    "ECON|fung,k": "kcfung",
+    "ECON|jones,k": "kekjones",
+    "ECON|bullen,m": "mabullen",
+    "ECON|marion,j": "marion",
+    "ECON|lazzati,n": "nlazzati",
+    "ECON|gu,w": "wg7",
+    "ECON|anderson,s": "sander12",
+    "ECON|dobkin,c": "cdobkin",
+    "ECON|bulman,g": "gbulman",
+    "ECON|zucker,a": "arzucker",
+    "ECON|hardie,r": "rhardie1",
+    "ECON|hu,c": "chu78",
+    "ECON|kletzer,k": "kkletzer",
+    "ECON|shirley,t": "tshirley",
+    "ECON|christensen,p": "pechrist",
+    "ECON|leung,m": "mleung13",
+    "ECON|singh,n": "boxjenk",
+    "ECON|martinez-iriarte,j": "jmart425",
+    "ECON|kim,g": "gkim44",
+    "ECON|pommerenke,k": "kpommere",
+    "CSP|west,j": "jwest1",
+    "ECON|west,j": "jwest1",
+    "ECON|saijo,h": "hsaijo",
+    "ECON|tserenjigmid,g": "gtserenj",
+    "ECON|saha,s": "susaha",
+    "STAT|saha,s": "susaha",
+    "CSE|moulds,g": "gmoulds",
+    "CSE|veenstra,k": "veenstra",
+    "CSE|rudnick,a": "ajrudnic",
+    "CSE|miller,k": "kymiller",
+    "CSE|westphal,c": "cjwestph",
+    "CSE|paranjape,i": "iparanja",
+    "CSE|munishkina,l": "mlarissa",
+    "CSE|marinescu,r": "ramarine",
+    "CSE|graziani,r": "rgrazian",
+    "CSE|yue,h": "hyue11",
+    "CSE|ahmad,i": "isahmad",
+    "CSE|comandur,s": "sesh",
+    "CSE|montazeri,n": "nimontaz",
+    "CSE|demertzis,i": "idemertz",
+    "CSE|flanagan,c": "cormac",
+    "CSE|xu,y": "yxu314",
+    "CSE|hu,l": "lhu82",
+    "CSE|souza,a": "absouza",
+    "CSE|wang,c": "cwang001",
+    "CSE|parsa,m": "meparsa",
+    "CSE|parsa,c": "cparsa",
+    "CSE|harrison,d": "dcharris",
+    "CSE|obraczka,k": "obraczka",
+    "CSE|im,s": "sim9",
+    "CSE|musacchio,j": "musacchi",
+    "CSE|fremont,d": "dfremont",
+    "CSE|litz,h": "hlitz",
+    "CSE|richmond,d": "durichmo",
+    "CSE|kuper,l": "lkuper",
+    "CSE|qian,c": "cqian12",
+    "CSE|raman,r": "rsundar2",
+    "CSE|cordoba,m": "macordob",
+    "STAT|cordoba,m": "macordob",
+    "CSE|manduchi,r": "manduchi",
+    "CT|darke,a": "darke",
+    "CT|santos,d": "drsantos",
+    "ENVS|pearson,k": "kapearso",
+    "ENVS|feldstein,d": "dfeldste",
+    "STEV|feldstein,d": "dfeldste",
+    "ENVS|kulikowski,a": "akulikow",
+    "ENVS|lu,f": "floralu",
+    "CT|kemper,j": "jkemper",
+    "ENVS|yang,b": "byang85",
+    "GIST|yang,b": "byang85",
+    "ENVS|sarker,p": "psarker",
+    "ENVS|cha,m": "mcha63",
+    "ENVS|rivasplata,c": "crivaspl",
+    "CSP|kapuscinski,a": "akapusci",
+    "ENVS|kapuscinski,a": "akapusci",
+    "ENVS|cheng,w": "wxcheng",
+    "ENVS|philpott,s": "sphilpot",
+    "ENVS|holl,k": "kholl",
+    "FILM|walker,l": "lwalker",
+    "ENVS|wit,m": "mamonten",
+    "ENVS|ocampo-penuela,n": "nocampop",
+    "ENVS|rajan,s": "srrajan",
+    "ENVS|seto,k": "klseto",
+    "ENVS|waterhouse,h": "hawaterh",
+    "ENVS|wilmers,c": "cwilmers",
+    "ENVS|winton,s": "scwinton",
+    "ENVS|benner,c": "cbenner",
+    "ENVS|bury,j": "jbury",
+    "ENVS|campbell,e": "jojcampb",
+    "ENVS|fairbairn,m": "mfairbai",
+    "ENVS|haddad,b": "bhaddad",
+    "ENVS|jinnah,s": "sjinnah",
+    "FILM|smith,c": "cglogova",
+    "FILM|v.,n": "natashav",
+    "FILM|lusztig,i": "ilusztig",
+    "FILM|kara,s": "sekara",
+    "FILM|limbrick,p": "limbrick",
+    "FILM|yu,r": "ryu941",
+    "FILM|stern,a": "aphid",
+    "FILM|gustafson,i": "ireneg",
+    "FILM|friz,a": "afriz",
+    "FILM|shanken,e": "eshanken",
+    "FILM|sack,w": "wsack",
+    "EDUC|maddox,e": "emaddox",
+    "EDUC|kenner,k": "kkenner",
+    "EDUC|roock,r": "rderoock",
+    "EDUC|vandercook,h": "hcvander",
+    "EDUC|hinz,j": "jhinz",
+    "EDUC|jaggar,s": "sjaggar",
+    "EDUC|dewitt,j": "jdewitt1",
+    "EDUC|lang,n": "nwlang",
+    "EDUC|johns,j": "jjohns",
+    "EDUC|bernasconi,n": "nrbernas",
+    "EDUC|tan,p": "ptan19",
+    "EDUC|reigh,e": "ereigh",
+    "EDUC|martin,d": "daisymar",
+    "EDUC|ali,a": "arshad",
+    "ESCI|chuang,p": "pchuang",
+    "EDUC|jibrin,r": "rjibrin",
+    "ESCI|lamborg,c": "clamborg",
+    "OCEA|lamborg,c": "clamborg",
+    "ESCI|rahav,e": "eyrahav",
+    "ESCI|beaulieu,c": "clbeauli",
+    "FMST|ulysse,g": "gulysse",
+    "FMST|arondekar,a": "aarondek",
+    "FMST|marcelino,t": "tamarcel",
+    "FREN|rohmer,c": "crohmer",
+    "GCH|camps,m": "mcamps",
+    "GCH|rahal,d": "drahal",
+    "PSYC|rahal,d": "drahal",
+    "HEBR|stein-rosen,g": "gsteinro",
+    "HAVC|ly,b": "bjly",
+    "HAVC|karl,b": "bkarl",
+    "HAVC|furtado,n": "furtado",
+    "HAVC|rosa,t": "trosa",
+    "HAVC|evangelatou,m": "maevang",
+    "HAVC|gonzalez,j": "jag",
+    "HAVC|murray,d": "dcmurray",
+    "HAVC|wasserman,m": "mowasser",
+    "HAVC|bordeaux,c": "cbordeau",
+    "HAVC|kamehiro,s": "kamehiro",
+    "HIS|jones,c": "catjones",
+    "HIS|lonetree,a": "lonetree",
+    "HIS|breen,b": "bebreen",
+    "HIS|porter,e": "ecporter",
+    "HIS|chan,s": "spchan",
+    "HIS|mota,t": "tmota",
+    "HIS|gutierrez,k": "kgutie20",
+    "HIS|kreps,a": "akreps",
+    "HIS|hu,m": "mhu",
+    "HIS|kehler,e": "ekehler",
+    "STEV|kehler,e": "ekehler",
+    "HIS|cobbins-modica,q": "qcobbins",
+    "HIS|tsing,a": "atsing",
+    "HIS|aso,n": "naso",
+    "HIS|christy,a": "achristy",
+    "HIS|derr,j": "jderr",
+    "HIS|fox,r": "rafox",
+    "LIT|fox,r": "rafox",
+    "HIS|sullivan,e": "easulliv",
+    "LIT|sullivan,e": "easulliv",
+    "HIS|matera,m": "mmatera",
+    "HISC|nichols,r": "ronichol",
+    "HISC|tomba,m": "mtomba",
+    "HISC|bargu,b": "bbargu",
+    "HCI|su,n": "normsu",
+    "HCI|ringland,k": "kringlan",
+    "HCI|moghaddam,y": "yamoghad",
+    "HCI|chung,c": "cfchung",
+    "JAPN|hoshi,s": "shoshi",
+    "JAPN|takeuchi,m": "mitakeuc",
+    "JAPN|yukawa,k": "kyukawa",
+    "JAPN|yamamoto,n": "naokoyam",
+    "JRLC|degarmo,e": "edegarmo",
+    "JRLC|farro,a": "alwatana",
+    "JRLC|birts,a": "abirts",
+    "JRLC|majzler,r": "rmajzler",
+    "JRLC|goodman,r": "rachgood",
+    "JRLC|magnone,s": "smagnone",
+    "JRLC|brahinsky,j": "jbrahins",
+    "JRLC|figueroa,j": "jdfiguer",
+    "JRLC|maret,s": "sumaret",
+    "KRSG|watrous,s": "swatrous",
+    "ITAL|prencipe,m": "prencipe",
+    "LALS|balloffet,l": "lballoff",
+    "LALS|martinez,c": "cmartin7",
+    "KRSG|fir,k": "kfirsova",
+    "KRSG|prasad,r": "rprasad4",
+    "PRTR|prasad,r": "rprasad4",
+    "KRSG|leslie,j": "jleslie",
+    "KRSG|marzec,m": "mmarzec",
+    "KRSG|rapoport,m": "mirapopo",
+    "KRSG|jones,d": "dabjones",
+    "KRSG|gauger,j": "jgauger",
+    "KRSG|cruz,m": "maiscruz",
+    "KRSG|sanders-self,m": "msanders",
+    "PRTR|sanders-self,m": "msanders",
+    "KRSG|gross,i": "igross",
+    "LALS|taft,j": "jtaft",
+    "LALS|patel,s": "shankari",
+    "LALS|rivas,c": "cmrivas",
+    "LALS|falcon,s": "smfalcon",
+    "LALS|arredondo,g": "gfarredo",
+    "HTEC|law,j": "jlaw5",
+    "LING|law,j": "jlaw5",
+    "LING|chacón,d": "duchacon",
+    "LING|toosarvandani,m": "mtoosarv",
+    "LING|angeles,a": "aeangele",
+    "LING|mcguire,g": "gmcguir1",
+    "LING|rysling,a": "rysling",
+    "LING|anand,p": "panand",
+    "LING|brasoveanu,a": "abrsvn",
+    "LING|gong,m": "mgong9",
+    "LING|bennett,r": "rbennett",
+    "LING|hankamer,j": "hank",
+    "LING|kiper,y": "ykiper",
+    "MATH|tamanoi,h": "tamanoi",
+    "MATH|bhattacharya,n": "nandini",
+    "MATH|weissman,m": "weissman",
+    "MATH|serboi,s": "sserboi",
+    "MATH|barron,p": "phbarron",
+    "MATH|lin,l": "lzlin",
+    "MATH|pan,j": "jpan53",
+    "MATH|hingtgen,r": "rhingtge",
+    "MATH|suh,j": "jusuh",
+    "MATH|sanders,b": "beren",
+    "MATH|vega,l": "lescoba6",
+    "MATH|ginzburg,v": "ginzburg",
+    "MATH|lewis,d": "lewis",
+    "MATH|kass,j": "jelkass",
+    "METX|artun,b": "bartun",
+    "METX|lin,a": "alin100",
+    "METX|ottemann,k": "ottemann",
+    "LIT|smith,a": "asmith25",
+    "LIT|cooppan,v": "vcooppan",
+    "LIT|wilson,r": "rvwilson",
+    "LIT|gruesz,k": "ksgruesz",
+    "LIT|berry,a": "ankberry",
+    "LIT|tran,n": "ntran44",
+    "LIT|li,g": "gxli",
+    "LIT|lazo,r": "rolazo",
+    "LIT|gomez-rivas,c": "cgomezri",
+    "LIT|keilen,s": "keilen",
+    "LIT|biehl,j": "jkbiehl",
+    "LIT|chen,c": "cche75",
+    "LIT|cole,h": "harcole",
+    "LIT|devecka,m": "mdevecka",
+    "LIT|tseng,j": "jetseng",
+    "LIT|poblete,j": "jpoblete",
+    "LIT|ruvalcaba,c": "chruvalc",
+    "SPAN|ruvalcaba,c": "chruvalc",
+    "LIT|bivens,a": "abivens",
+    "MSE|lederman,d": "dlederma",
+    "MUSC|berman,n": "natb",
+    "MERR|silva,k": "ksilva",
+    "MERR|kay,j": "jakay",
+    "MERR|wong,c": "cijwong",
+    "MERR|higdon,n": "nhigdon",
+    "MERR|fister,d": "dfister",
+    "MUSC|kiesling,b": "bkieslin",
+    "MUSC|garcia,e": "elgarcia",
+    "MUSC|baumbusch,b": "bbaumbus",
+    "MUSC|hamilton,c": "chrhamil",
+    "MUSC|nunes,a": "anunes",
+    "MUSC|diaz,j": "jdiaz59",
+    "MUSC|vega,m": "msvega",
+    "MUSC|carson,b": "blc",
+    "MUSC|lanam,f": "flanam",
+    "MUSC|willey,s": "swilley",
+    "MUSC|sinclair,e": "evsincla",
+    "MUSC|hammond,n": "nihammon",
+    "MUSC|akotuah,f": "fakotuah",
+    "MUSC|heying,m": "mheying",
+    "MUSC|hester,k": "hesteria",
+    "MUSC|pratorius,c": "seixas",
+    "MUSC|fiore,g": "gfiore",
+    "MUSC|naru,a": "anaru",
+    "NLP|lane,i": "ialane",
+    "NLP|alfaro,l": "luca",
+    "NLP|flanigan,j": "jmflanig",
+    "OCEA|polito,m": "polito",
+    "OCEA|friedlaender,a": "arsfried",
+    "OCEA|lam,p": "pjlam",
+    "OCEA|mccarthy,m": "mdmccar",
+    "OCEA|moreno,a": "amoren53",
+    "OCEA|moore,a": "ammoore",
+    "OCEA|polissar,p": "ppolissa",
+    "OCEA|edwards,c": "cedwards",
+    "PHIL|bowin,j": "jbowin",
+    "PHIL|robertson,k": "kxrobert",
+    "PHIL|orlandi,n": "norlandi",
+    "PHIL|stone,a": "abestone",
+    "PHIL|ellis,j": "jellis",
+    "PHYS|smith,d": "dsmith8",
+    "PHYS|karyndinha,e": "ekaryndi",
+    "PHYS|dhar,b": "bdhar",
+    "OAKS|seeger,a": "anseeger",
+    "OAKS|knisely,l": "lknisely",
+    "OAKS|jones,d": "deljones",
+    "OAKS|o'connell,e": "eaoconne",
+    "PHYS|shaghoulian,e": "eshaghou",
+    "PHYS|brown,g": "gsbrown",
+    "PHYS|ritz,s": "sritz",
+    "PHYS|velasco,j": "jvelasc5",
+    "PHYS|schumm,b": "baschumm",
+    "PHYS|sher,a": "sashake3",
+    "PHYS|furniss,a": "afurniss",
+    "PHYS|roberts,g": "migrober",
+    "PHYS|baumbach,r": "rbaumbac",
+    "PHYS|altmannshofer,w": "waltmann",
+    "PHYS|hance,m": "mhance",
+    "PBS|honig,s": "shonig",
+    "POLI|eaton,k": "keaton",
+    "POLI|pasotti,e": "pasotti",
+    "POLI|schoenman,r": "rschoenm",
+    "POLI|daifallah,y": "ydaifall",
+    "POLI|read,b": "bread",
+    "PRTR|moody,i": "imoody",
+    "PRTR|peacock,l": "lpeacock",
+    "PRTR|ganem,c": "cganem",
+    "PRTR|bachman,e": "ebachman",
+    "PRTR|syka,r": "rsyka",
+    "SCIC|aldhous,p": "paldhous",
+    "SCIC|hayden,e": "ehayden",
+    "SCIC|mendoza,m": "mamendoz",
+    "SCIC|mason,e": "bmason2",
+    "SPAN|lain,s": "slain",
+    "SPAN|trelles,c": "ccastil2",
+    "SPAN|barahona,b": "babaraho",
+    "SPAN|malone,s": "sbmalone",
+    "SPHS|malone,s": "sbmalone",
+    "SPAN|pagani,m": "vgpagani",
+    "SPHS|pagani,m": "vgpagani",
+    "SOCY|argenal,a": "aargenal",
+    "SOCY|zhao,m": "mzhao58",
+    "SOCY|reardon,j": "reardon1",
+    "SOCY|angelo,h": "hangelo",
+    "SOCD|rizzo-martinez,m": "mrizzo",
+    "SOCD|alonso,j": "joalonso",
+    "SOCD|furloni,m": "mfurloni",
+    "PSYC|raila,h": "hraila",
+    "PSYC|menendez,d": "damenend",
+    "PSYC|williams,j": "jamal",
+    "PSYC|bonam,c": "cbonam",
+    "PSYC|zurbriggen,e": "zurbrigg",
+    "PSYC|kim,h": "hkim306",
+    "PSYC|yamashiro,j": "jeyamash",
+    "PSYC|hausman,h": "hhausman",
+    "PSYC|manago,a": "amanago",
+    "PSYC|hasan-aslih,s": "saslih",
+    "PSYC|hoversten,l": "lhoverst",
+    "PSYC|rogoff,b": "brogoff",
+    "THEA|zornow,j": "jzornow",
+    "STEV|silver,k": "ksilver",
+    "STEV|rifaqat,z": "zrifaqat",
+    "STEV|samuels,j": "jsamuels",
+    "STEV|camblin,c": "ccamblin",
+    "STEV|childers,g": "gchilder",
+    "STEV|heald,a": "aheald",
+    "THEA|johnson,z": "zjohnso1",
+    "THEA|fritsch,g": "gfritsch",
+    "THEA|ginther,a": "aginther",
+    "THEA|wear,r": "rwear",
+    "THEA|chemers,m": "chemers",
+    "THEA|pearlman,c": "cpearlm1",
+    "THEA|rodriguez-montero,p": "prodri28",
+    "THEA|williams,d": "dwilliam",
+    "THEA|rollins,l": "lirollin",
+    "THEA|gordon,r": "bogordon",
+    "THEA|ochoa,m": "marcia8a",
+    "VAST|nelson,r": "renelson",
+    "STAT|lee,j": "jle297",
+    "STAT|wang,y": "ywan1334",
+    "STAT|prado,r": "rprado",
+    "STAT|lund,r": "rolund",
+    "STAT|parker,p": "pparker1",
+    "STAT|kottas,a": "thanos",
+    "STAT|shen,y": "yshen167",
+    "UCDC|springer,m": "mjs",
+    "TIM|munger,t": "tmunger",
+    "WRIT|helmer,k": "khelmer",
+    "WRIT|garrecht-williams,c": "cgarrech",
+    "WRIT|lunine,b": "brij43",
+    "WRIT|breakspear,a": "abreaksp",
+    "WRIT|perera,n": "nrperera",
+    "WRIT|navarro,j": "jomanava",
+    "WRIT|abrams,e": "esabrams",
+    "WRIT|dessouky,d": "deldesso",
+    "WRIT|coulter,s": "sjcoulte",
+    "WRIT|halk,e": "elhalk",
+    "WRIT|newberry,e": "esnberry",
+    "WRIT|osborne,b": "beosborn",
+    "WRIT|shanley,b": "bshanley",
+    "WRIT|nuila-chae,s": "snuilach",
+    "WRIT|amis,m": "mamis",
+    "WRIT|baker,m": "mbaker",
+    "WRIT|hagen,j": "joyhagen",
+    "WRIT|shearer,h": "hshearer"
+  }
+}

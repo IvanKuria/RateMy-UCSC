@@ -10,3 +10,25 @@ export type ResearchTopicsMap = Record<string, string>;
 
 /** Professor name -> list of course strings. */
 export type ClassesMap = Record<string, string[]>;
+
+/** One harvested instructor: their fullest known name and the subjects they teach. */
+export interface InstructorEntry {
+  name: string;
+  subjects: string[];
+}
+
+/**
+ * `public/data/instructors.json` — built by scripts/merge-instructors.mjs from
+ * MyScheduler harvests, which carry each instructor's email and therefore their
+ * exact CruzID.
+ *
+ * `bySubjectName` is the part that earns its keep: it keys on "SUBJ|last,f"
+ * (e.g. "AM|lee,d"), which separates professors that "Last,F." alone cannot.
+ * Keys claimed by two different people are omitted rather than guessed.
+ */
+export interface InstructorsIndex {
+  generatedAt: string | null;
+  terms: string[];
+  byUid: Record<string, InstructorEntry>;
+  bySubjectName: Record<string, string>;
+}

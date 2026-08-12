@@ -10,10 +10,13 @@ export const CAMPUS_CACHE_PREFIX = 'amp_';
 export const GRADES_CACHE_PREFIX = 'cache_grades_';
 /** Prefix used to key the RMP cache by name when no UID is known. */
 export const NAME_CACHE_PREFIX = 'name_';
+/** Caches campus-directory name searches (last name -> uid or a miss). */
+export const UID_LOOKUP_CACHE_PREFIX = 'uidsearch_';
 /** Prefixes the clearCache route sweeps from chrome.storage.local. */
 export const CLEARABLE_CACHE_PREFIXES = [
   RMP_CACHE_PREFIX,
   CAMPUS_CACHE_PREFIX,
+  UID_LOOKUP_CACHE_PREFIX,
   'cache_',
 ] as const;
 

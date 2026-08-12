@@ -101,7 +101,9 @@ export async function runRenderPipeline(
 
   await Promise.allSettled(
     mounts.map(async ({ mount, name, course }) => {
-      const uID = await getUIDFromJson(name);
+      // The course code is the tie-breaker for instructors who share a last
+      // name and first initial, so it goes in whenever the page yielded one.
+      const uID = await getUIDFromJson(name, course);
 
       let profileDict: FetchProfessorDataResponse | null = null;
       try {
